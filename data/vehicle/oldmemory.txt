@@ -1,0 +1,45 @@
+all cars 's passengers
+(field (relation passenger) (vehicle car))
+
+passengers of all cars instances
+(field (relation passenger) (vehicle car))
+
+cars
+(vehicle car)
+
+buses
+(vehicle bus)
+
+bikes
+(vehicle bike)
+
+trains
+(vehicle train)
+
+ships
+(vehicle ship)
+
+subways
+(vehicle subway)
+
+trucks
+(vehicle truck)
+
+passengers
+(relation passenger)
+
+operators
+(relation operator)
+
+destination
+(relation destination)
+
+speed
+(relation speed)
+
+source
+(relation source)
+
+set cars instances 's passengers to cars
+(set (field (relation passenger) (vehicle car)) (vehicle car))
+

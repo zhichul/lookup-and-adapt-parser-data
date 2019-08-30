@@ -1,0 +1,576 @@
+duck 's genus field
+(field (relation genus) (animal duck))
+
+set all cat instances 's family field as turtle
+(set (field (relation family) (animal cat)) (animal turtle))
+
+specie of tiger
+(field (relation specie) (animal tiger))
+
+all dog 's temperature
+(field (relation temperature) (animal dog))
+
+set the family of lion as fish
+(set (field (relation family) (animal lion)) (animal fish))
+
+life span field of all turtle
+(field (relation span) (animal turtle))
+
+set the family of duck instances with the specie field of all cat
+(set (field (relation family) (animal duck)) (field (relation specie) (animal cat)))
+
+set cat 's family field as turtle
+(set (field (relation family) (animal cat)) (animal turtle))
+
+all tiger instances 's habitat field
+(field (relation habitat) (animal tiger))
+
+set dog 's temperature field with lion
+(set (field (relation temperature) (animal dog)) (animal lion))
+
+all tiger 's temperature field
+(field (relation temperature) (animal tiger))
+
+the specie of all fish instances
+(field (relation specie) (animal fish))
+
+set all fish 's temperature with all dog instances
+(set (field (relation temperature) (animal fish)) (animal dog))
+
+fish 's specie
+(field (relation specie) (animal fish))
+
+habitat field of all turtle
+(field (relation habitat) (animal turtle))
+
+fish instances 's life span field
+(field (relation span) (animal fish))
+
+all duck 's family
+(field (relation family) (animal duck))
+
+dog 's specie
+(field (relation specie) (animal dog))
+
+all turtle 's temperature field
+(field (relation temperature) (animal turtle))
+
+set life span of all tiger to all fish instances 's family
+(set (field (relation span) (animal tiger)) (field (relation family) (animal fish)))
+
+the specie of all dog
+(field (relation specie) (animal dog))
+
+set all lion 's genus to duck instances
+(set (field (relation genus) (animal lion)) (animal duck))
+
+genus of all cat
+(field (relation genus) (animal cat))
+
+set temperature of all fish with all cat instances
+(set (field (relation temperature) (animal fish)) (animal cat))
+
+set all duck 's life span field to turtle instances
+(set (field (relation span) (animal duck)) (animal turtle))
+
+set genus field of fish with duck
+(set (field (relation genus) (animal fish)) (animal duck))
+
+all fish 's specie
+(field (relation specie) (animal fish))
+
+temperature of all duck
+(field (relation temperature) (animal duck))
+
+the specie of turtle instances
+(field (relation specie) (animal turtle))
+
+the habitat field of cat
+(field (relation habitat) (animal cat))
+
+set the specie of duck with dog
+(set (field (relation specie) (animal duck)) (animal dog))
+
+set dog 's genus field as the habitat field of cat instances
+(set (field (relation genus) (animal dog)) (field (relation habitat) (animal cat)))
+
+the family field of all tiger instances
+(field (relation family) (animal tiger))
+
+set all cat instances 's family field to dog instances
+(set (field (relation family) (animal cat)) (animal dog))
+
+family of all lion
+(field (relation family) (animal lion))
+
+set the genus field of dog instances with turtle
+(set (field (relation genus) (animal dog)) (animal turtle))
+
+all lion 's genus
+(field (relation genus) (animal lion))
+
+set the habitat field of duck as all turtle instances
+(set (field (relation habitat) (animal duck)) (animal turtle))
+
+the genus of all tiger
+(field (relation genus) (animal tiger))
+
+set turtle 's temperature with dog
+(set (field (relation temperature) (animal turtle)) (animal dog))
+
+the habitat of duck instances
+(field (relation habitat) (animal duck))
+
+turtle 's specie
+(field (relation specie) (animal turtle))
+
+dog instances 's family
+(field (relation family) (animal dog))
+
+set the life span of all dog instances as the genus field of all tiger instances
+(set (field (relation span) (animal dog)) (field (relation genus) (animal tiger)))
+
+set all cat 's family field with fish instances
+(set (field (relation family) (animal cat)) (animal fish))
+
+all cat 's specie field
+(field (relation specie) (animal cat))
+
+set all cat instances 's family field as the temperature field of all duck instances
+(set (field (relation family) (animal cat)) (field (relation temperature) (animal duck)))
+
+temperature of all turtle
+(field (relation temperature) (animal turtle))
+
+all lion 's habitat field
+(field (relation habitat) (animal lion))
+
+set the specie field of all dog instances with dog
+(set (field (relation specie) (animal dog)) (animal dog))
+
+set life span field of all lion instances with fish
+(set (field (relation span) (animal lion)) (animal fish))
+
+fish instances 's habitat
+(field (relation habitat) (animal fish))
+
+all cat 's habitat
+(field (relation habitat) (animal cat))
+
+all fish 's family field
+(field (relation family) (animal fish))
+
+life span field of all tiger
+(field (relation span) (animal tiger))
+
+genus of tiger instances
+(field (relation genus) (animal tiger))
+
+set tiger instances 's family field with lion
+(set (field (relation family) (animal tiger)) (animal lion))
+
+all dog instances 's temperature
+(field (relation temperature) (animal dog))
+
+habitat field of all tiger
+(field (relation habitat) (animal tiger))
+
+set family field of all duck instances to fish instances
+(set (field (relation family) (animal duck)) (animal fish))
+
+set all turtle instances 's family field as all turtle instances 's genus field
+(set (field (relation family) (animal turtle)) (field (relation genus) (animal turtle)))
+
+set the specie field of all fish instances as duck
+(set (field (relation specie) (animal fish)) (animal duck))
+
+cat 's habitat
+(field (relation habitat) (animal cat))
+
+set temperature of fish instances as specie field of duck instances
+(set (field (relation temperature) (animal fish)) (field (relation specie) (animal duck)))
+
+set tiger 's life span field to cat
+(set (field (relation span) (animal tiger)) (animal cat))
+
+set the life span field of turtle instances to duck instances
+(set (field (relation span) (animal turtle)) (animal duck))
+
+family of all fish
+(field (relation family) (animal fish))
+
+family of tiger instances
+(field (relation family) (animal tiger))
+
+genus field of cat
+(field (relation genus) (animal cat))
+
+temperature of all dog instances
+(field (relation temperature) (animal dog))
+
+all turtle instances 's temperature field
+(field (relation temperature) (animal turtle))
+
+family field of all fish instances
+(field (relation family) (animal fish))
+
+turtle instances 's specie
+(field (relation specie) (animal turtle))
+
+all duck 's life span
+(field (relation span) (animal duck))
+
+family field of all tiger
+(field (relation family) (animal tiger))
+
+dog instances 's temperature
+(field (relation temperature) (animal dog))
+
+fish 's genus
+(field (relation genus) (animal fish))
+
+the life span of all lion
+(field (relation span) (animal lion))
+
+genus field of fish instances
+(field (relation genus) (animal fish))
+
+temperature of cat
+(field (relation temperature) (animal cat))
+
+all duck 's temperature
+(field (relation temperature) (animal duck))
+
+set life span field of fish instances to lion instances
+(set (field (relation span) (animal fish)) (animal lion))
+
+set the specie of all duck as all tiger instances
+(set (field (relation specie) (animal duck)) (animal tiger))
+
+duck instances 's family
+(field (relation family) (animal duck))
+
+specie field of dog instances
+(field (relation specie) (animal dog))
+
+set tiger 's genus as turtle instances
+(set (field (relation genus) (animal tiger)) (animal turtle))
+
+set the life span field of all fish to life span field of all duck
+(set (field (relation span) (animal fish)) (field (relation span) (animal duck)))
+
+set life span of duck with the life span field of all lion
+(set (field (relation span) (animal duck)) (field (relation span) (animal lion)))
+
+all tiger 's family
+(field (relation family) (animal tiger))
+
+the genus field of fish
+(field (relation genus) (animal fish))
+
+all dog 's family
+(field (relation family) (animal dog))
+
+habitat of duck instances
+(field (relation habitat) (animal duck))
+
+all tiger instances 's genus field
+(field (relation genus) (animal tiger))
+
+cat 's life span
+(field (relation span) (animal cat))
+
+set family of lion instances to all fish instances
+(set (field (relation family) (animal lion)) (animal fish))
+
+the temperature of all duck
+(field (relation temperature) (animal duck))
+
+set all cat 's temperature to duck
+(set (field (relation temperature) (animal cat)) (animal duck))
+
+turtle instances 's family
+(field (relation family) (animal turtle))
+
+set the temperature field of tiger with fish
+(set (field (relation temperature) (animal tiger)) (animal fish))
+
+turtle 's genus
+(field (relation genus) (animal turtle))
+
+all fish 's genus field
+(field (relation genus) (animal fish))
+
+specie field of all tiger
+(field (relation specie) (animal tiger))
+
+tiger instances 's specie
+(field (relation specie) (animal tiger))
+
+the specie field of all fish
+(field (relation specie) (animal fish))
+
+genus field of turtle instances
+(field (relation genus) (animal turtle))
+
+all dog 's habitat
+(field (relation habitat) (animal dog))
+
+set the temperature field of all turtle to turtle
+(set (field (relation temperature) (animal turtle)) (animal turtle))
+
+fish instances 's life span
+(field (relation span) (animal fish))
+
+set duck 's genus with cat instances 's habitat field
+(set (field (relation genus) (animal duck)) (field (relation habitat) (animal cat)))
+
+family field of all lion
+(field (relation family) (animal lion))
+
+set temperature of duck with all duck instances 's habitat field
+(set (field (relation temperature) (animal duck)) (field (relation habitat) (animal duck)))
+
+fish 's life span
+(field (relation span) (animal fish))
+
+lion 's habitat
+(field (relation habitat) (animal lion))
+
+all fish 's habitat field
+(field (relation habitat) (animal fish))
+
+set duck instances 's temperature as all lion
+(set (field (relation temperature) (animal duck)) (animal lion))
+
+all lion instances 's habitat field
+(field (relation habitat) (animal lion))
+
+tiger instances 's temperature
+(field (relation temperature) (animal tiger))
+
+all turtle instances 's temperature
+(field (relation temperature) (animal turtle))
+
+all cat 's genus field
+(field (relation genus) (animal cat))
+
+set all fish 's family field to all cat
+(set (field (relation family) (animal fish)) (animal cat))
+
+all cat instances 's temperature field
+(field (relation temperature) (animal cat))
+
+all duck instances 's temperature field
+(field (relation temperature) (animal duck))
+
+the temperature of dog instances
+(field (relation temperature) (animal dog))
+
+life span of cat instances
+(field (relation span) (animal cat))
+
+the family of cat
+(field (relation family) (animal cat))
+
+duck instances 's temperature
+(field (relation temperature) (animal duck))
+
+tiger 's habitat field
+(field (relation habitat) (animal tiger))
+
+set dog instances 's specie to all turtle
+(set (field (relation specie) (animal dog)) (animal turtle))
+
+all duck instances 's life span field
+(field (relation span) (animal duck))
+
+dog instances 's life span
+(field (relation span) (animal dog))
+
+set the specie of all turtle instances as dog
+(set (field (relation specie) (animal turtle)) (animal dog))
+
+set habitat field of turtle as dog
+(set (field (relation habitat) (animal turtle)) (animal dog))
+
+the temperature of tiger
+(field (relation temperature) (animal tiger))
+
+set habitat field of cat with lion
+(set (field (relation habitat) (animal cat)) (animal lion))
+
+all fish instances 's specie
+(field (relation specie) (animal fish))
+
+temperature field of cat
+(field (relation temperature) (animal cat))
+
+tiger instances 's genus
+(field (relation genus) (animal tiger))
+
+the life span of cat
+(field (relation span) (animal cat))
+
+temperature of lion
+(field (relation temperature) (animal lion))
+
+tiger instances 's family
+(field (relation family) (animal tiger))
+
+lion 's life span
+(field (relation span) (animal lion))
+
+set the temperature of all turtle to all lion instances
+(set (field (relation temperature) (animal turtle)) (animal lion))
+
+the habitat of duck
+(field (relation habitat) (animal duck))
+
+the habitat field of turtle instances
+(field (relation habitat) (animal turtle))
+
+all duck instances 's specie
+(field (relation specie) (animal duck))
+
+the family field of dog instances
+(field (relation family) (animal dog))
+
+life span field of all cat instances
+(field (relation span) (animal cat))
+
+set cat instances 's family to all turtle instances
+(set (field (relation family) (animal cat)) (animal turtle))
+
+fish 's temperature field
+(field (relation temperature) (animal fish))
+
+the temperature of all tiger
+(field (relation temperature) (animal tiger))
+
+life span of all tiger
+(field (relation span) (animal tiger))
+
+set tiger 's family as tiger
+(set (field (relation family) (animal tiger)) (animal tiger))
+
+the temperature of lion
+(field (relation temperature) (animal lion))
+
+set family field of lion to all duck
+(set (field (relation family) (animal lion)) (animal duck))
+
+temperature field of all dog instances
+(field (relation temperature) (animal dog))
+
+duck instances 's habitat field
+(field (relation habitat) (animal duck))
+
+cat 's temperature
+(field (relation temperature) (animal cat))
+
+set the family field of all turtle instances as genus of all cat
+(set (field (relation family) (animal turtle)) (field (relation genus) (animal cat)))
+
+the temperature field of all tiger instances
+(field (relation temperature) (animal tiger))
+
+life span field of all lion instances
+(field (relation span) (animal lion))
+
+all fish instances 's family
+(field (relation family) (animal fish))
+
+set the family of dog with dog
+(set (field (relation family) (animal dog)) (animal dog))
+
+set the habitat of all fish to the habitat of all lion instances
+(set (field (relation habitat) (animal fish)) (field (relation habitat) (animal lion)))
+
+set the genus of fish instances as temperature field of cat instances
+(set (field (relation genus) (animal fish)) (field (relation temperature) (animal cat)))
+
+set all lion instances 's temperature field with duck instances
+(set (field (relation temperature) (animal lion)) (animal duck))
+
+the life span of all cat
+(field (relation span) (animal cat))
+
+set all fish 's genus to cat
+(set (field (relation genus) (animal fish)) (animal cat))
+
+family field of lion instances
+(field (relation family) (animal lion))
+
+tiger instances 's temperature field
+(field (relation temperature) (animal tiger))
+
+set dog instances 's temperature with fish
+(set (field (relation temperature) (animal dog)) (animal fish))
+
+life span of all cat
+(field (relation span) (animal cat))
+
+specie field of all cat
+(field (relation specie) (animal cat))
+
+the genus field of lion
+(field (relation genus) (animal lion))
+
+dog 's habitat
+(field (relation habitat) (animal dog))
+
+set all tiger 's temperature with dog
+(set (field (relation temperature) (animal tiger)) (animal dog))
+
+lion instances 's life span field
+(field (relation span) (animal lion))
+
+set all fish instances 's habitat as genus of all dog instances
+(set (field (relation habitat) (animal fish)) (field (relation genus) (animal dog)))
+
+the genus field of cat instances
+(field (relation genus) (animal cat))
+
+life span of all turtle
+(field (relation span) (animal turtle))
+
+the temperature field of all duck instances
+(field (relation temperature) (animal duck))
+
+life span field of all cat
+(field (relation span) (animal cat))
+
+the life span of tiger
+(field (relation span) (animal tiger))
+
+set specie of tiger instances with cat
+(set (field (relation specie) (animal tiger)) (animal cat))
+
+set all cat instances 's temperature field to duck instances
+(set (field (relation temperature) (animal cat)) (animal duck))
+
+all duck 's genus
+(field (relation genus) (animal duck))
+
+set temperature field of all turtle with fish
+(set (field (relation temperature) (animal turtle)) (animal fish))
+
+set all dog instances 's life span field as duck
+(set (field (relation span) (animal dog)) (animal duck))
+
+cat 's genus
+(field (relation genus) (animal cat))
+
+the temperature field of all lion instances
+(field (relation temperature) (animal lion))
+
+the habitat of lion
+(field (relation habitat) (animal lion))
+
+set family of fish instances to all lion instances 's habitat
+(set (field (relation family) (animal fish)) (field (relation habitat) (animal lion)))
+
+the temperature field of all duck
+(field (relation temperature) (animal duck))
+

@@ -1,0 +1,60 @@
+all chinese restaurant 's address field
+(field (relation address) (restaurant chinese))
+
+the address of chinese restaurant instances
+(field (relation address) (restaurant chinese))
+
+chinese restaurant
+(restaurant chinese)
+
+japanese restaurant
+(restaurant japanese)
+
+american restaurant
+(restaurant american)
+
+french restaurant
+(restaurant french)
+
+italian restaurant
+(restaurant italian)
+
+indian restaurant
+(restaurant indian)
+
+german restaurant
+(restaurant german)
+
+irish restaurant
+(restaurant irish)
+
+address
+(relation address)
+
+reviews
+(relation review)
+
+dishes
+(relation dish)
+
+price
+(relation price)
+
+waiters
+(relation waiter)
+
+thai restaurant
+(restaurant thai)
+
+korean restaurant
+(restaurant korean)
+
+hours
+(relation hours)
+
+chef
+(relation chef)
+
+set all chinese restaurant instances 's address field with chinese restaurant
+(set (field (relation address) (restaurant chinese)) (restaurant chinese))
+

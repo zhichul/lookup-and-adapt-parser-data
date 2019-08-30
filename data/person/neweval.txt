@@ -1,0 +1,576 @@
+enemies field of sophia
+(field (relation enemy) (person sophia))
+
+the friends field of my classmates instances
+(field (relation friend) (person classmate))
+
+friends field of all professors instances
+(field (relation friend) (person professor))
+
+set the enemies field of her with him
+(set (field (relation enemy) (person reference)) (person reference))
+
+set her 's friends to jim
+(set (field (relation friend) (person reference)) (person jim))
+
+set alumni 's siblings to he 's children field
+(set (field (relation sibling) (person alumni)) (field (relation child) (person reference)))
+
+john 's enemies
+(field (relation enemy) (person john))
+
+the friends of it
+(field (relation friend) (person reference))
+
+set they 's enemies field as the hometown field of jim
+(set (field (relation enemy) (person reference)) (field (relation hometown) (person jim)))
+
+set the birthday field of sophia to drivers
+(set (field (relation birthday) (person sophia)) (person driver))
+
+set the friends field of john as hometown of her
+(set (field (relation friend) (person john)) (field (relation hometown) (person reference)))
+
+enemies of it
+(field (relation enemy) (person reference))
+
+friends of all my colleagues
+(field (relation friend) (person colleague))
+
+the enemies field of them
+(field (relation enemy) (person reference))
+
+friends of all my classmates
+(field (relation friend) (person classmate))
+
+set him 's friends to jim
+(set (field (relation friend) (person reference)) (person jim))
+
+friends of professors instances
+(field (relation friend) (person professor))
+
+set salary field of them as john 's enemies field
+(set (field (relation salary) (person reference)) (field (relation enemy) (person john)))
+
+they 's enemies
+(field (relation enemy) (person reference))
+
+set it 's friends with classmates instances 's birthday field
+(set (field (relation friend) (person reference)) (field (relation birthday) (person classmate)))
+
+sophia 's enemies
+(field (relation enemy) (person sophia))
+
+my professors 's friends field
+(field (relation friend) (person professor))
+
+set friends field of mary as she 's siblings field
+(set (field (relation friend) (person mary)) (field (relation sibling) (person reference)))
+
+the friends field of him
+(field (relation friend) (person reference))
+
+set salary of they with drivers
+(set (field (relation salary) (person reference)) (person driver))
+
+all drivers 's hometown field
+(field (relation hometown) (person driver))
+
+all my drivers 's parents field
+(field (relation parent) (person driver))
+
+he 's friends field
+(field (relation friend) (person reference))
+
+set friends field of jim with professors
+(set (field (relation friend) (person jim)) (person professor))
+
+set them 's enemies field with he 's parents
+(set (field (relation enemy) (person reference)) (field (relation parent) (person reference)))
+
+jim 's friends
+(field (relation friend) (person jim))
+
+set john 's enemies field as sophia 's children
+(set (field (relation enemy) (person john)) (field (relation child) (person sophia)))
+
+my alumni instances 's salary
+(field (relation salary) (person alumni))
+
+enemies of sophia
+(field (relation enemy) (person sophia))
+
+set him 's children as drivers
+(set (field (relation child) (person reference)) (person driver))
+
+jim 's enemies
+(field (relation enemy) (person jim))
+
+friends of her
+(field (relation friend) (person reference))
+
+alumni 's salary field
+(field (relation salary) (person alumni))
+
+her 's enemies field
+(field (relation enemy) (person reference))
+
+friends field of her
+(field (relation friend) (person reference))
+
+he 's enemies field
+(field (relation enemy) (person reference))
+
+the enemies field of her
+(field (relation enemy) (person reference))
+
+sophia 's friends
+(field (relation friend) (person sophia))
+
+all my colleagues instances 's enemies field
+(field (relation enemy) (person colleague))
+
+set hometown field of all my drivers instances to all my classmates instances 's siblings field
+(set (field (relation hometown) (person driver)) (field (relation sibling) (person classmate)))
+
+professors instances 's friends field
+(field (relation friend) (person professor))
+
+the friends of john
+(field (relation friend) (person john))
+
+the enemies of all classmates instances
+(field (relation enemy) (person classmate))
+
+she 's friends field
+(field (relation friend) (person reference))
+
+set she 's children field as drivers
+(set (field (relation child) (person reference)) (person driver))
+
+the friends of mary
+(field (relation friend) (person mary))
+
+she 's friends
+(field (relation friend) (person reference))
+
+set him 's friends as them
+(set (field (relation friend) (person reference)) (person reference))
+
+set him 's friends to he 's siblings field
+(set (field (relation friend) (person reference)) (field (relation sibling) (person reference)))
+
+set the enemies field of mary with siblings of him
+(set (field (relation enemy) (person mary)) (field (relation sibling) (person reference)))
+
+alumni 's children field
+(field (relation child) (person alumni))
+
+sophia 's friends field
+(field (relation friend) (person sophia))
+
+my alumni instances 's hometown
+(field (relation hometown) (person alumni))
+
+set he 's birthday as drivers
+(set (field (relation birthday) (person reference)) (person driver))
+
+enemies of him
+(field (relation enemy) (person reference))
+
+enemies of all professors instances
+(field (relation enemy) (person professor))
+
+the friends field of they
+(field (relation friend) (person reference))
+
+alumni 's parents field
+(field (relation parent) (person alumni))
+
+mary 's enemies
+(field (relation enemy) (person mary))
+
+enemies field of jim
+(field (relation enemy) (person jim))
+
+set enemies of they as colleagues
+(set (field (relation enemy) (person reference)) (person colleague))
+
+my professors instances 's friends field
+(field (relation friend) (person professor))
+
+all my drivers 's hometown
+(field (relation hometown) (person driver))
+
+all my drivers instances 's birthday
+(field (relation birthday) (person driver))
+
+the friends of all professors instances
+(field (relation friend) (person professor))
+
+all my colleagues 's friends
+(field (relation friend) (person colleague))
+
+drivers 's salary
+(field (relation salary) (person driver))
+
+the friends field of sophia
+(field (relation friend) (person sophia))
+
+enemies of mary
+(field (relation enemy) (person mary))
+
+set him 's friends with jim
+(set (field (relation friend) (person reference)) (person jim))
+
+parents field of all drivers instances
+(field (relation parent) (person driver))
+
+the parents field of my alumni instances
+(field (relation parent) (person alumni))
+
+set he 's friends field with classmates
+(set (field (relation friend) (person reference)) (person classmate))
+
+set friends of all my classmates instances as they
+(set (field (relation friend) (person classmate)) (person reference))
+
+friends of they
+(field (relation friend) (person reference))
+
+jim 's friends field
+(field (relation friend) (person jim))
+
+the enemies of john
+(field (relation enemy) (person john))
+
+drivers 's hometown
+(field (relation hometown) (person driver))
+
+the friends of them
+(field (relation friend) (person reference))
+
+enemies field of he
+(field (relation enemy) (person reference))
+
+my drivers instances 's parents
+(field (relation parent) (person driver))
+
+all my classmates 's enemies
+(field (relation enemy) (person classmate))
+
+john 's friends field
+(field (relation friend) (person john))
+
+set the friends of they as professors
+(set (field (relation friend) (person reference)) (person professor))
+
+set the hometown of he to alumni
+(set (field (relation hometown) (person reference)) (person alumni))
+
+enemies field of him
+(field (relation enemy) (person reference))
+
+parents of alumni
+(field (relation parent) (person alumni))
+
+she 's enemies field
+(field (relation enemy) (person reference))
+
+set she 's birthday field as him 's friends
+(set (field (relation birthday) (person reference)) (field (relation friend) (person reference)))
+
+her 's friends
+(field (relation friend) (person reference))
+
+the friends of he
+(field (relation friend) (person reference))
+
+set friends of jim to professors
+(set (field (relation friend) (person jim)) (person professor))
+
+my alumni 's salary field
+(field (relation salary) (person alumni))
+
+the salary field of all my drivers instances
+(field (relation salary) (person driver))
+
+all drivers 's siblings field
+(field (relation sibling) (person driver))
+
+all alumni instances 's children
+(field (relation child) (person alumni))
+
+drivers instances 's siblings
+(field (relation sibling) (person driver))
+
+the enemies field of sophia
+(field (relation enemy) (person sophia))
+
+set jim 's enemies field as professors
+(set (field (relation enemy) (person jim)) (person professor))
+
+set the enemies field of them with she 's salary
+(set (field (relation enemy) (person reference)) (field (relation salary) (person reference)))
+
+set the enemies of mary with the parents field of john
+(set (field (relation enemy) (person mary)) (field (relation parent) (person john)))
+
+friends field of mary
+(field (relation friend) (person mary))
+
+salary of all alumni instances
+(field (relation salary) (person alumni))
+
+she 's enemies
+(field (relation enemy) (person reference))
+
+the friends of she
+(field (relation friend) (person reference))
+
+set sophia 's friends field to jim
+(set (field (relation friend) (person sophia)) (person jim))
+
+set he 's enemies field to classmates
+(set (field (relation enemy) (person reference)) (person classmate))
+
+colleagues 's friends
+(field (relation friend) (person colleague))
+
+friends field of them
+(field (relation friend) (person reference))
+
+set she 's enemies field with the hometown field of him
+(set (field (relation enemy) (person reference)) (field (relation hometown) (person reference)))
+
+mary 's enemies field
+(field (relation enemy) (person mary))
+
+set them 's enemies field as colleagues
+(set (field (relation enemy) (person reference)) (person colleague))
+
+set them 's salary to alumni
+(set (field (relation salary) (person reference)) (person alumni))
+
+john 's enemies field
+(field (relation enemy) (person john))
+
+enemies of she
+(field (relation enemy) (person reference))
+
+salary of all my drivers
+(field (relation salary) (person driver))
+
+set enemies field of she with them 's children field
+(set (field (relation enemy) (person reference)) (field (relation child) (person reference)))
+
+set the enemies of my professors instances to it 's siblings field
+(set (field (relation enemy) (person professor)) (field (relation sibling) (person reference)))
+
+set the hometown of she as alumni
+(set (field (relation hometown) (person reference)) (person alumni))
+
+her 's friends field
+(field (relation friend) (person reference))
+
+all my alumni instances 's birthday
+(field (relation birthday) (person alumni))
+
+all alumni 's parents field
+(field (relation parent) (person alumni))
+
+the enemies field of mary
+(field (relation enemy) (person mary))
+
+enemies of he
+(field (relation enemy) (person reference))
+
+the salary field of all my alumni
+(field (relation salary) (person alumni))
+
+set the enemies of she to all my classmates
+(set (field (relation enemy) (person reference)) (person classmate))
+
+drivers instances 's children field
+(field (relation child) (person driver))
+
+the enemies of him
+(field (relation enemy) (person reference))
+
+classmates 's friends field
+(field (relation friend) (person classmate))
+
+all classmates 's friends field
+(field (relation friend) (person classmate))
+
+all drivers 's parents field
+(field (relation parent) (person driver))
+
+alumni instances 's siblings
+(field (relation sibling) (person alumni))
+
+the enemies field of jim
+(field (relation enemy) (person jim))
+
+him 's enemies
+(field (relation enemy) (person reference))
+
+set him 's birthday field as alumni instances
+(set (field (relation birthday) (person reference)) (person alumni))
+
+set they 's enemies to him 's salary
+(set (field (relation enemy) (person reference)) (field (relation salary) (person reference)))
+
+set it 's friends field to her
+(set (field (relation friend) (person reference)) (person reference))
+
+set enemies field of him to sophia 's parents
+(set (field (relation enemy) (person reference)) (field (relation parent) (person sophia)))
+
+set enemies of him as siblings of professors
+(set (field (relation enemy) (person reference)) (field (relation sibling) (person professor)))
+
+all alumni instances 's salary
+(field (relation salary) (person alumni))
+
+set the salary field of he to alumni
+(set (field (relation salary) (person reference)) (person alumni))
+
+set her 's friends field with hometown of him
+(set (field (relation friend) (person reference)) (field (relation hometown) (person reference)))
+
+set the parents of she with drivers
+(set (field (relation parent) (person reference)) (person driver))
+
+birthday field of drivers
+(field (relation birthday) (person driver))
+
+my colleagues instances 's enemies
+(field (relation enemy) (person colleague))
+
+all drivers instances 's children
+(field (relation child) (person driver))
+
+set them 's siblings with drivers
+(set (field (relation sibling) (person reference)) (person driver))
+
+set them 's enemies with jim 's parents field
+(set (field (relation enemy) (person reference)) (field (relation parent) (person jim)))
+
+the enemies of he
+(field (relation enemy) (person reference))
+
+set the parents of all alumni with colleagues
+(set (field (relation parent) (person alumni)) (person colleague))
+
+all drivers 's salary field
+(field (relation salary) (person driver))
+
+the enemies field of she
+(field (relation enemy) (person reference))
+
+set hometown of my colleagues instances as drivers
+(set (field (relation hometown) (person colleague)) (person driver))
+
+all professors 's friends field
+(field (relation friend) (person professor))
+
+friends field of it
+(field (relation friend) (person reference))
+
+set she 's siblings to drivers
+(set (field (relation sibling) (person reference)) (person driver))
+
+set mary 's hometown field as drivers
+(set (field (relation hometown) (person mary)) (person driver))
+
+set they 's enemies field to classmates
+(set (field (relation enemy) (person reference)) (person classmate))
+
+all alumni instances 's children field
+(field (relation child) (person alumni))
+
+set the children field of he with drivers
+(set (field (relation child) (person reference)) (person driver))
+
+the friends field of it
+(field (relation friend) (person reference))
+
+the siblings field of alumni
+(field (relation sibling) (person alumni))
+
+set my alumni 's parents as they 's children
+(set (field (relation parent) (person alumni)) (field (relation child) (person reference)))
+
+the siblings field of all alumni
+(field (relation sibling) (person alumni))
+
+my drivers instances 's salary
+(field (relation salary) (person driver))
+
+friends of all my professors
+(field (relation friend) (person professor))
+
+set alumni 's parents field to she
+(set (field (relation parent) (person alumni)) (person reference))
+
+it 's friends
+(field (relation friend) (person reference))
+
+friends of john
+(field (relation friend) (person john))
+
+the enemies field of he
+(field (relation enemy) (person reference))
+
+the friends of jim
+(field (relation friend) (person jim))
+
+the siblings field of all my drivers
+(field (relation sibling) (person driver))
+
+birthday of alumni
+(field (relation birthday) (person alumni))
+
+enemies field of john
+(field (relation enemy) (person john))
+
+him 's enemies field
+(field (relation enemy) (person reference))
+
+set jim 's friends to classmates
+(set (field (relation friend) (person jim)) (person classmate))
+
+friends of my colleagues
+(field (relation friend) (person colleague))
+
+set the enemies of john to he 's siblings field
+(set (field (relation enemy) (person john)) (field (relation sibling) (person reference)))
+
+set friends of he with it
+(set (field (relation friend) (person reference)) (person reference))
+
+all my classmates 's enemies field
+(field (relation enemy) (person classmate))
+
+friends of she
+(field (relation friend) (person reference))
+
+all my drivers instances 's siblings
+(field (relation sibling) (person driver))
+
+mary 's friends
+(field (relation friend) (person mary))
+
+enemies of her
+(field (relation enemy) (person reference))
+
+set the friends of she with the children of he
+(set (field (relation friend) (person reference)) (field (relation child) (person reference)))
+
+set siblings field of all alumni as he
+(set (field (relation sibling) (person alumni)) (person reference))
+
+the parents field of my drivers
+(field (relation parent) (person driver))
+

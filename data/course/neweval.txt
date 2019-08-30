@@ -1,0 +1,576 @@
+the prerequisite field of all my science course
+(field (relation prerequisite) (course science))
+
+set the homework of all physics course instances with size field of all science course instances
+(set (field (relation homework) (course physics)) (field (relation size) (course science)))
+
+statistics course instances 's classroom
+(field (relation classroom) (course statistics))
+
+all history course 's classroom
+(field (relation classroom) (course history))
+
+the classroom field of my chemistry course
+(field (relation classroom) (course chemistry))
+
+the classroom of all physics course
+(field (relation classroom) (course physics))
+
+the level field of all my literature course instances
+(field (relation level) (course literature))
+
+the classroom of all chemistry course
+(field (relation classroom) (course chemistry))
+
+set homework of all math course to students field of all statistics course
+(set (field (relation homework) (course math)) (field (relation student) (course statistics)))
+
+my writing course instances 's students
+(field (relation student) (course writing))
+
+all history course instances 's classroom field
+(field (relation classroom) (course history))
+
+set the unit of all my science course instances to biology course
+(set (field (relation unit) (course science)) (course biology))
+
+all literature course 's instructor field
+(field (relation instructor) (course literature))
+
+set all science course 's prerequisite field to writing course
+(set (field (relation prerequisite) (course science)) (course writing))
+
+set size field of all my writing course to science course 's size
+(set (field (relation size) (course writing)) (field (relation size) (course science)))
+
+students of my statistics course instances
+(field (relation student) (course statistics))
+
+the classroom of physics course instances
+(field (relation classroom) (course physics))
+
+set all science course instances 's size as biology course
+(set (field (relation size) (course science)) (course biology))
+
+all my math course 's students
+(field (relation student) (course math))
+
+all writing course instances 's students field
+(field (relation student) (course writing))
+
+set the size of my history course to size field of science course
+(set (field (relation size) (course history)) (field (relation size) (course science)))
+
+set students of all my physics course instances as my writing course instances 's prerequisite
+(set (field (relation student) (course physics)) (field (relation prerequisite) (course writing)))
+
+instructor field of all science course
+(field (relation instructor) (course science))
+
+level of all science course instances
+(field (relation level) (course science))
+
+size of my literature course instances
+(field (relation size) (course literature))
+
+set all science course 's size as biology course
+(set (field (relation size) (course science)) (course biology))
+
+set the size field of all writing course instances as the level of my literature course instances
+(set (field (relation size) (course writing)) (field (relation level) (course literature)))
+
+classroom field of my physics course
+(field (relation classroom) (course physics))
+
+all my physics course 's classroom field
+(field (relation classroom) (course physics))
+
+my writing course instances 's classroom field
+(field (relation classroom) (course writing))
+
+all my history course 's classroom
+(field (relation classroom) (course history))
+
+level field of literature course
+(field (relation level) (course literature))
+
+the level of all my literature course instances
+(field (relation level) (course literature))
+
+set all my history course instances 's students field as unit field of all biology course
+(set (field (relation student) (course history)) (field (relation unit) (course biology)))
+
+classroom of my math course
+(field (relation classroom) (course math))
+
+the classroom of my math course instances
+(field (relation classroom) (course math))
+
+my literature course instances 's homework
+(field (relation homework) (course literature))
+
+my writing course instances 's students field
+(field (relation student) (course writing))
+
+set all my literature course instances 's prerequisite as math course
+(set (field (relation prerequisite) (course literature)) (course math))
+
+set the prerequisite field of my science course to biology course
+(set (field (relation prerequisite) (course science)) (course biology))
+
+set students of my biology course instances to math course instances
+(set (field (relation student) (course biology)) (course math))
+
+set the classroom of all my history course with math course 's unit
+(set (field (relation classroom) (course history)) (field (relation unit) (course math)))
+
+classroom field of all my math course instances
+(field (relation classroom) (course math))
+
+the classroom field of writing course
+(field (relation classroom) (course writing))
+
+history course 's students
+(field (relation student) (course history))
+
+set all my writing course 's classroom field with biology course
+(set (field (relation classroom) (course writing)) (course biology))
+
+my chemistry course instances 's classroom
+(field (relation classroom) (course chemistry))
+
+students of all chemistry course instances
+(field (relation student) (course chemistry))
+
+physics course 's classroom
+(field (relation classroom) (course physics))
+
+set history course 's students as my history course instances
+(set (field (relation student) (course history)) (course history))
+
+all chemistry course 's students field
+(field (relation student) (course chemistry))
+
+set the homework of my literature course instances to writing course
+(set (field (relation homework) (course literature)) (course writing))
+
+all my statistics course instances 's students
+(field (relation student) (course statistics))
+
+set the homework field of chemistry course instances with my statistics course 's students field
+(set (field (relation homework) (course chemistry)) (field (relation student) (course statistics)))
+
+the students field of my physics course instances
+(field (relation student) (course physics))
+
+prerequisite of all my literature course
+(field (relation prerequisite) (course literature))
+
+my math course instances 's classroom field
+(field (relation classroom) (course math))
+
+all literature course 's level
+(field (relation level) (course literature))
+
+all my chemistry course 's students field
+(field (relation student) (course chemistry))
+
+set the size field of all biology course instances as all statistics course instances 's students field
+(set (field (relation size) (course biology)) (field (relation student) (course statistics)))
+
+students field of all my biology course instances
+(field (relation student) (course biology))
+
+my biology course instances 's classroom field
+(field (relation classroom) (course biology))
+
+classroom field of all my history course instances
+(field (relation classroom) (course history))
+
+all my science course instances 's unit field
+(field (relation unit) (course science))
+
+students field of my physics course instances
+(field (relation student) (course physics))
+
+all my biology course 's students
+(field (relation student) (course biology))
+
+the size of my literature course instances
+(field (relation size) (course literature))
+
+classroom of my physics course
+(field (relation classroom) (course physics))
+
+my biology course 's students
+(field (relation student) (course biology))
+
+the unit field of science course instances
+(field (relation unit) (course science))
+
+science course instances 's instructor
+(field (relation instructor) (course science))
+
+the instructor of literature course
+(field (relation instructor) (course literature))
+
+students field of writing course instances
+(field (relation student) (course writing))
+
+set size of all my literature course to history course
+(set (field (relation size) (course literature)) (course history))
+
+writing course instances 's students field
+(field (relation student) (course writing))
+
+students of my biology course
+(field (relation student) (course biology))
+
+chemistry course 's students
+(field (relation student) (course chemistry))
+
+the homework of all my science course instances
+(field (relation homework) (course science))
+
+my statistics course instances 's students
+(field (relation student) (course statistics))
+
+the classroom of my biology course
+(field (relation classroom) (course biology))
+
+all literature course instances 's size field
+(field (relation size) (course literature))
+
+set my physics course instances 's classroom with my math course
+(set (field (relation classroom) (course physics)) (course math))
+
+the instructor field of all science course instances
+(field (relation instructor) (course science))
+
+set all biology course 's students with history course
+(set (field (relation student) (course biology)) (course history))
+
+set the classroom field of all my physics course to instructor of all chemistry course
+(set (field (relation classroom) (course physics)) (field (relation instructor) (course chemistry)))
+
+all literature course 's unit
+(field (relation unit) (course literature))
+
+set size of all literature course instances with chemistry course 's instructor field
+(set (field (relation size) (course literature)) (field (relation instructor) (course chemistry)))
+
+the students of all writing course
+(field (relation student) (course writing))
+
+set all chemistry course 's classroom field as math course instances
+(set (field (relation classroom) (course chemistry)) (course math))
+
+the level field of all science course instances
+(field (relation level) (course science))
+
+all my chemistry course 's students
+(field (relation student) (course chemistry))
+
+set all statistics course 's prerequisite with all my literature course
+(set (field (relation prerequisite) (course statistics)) (course literature))
+
+all my writing course instances 's classroom
+(field (relation classroom) (course writing))
+
+my literature course 's unit
+(field (relation unit) (course literature))
+
+set science course 's level field with size of my math course
+(set (field (relation level) (course science)) (field (relation size) (course math)))
+
+students field of all physics course
+(field (relation student) (course physics))
+
+biology course instances 's classroom field
+(field (relation classroom) (course biology))
+
+all my literature course instances 's size field
+(field (relation size) (course literature))
+
+set writing course instances 's homework field as literature course instances
+(set (field (relation homework) (course writing)) (course literature))
+
+statistics course instances 's students field
+(field (relation student) (course statistics))
+
+set all my science course 's unit to my biology course 's size
+(set (field (relation unit) (course science)) (field (relation size) (course biology)))
+
+set literature course instances 's size field with math course
+(set (field (relation size) (course literature)) (course math))
+
+prerequisite of science course
+(field (relation prerequisite) (course science))
+
+my science course instances 's level field
+(field (relation level) (course science))
+
+literature course 's size
+(field (relation size) (course literature))
+
+all chemistry course 's classroom field
+(field (relation classroom) (course chemistry))
+
+my science course 's size
+(field (relation size) (course science))
+
+set the students of all physics course with math course 's level field
+(set (field (relation student) (course physics)) (field (relation level) (course math)))
+
+set classroom of my writing course instances as biology course
+(set (field (relation classroom) (course writing)) (course biology))
+
+all biology course 's classroom field
+(field (relation classroom) (course biology))
+
+classroom field of my statistics course
+(field (relation classroom) (course statistics))
+
+students field of all my writing course instances
+(field (relation student) (course writing))
+
+set the unit of all my science course instances as all my physics course instances
+(set (field (relation unit) (course science)) (course physics))
+
+the instructor of science course
+(field (relation instructor) (course science))
+
+history course instances 's classroom field
+(field (relation classroom) (course history))
+
+classroom field of all writing course instances
+(field (relation classroom) (course writing))
+
+set my history course instances 's instructor with science course
+(set (field (relation instructor) (course history)) (course science))
+
+set all history course instances 's level as literature course
+(set (field (relation level) (course history)) (course literature))
+
+all chemistry course instances 's students
+(field (relation student) (course chemistry))
+
+the students of statistics course instances
+(field (relation student) (course statistics))
+
+students of all chemistry course
+(field (relation student) (course chemistry))
+
+set the homework of all physics course instances with literature course
+(set (field (relation homework) (course physics)) (course literature))
+
+all my statistics course instances 's classroom field
+(field (relation classroom) (course statistics))
+
+all literature course 's homework field
+(field (relation homework) (course literature))
+
+classroom of all writing course
+(field (relation classroom) (course writing))
+
+writing course instances 's classroom field
+(field (relation classroom) (course writing))
+
+prerequisite of science course instances
+(field (relation prerequisite) (course science))
+
+set my literature course instances 's unit to all my statistics course instances 's level field
+(set (field (relation unit) (course literature)) (field (relation level) (course statistics)))
+
+all science course instances 's prerequisite field
+(field (relation prerequisite) (course science))
+
+prerequisite field of my science course instances
+(field (relation prerequisite) (course science))
+
+set the size of all my biology course to science course
+(set (field (relation size) (course biology)) (course science))
+
+the prerequisite of all literature course instances
+(field (relation prerequisite) (course literature))
+
+set all writing course 's classroom field to writing course
+(set (field (relation classroom) (course writing)) (course writing))
+
+classroom of all my writing course instances
+(field (relation classroom) (course writing))
+
+set all writing course instances 's students field to biology course
+(set (field (relation student) (course writing)) (course biology))
+
+all literature course 's size field
+(field (relation size) (course literature))
+
+classroom field of statistics course
+(field (relation classroom) (course statistics))
+
+the students field of my writing course
+(field (relation student) (course writing))
+
+students of my writing course
+(field (relation student) (course writing))
+
+all my science course 's prerequisite field
+(field (relation prerequisite) (course science))
+
+set instructor field of science course as statistics course
+(set (field (relation instructor) (course science)) (course statistics))
+
+set the classroom of chemistry course instances to math course
+(set (field (relation classroom) (course chemistry)) (course math))
+
+set students field of math course to physics course
+(set (field (relation student) (course math)) (course physics))
+
+set the classroom field of my biology course to physics course instances
+(set (field (relation classroom) (course biology)) (course physics))
+
+set physics course instances 's instructor field as my science course instances
+(set (field (relation instructor) (course physics)) (course science))
+
+set instructor field of my science course as chemistry course
+(set (field (relation instructor) (course science)) (course chemistry))
+
+classroom of history course instances
+(field (relation classroom) (course history))
+
+math course instances 's students
+(field (relation student) (course math))
+
+my literature course instances 's homework field
+(field (relation homework) (course literature))
+
+my literature course instances 's prerequisite
+(field (relation prerequisite) (course literature))
+
+all physics course instances 's students field
+(field (relation student) (course physics))
+
+the level of all literature course
+(field (relation level) (course literature))
+
+set my history course 's students field to math course
+(set (field (relation student) (course history)) (course math))
+
+the classroom of physics course
+(field (relation classroom) (course physics))
+
+set all science course instances 's homework to statistics course
+(set (field (relation homework) (course science)) (course statistics))
+
+set chemistry course instances 's students with prerequisite field of my statistics course
+(set (field (relation student) (course chemistry)) (field (relation prerequisite) (course statistics)))
+
+the classroom of all my writing course
+(field (relation classroom) (course writing))
+
+all my science course instances 's instructor field
+(field (relation instructor) (course science))
+
+all my literature course instances 's instructor field
+(field (relation instructor) (course literature))
+
+set the students of history course with all my chemistry course
+(set (field (relation student) (course history)) (course chemistry))
+
+my literature course 's level field
+(field (relation level) (course literature))
+
+set all biology course instances 's students field to the homework field of chemistry course instances
+(set (field (relation student) (course biology)) (field (relation homework) (course chemistry)))
+
+set my writing course 's students field to instructor field of all my math course instances
+(set (field (relation student) (course writing)) (field (relation instructor) (course math)))
+
+set all my biology course 's classroom field as all chemistry course 's level field
+(set (field (relation classroom) (course biology)) (field (relation level) (course chemistry)))
+
+the students field of my biology course instances
+(field (relation student) (course biology))
+
+set my literature course 's homework as all math course
+(set (field (relation homework) (course literature)) (course math))
+
+students field of all statistics course
+(field (relation student) (course statistics))
+
+all my science course instances 's homework field
+(field (relation homework) (course science))
+
+set the classroom field of chemistry course with all math course instances
+(set (field (relation classroom) (course chemistry)) (course math))
+
+classroom of all chemistry course instances
+(field (relation classroom) (course chemistry))
+
+set size of my chemistry course instances to science course instances
+(set (field (relation size) (course chemistry)) (course science))
+
+the students of my statistics course instances
+(field (relation student) (course statistics))
+
+the students of all physics course
+(field (relation student) (course physics))
+
+set students of all my statistics course instances with all biology course instances
+(set (field (relation student) (course statistics)) (course biology))
+
+science course 's homework field
+(field (relation homework) (course science))
+
+all writing course instances 's students
+(field (relation student) (course writing))
+
+set the size field of my statistics course as my physics course instances 's classroom
+(set (field (relation size) (course statistics)) (field (relation classroom) (course physics)))
+
+set my math course instances 's classroom with homework field of my writing course
+(set (field (relation classroom) (course math)) (field (relation homework) (course writing)))
+
+homework of all my science course instances
+(field (relation homework) (course science))
+
+set the instructor field of all science course to size of writing course instances
+(set (field (relation instructor) (course science)) (field (relation size) (course writing)))
+
+set the size field of all my science course to chemistry course
+(set (field (relation size) (course science)) (course chemistry))
+
+my statistics course 's classroom field
+(field (relation classroom) (course statistics))
+
+all literature course 's prerequisite field
+(field (relation prerequisite) (course literature))
+
+set the size field of my physics course instances as classroom of all physics course
+(set (field (relation size) (course physics)) (field (relation classroom) (course physics)))
+
+all literature course 's size
+(field (relation size) (course literature))
+
+set the instructor of my biology course instances as science course
+(set (field (relation instructor) (course biology)) (course science))
+
+all my biology course instances 's classroom
+(field (relation classroom) (course biology))
+
+classroom field of all my chemistry course instances
+(field (relation classroom) (course chemistry))
+
+the size field of science course
+(field (relation size) (course science))
+
+classroom of all my math course
+(field (relation classroom) (course math))
+
+classroom field of all history course
+(field (relation classroom) (course history))
+
+literature course instances 's homework
+(field (relation homework) (course literature))
+

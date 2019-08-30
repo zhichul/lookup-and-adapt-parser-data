@@ -1,0 +1,60 @@
+cat instances 's specie
+(field (relation specie) (animal cat))
+
+the specie of all cat
+(field (relation specie) (animal cat))
+
+cat
+(animal cat)
+
+dog
+(animal dog)
+
+duck
+(animal duck)
+
+lion
+(animal lion)
+
+tiger
+(animal tiger)
+
+fish
+(animal fish)
+
+turtle
+(animal turtle)
+
+specie
+(relation specie)
+
+family
+(relation family)
+
+genus
+(relation genus)
+
+temperature
+(relation temperature)
+
+habitat
+(relation habitat)
+
+life span
+(relation span)
+
+cow
+(animal cow)
+
+sheep
+(animal sheep)
+
+diet
+(relation diet)
+
+size
+(relation size)
+
+set cat 's specie field to cat
+(set (field (relation specie) (animal cat)) (animal cat))
+

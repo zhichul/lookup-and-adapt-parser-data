@@ -1,0 +1,576 @@
+set that event 's end time field to talks
+(set (field (relation end) (event reference)) (event talk))
+
+topic field of my basketball games
+(field (relation topic) (event basketball game))
+
+the start time of all my parties instances
+(field (relation start) (event party))
+
+all my dentist appointments 's end time field
+(field (relation end) (event dentist appointment))
+
+set the organizers field of receptions as that event
+(set (field (relation organizer) (event reception)) (event reference))
+
+end time field of my dentist appointments
+(field (relation end) (event dentist appointment))
+
+my basketball games 's organizers
+(field (relation organizer) (event basketball game))
+
+the topic of all my talks instances
+(field (relation topic) (event talk))
+
+parties 's end time
+(field (relation end) (event party))
+
+set that event 's start time field with that event
+(set (field (relation start) (event reference)) (event reference))
+
+all basketball games 's topic
+(field (relation topic) (event basketball game))
+
+all my lectures 's end time
+(field (relation end) (event lecture))
+
+end time of that event
+(field (relation end) (event reference))
+
+set end time of that event to that event
+(set (field (relation end) (event reference)) (event reference))
+
+all talks 's attendants field
+(field (relation attendant) (event talk))
+
+set my dentist appointments instances 's attendants as that event
+(set (field (relation attendant) (event dentist appointment)) (event reference))
+
+set all my lectures instances 's organizers with talks
+(set (field (relation organizer) (event lecture)) (event talk))
+
+my dentist appointments 's attendants
+(field (relation attendant) (event dentist appointment))
+
+that event 's end time
+(field (relation end) (event reference))
+
+my lectures instances 's end time field
+(field (relation end) (event lecture))
+
+board meetings 's organizers
+(field (relation organizer) (event board meeting))
+
+my board meetings instances 's end time field
+(field (relation end) (event board meeting))
+
+set the topic field of all my talks as parties
+(set (field (relation topic) (event talk)) (event party))
+
+attendants field of all my receptions
+(field (relation attendant) (event reception))
+
+all my lectures 's organizers field
+(field (relation organizer) (event lecture))
+
+set topic of that event as the organizers of my dentist appointments instances
+(set (field (relation topic) (event reference)) (field (relation organizer) (event dentist appointment)))
+
+all my dentist appointments 's start time field
+(field (relation start) (event dentist appointment))
+
+set all my parties 's topic as the topic field of that event
+(set (field (relation topic) (event party)) (field (relation topic) (event reference)))
+
+set that event 's topic to talks
+(set (field (relation topic) (event reference)) (event talk))
+
+end time of all my receptions instances
+(field (relation end) (event reception))
+
+board meetings 's end time
+(field (relation end) (event board meeting))
+
+topic of that event
+(field (relation topic) (event reference))
+
+the organizers of my parties
+(field (relation organizer) (event party))
+
+set that event 's organizers field with my dentist appointments
+(set (field (relation organizer) (event reference)) (event dentist appointment))
+
+the attendants field of my board meetings instances
+(field (relation attendant) (event board meeting))
+
+parties 's start time
+(field (relation start) (event party))
+
+the start time of receptions
+(field (relation start) (event reception))
+
+the end time field of all my lectures
+(field (relation end) (event lecture))
+
+set start time of that event to organizers of that event
+(set (field (relation start) (event reference)) (field (relation organizer) (event reference)))
+
+all board meetings 's topic
+(field (relation topic) (event board meeting))
+
+set start time of all my receptions as basketball games
+(set (field (relation start) (event reception)) (event basketball game))
+
+all board meetings instances 's end time
+(field (relation end) (event board meeting))
+
+attendants of that event
+(field (relation attendant) (event reference))
+
+all my basketball games instances 's attendants field
+(field (relation attendant) (event basketball game))
+
+set the end time field of that event as board meetings
+(set (field (relation end) (event reference)) (event board meeting))
+
+the topic field of my parties
+(field (relation topic) (event party))
+
+basketball games 's organizers field
+(field (relation organizer) (event basketball game))
+
+the attendants of all dentist appointments instances
+(field (relation attendant) (event dentist appointment))
+
+set the attendants field of all receptions instances as my talks
+(set (field (relation attendant) (event reception)) (event talk))
+
+end time field of all my basketball games instances
+(field (relation end) (event basketball game))
+
+set my parties instances 's start time to my talks 's start time
+(set (field (relation start) (event party)) (field (relation start) (event talk)))
+
+all my receptions 's attendants
+(field (relation attendant) (event reception))
+
+the topic field of my lectures instances
+(field (relation topic) (event lecture))
+
+the attendants field of all my receptions
+(field (relation attendant) (event reception))
+
+set the end time field of that event to parties
+(set (field (relation end) (event reference)) (event party))
+
+the attendants field of all board meetings
+(field (relation attendant) (event board meeting))
+
+set all receptions instances 's topic as that event 's end time
+(set (field (relation topic) (event reception)) (field (relation end) (event reference)))
+
+the organizers of all my basketball games instances
+(field (relation organizer) (event basketball game))
+
+set that event 's organizers to the attendants of my basketball games instances
+(set (field (relation organizer) (event reference)) (field (relation attendant) (event basketball game)))
+
+that event 's attendants
+(field (relation attendant) (event reference))
+
+the attendants of all my receptions
+(field (relation attendant) (event reception))
+
+set all my receptions 's topic field with that event
+(set (field (relation topic) (event reception)) (event reference))
+
+all my dentist appointments instances 's topic
+(field (relation topic) (event dentist appointment))
+
+set the organizers field of that event to lectures
+(set (field (relation organizer) (event reference)) (event lecture))
+
+the attendants of that event
+(field (relation attendant) (event reference))
+
+the attendants field of that event
+(field (relation attendant) (event reference))
+
+set that event 's attendants field with lectures
+(set (field (relation attendant) (event reference)) (event lecture))
+
+all basketball games 's organizers field
+(field (relation organizer) (event basketball game))
+
+all my parties 's organizers
+(field (relation organizer) (event party))
+
+organizers of that event
+(field (relation organizer) (event reference))
+
+set basketball games instances 's end time field to that event
+(set (field (relation end) (event basketball game)) (event reference))
+
+start time of my basketball games
+(field (relation start) (event basketball game))
+
+set organizers of that event with organizers of all basketball games
+(set (field (relation organizer) (event reference)) (field (relation organizer) (event basketball game)))
+
+set the organizers of that event to my lectures 's organizers
+(set (field (relation organizer) (event reference)) (field (relation organizer) (event lecture)))
+
+my talks instances 's topic field
+(field (relation topic) (event talk))
+
+set that event 's end time field as lectures
+(set (field (relation end) (event reference)) (event lecture))
+
+attendants field of my receptions instances
+(field (relation attendant) (event reception))
+
+talks instances 's organizers field
+(field (relation organizer) (event talk))
+
+topic field of all my talks instances
+(field (relation topic) (event talk))
+
+my dentist appointments instances 's topic
+(field (relation topic) (event dentist appointment))
+
+my talks 's organizers
+(field (relation organizer) (event talk))
+
+my board meetings 's start time field
+(field (relation start) (event board meeting))
+
+dentist appointments 's end time field
+(field (relation end) (event dentist appointment))
+
+my board meetings 's end time
+(field (relation end) (event board meeting))
+
+the start time of my receptions instances
+(field (relation start) (event reception))
+
+all my receptions instances 's end time field
+(field (relation end) (event reception))
+
+all my board meetings 's organizers
+(field (relation organizer) (event board meeting))
+
+that event 's organizers
+(field (relation organizer) (event reference))
+
+all my dentist appointments 's organizers field
+(field (relation organizer) (event dentist appointment))
+
+organizers field of board meetings
+(field (relation organizer) (event board meeting))
+
+start time of all my talks instances
+(field (relation start) (event talk))
+
+set the organizers of that event as that event 's attendants
+(set (field (relation organizer) (event reference)) (field (relation attendant) (event reference)))
+
+lectures instances 's start time
+(field (relation start) (event lecture))
+
+set all my talks instances 's start time field with talks
+(set (field (relation start) (event talk)) (event talk))
+
+lectures instances 's end time field
+(field (relation end) (event lecture))
+
+set that event 's start time field to board meetings
+(set (field (relation start) (event reference)) (event board meeting))
+
+set attendants field of that event with basketball games instances
+(set (field (relation attendant) (event reference)) (event basketball game))
+
+set that event 's start time as board meetings
+(set (field (relation start) (event reference)) (event board meeting))
+
+dentist appointments instances 's topic
+(field (relation topic) (event dentist appointment))
+
+the topic field of all my board meetings
+(field (relation topic) (event board meeting))
+
+the topic field of all parties
+(field (relation topic) (event party))
+
+set the attendants of all my board meetings to topic field of that event
+(set (field (relation attendant) (event board meeting)) (field (relation topic) (event reference)))
+
+the topic of my lectures
+(field (relation topic) (event lecture))
+
+set end time of all basketball games instances with lectures
+(set (field (relation end) (event basketball game)) (event lecture))
+
+board meetings instances 's organizers field
+(field (relation organizer) (event board meeting))
+
+my receptions instances 's start time field
+(field (relation start) (event reception))
+
+attendants field of dentist appointments
+(field (relation attendant) (event dentist appointment))
+
+set that event 's end time as my lectures
+(set (field (relation end) (event reference)) (event lecture))
+
+all talks 's end time field
+(field (relation end) (event talk))
+
+set that event 's start time field as the organizers field of that event
+(set (field (relation start) (event reference)) (field (relation organizer) (event reference)))
+
+set organizers field of my parties with parties
+(set (field (relation organizer) (event party)) (event party))
+
+set that event 's start time to lectures
+(set (field (relation start) (event reference)) (event lecture))
+
+set attendants field of my parties instances to that event
+(set (field (relation attendant) (event party)) (event reference))
+
+start time of that event
+(field (relation start) (event reference))
+
+topic field of that event
+(field (relation topic) (event reference))
+
+all my talks instances 's end time field
+(field (relation end) (event talk))
+
+all dentist appointments 's attendants
+(field (relation attendant) (event dentist appointment))
+
+set start time field of that event with dentist appointments
+(set (field (relation start) (event reference)) (event dentist appointment))
+
+set that event 's end time field with that event
+(set (field (relation end) (event reference)) (event reference))
+
+all my board meetings instances 's organizers
+(field (relation organizer) (event board meeting))
+
+set end time field of all parties instances as board meetings
+(set (field (relation end) (event party)) (event board meeting))
+
+set the organizers field of all my parties instances with talks
+(set (field (relation organizer) (event party)) (event talk))
+
+all board meetings instances 's organizers field
+(field (relation organizer) (event board meeting))
+
+set the organizers of parties as that event
+(set (field (relation organizer) (event party)) (event reference))
+
+set organizers field of my board meetings with that event
+(set (field (relation organizer) (event board meeting)) (event reference))
+
+my lectures instances 's topic field
+(field (relation topic) (event lecture))
+
+board meetings 's start time field
+(field (relation start) (event board meeting))
+
+set that event 's topic with the end time of that event
+(set (field (relation topic) (event reference)) (field (relation end) (event reference)))
+
+attendants field of parties
+(field (relation attendant) (event party))
+
+the topic of all my talks
+(field (relation topic) (event talk))
+
+talks instances 's start time
+(field (relation start) (event talk))
+
+board meetings instances 's end time
+(field (relation end) (event board meeting))
+
+dentist appointments 's start time field
+(field (relation start) (event dentist appointment))
+
+my board meetings 's topic
+(field (relation topic) (event board meeting))
+
+set that event 's organizers field to the end time of all receptions
+(set (field (relation organizer) (event reference)) (field (relation end) (event reception)))
+
+set topic field of my board meetings as the end time field of that event
+(set (field (relation topic) (event board meeting)) (field (relation end) (event reference)))
+
+all parties 's start time
+(field (relation start) (event party))
+
+set that event 's end time to that event
+(set (field (relation end) (event reference)) (event reference))
+
+all my basketball games instances 's end time field
+(field (relation end) (event basketball game))
+
+the organizers of all basketball games instances
+(field (relation organizer) (event basketball game))
+
+set receptions 's end time to basketball games
+(set (field (relation end) (event reception)) (event basketball game))
+
+set basketball games instances 's end time with all receptions 's attendants
+(set (field (relation end) (event basketball game)) (field (relation attendant) (event reception)))
+
+set the topic field of all dentist appointments as the end time field of that event
+(set (field (relation topic) (event dentist appointment)) (field (relation end) (event reference)))
+
+my parties instances 's organizers field
+(field (relation organizer) (event party))
+
+the end time field of all my board meetings instances
+(field (relation end) (event board meeting))
+
+organizers of all receptions instances
+(field (relation organizer) (event reception))
+
+set my basketball games 's topic field with receptions
+(set (field (relation topic) (event basketball game)) (event reception))
+
+end time field of all dentist appointments instances
+(field (relation end) (event dentist appointment))
+
+organizers field of all my talks instances
+(field (relation organizer) (event talk))
+
+the start time field of my basketball games
+(field (relation start) (event basketball game))
+
+end time of all parties instances
+(field (relation end) (event party))
+
+my parties instances 's end time
+(field (relation end) (event party))
+
+set start time of that event to basketball games instances 's organizers field
+(set (field (relation start) (event reference)) (field (relation organizer) (event basketball game)))
+
+set start time field of that event to my parties
+(set (field (relation start) (event reference)) (event party))
+
+the attendants field of all dentist appointments
+(field (relation attendant) (event dentist appointment))
+
+basketball games 's organizers
+(field (relation organizer) (event basketball game))
+
+set parties 's end time as lectures instances
+(set (field (relation end) (event party)) (event lecture))
+
+set organizers field of all lectures to lectures
+(set (field (relation organizer) (event lecture)) (event lecture))
+
+the end time field of talks instances
+(field (relation end) (event talk))
+
+organizers of my basketball games
+(field (relation organizer) (event basketball game))
+
+set that event 's end time to talks
+(set (field (relation end) (event reference)) (event talk))
+
+the start time of all my receptions instances
+(field (relation start) (event reception))
+
+set organizers of that event to all talks instances
+(set (field (relation organizer) (event reference)) (event talk))
+
+set that event 's topic field as end time of all lectures
+(set (field (relation topic) (event reference)) (field (relation end) (event lecture)))
+
+set all parties 's end time to that event 's topic
+(set (field (relation end) (event party)) (field (relation topic) (event reference)))
+
+organizers of dentist appointments instances
+(field (relation organizer) (event dentist appointment))
+
+the start time of all talks instances
+(field (relation start) (event talk))
+
+end time field of that event
+(field (relation end) (event reference))
+
+lectures instances 's start time field
+(field (relation start) (event lecture))
+
+all parties 's start time field
+(field (relation start) (event party))
+
+all lectures 's attendants
+(field (relation attendant) (event lecture))
+
+set all my dentist appointments 's topic field with my basketball games
+(set (field (relation topic) (event dentist appointment)) (event basketball game))
+
+the topic field of all my talks
+(field (relation topic) (event talk))
+
+the organizers field of all board meetings instances
+(field (relation organizer) (event board meeting))
+
+the organizers field of all my lectures
+(field (relation organizer) (event lecture))
+
+end time of dentist appointments
+(field (relation end) (event dentist appointment))
+
+all my lectures instances 's attendants field
+(field (relation attendant) (event lecture))
+
+the organizers of my board meetings
+(field (relation organizer) (event board meeting))
+
+organizers field of my dentist appointments instances
+(field (relation organizer) (event dentist appointment))
+
+set start time field of all talks instances to talks
+(set (field (relation start) (event talk)) (event talk))
+
+end time of all talks
+(field (relation end) (event talk))
+
+organizers of my dentist appointments instances
+(field (relation organizer) (event dentist appointment))
+
+start time field of board meetings instances
+(field (relation start) (event board meeting))
+
+my parties instances 's end time field
+(field (relation end) (event party))
+
+set topic of that event to all my basketball games
+(set (field (relation topic) (event reference)) (event basketball game))
+
+dentist appointments instances 's organizers field
+(field (relation organizer) (event dentist appointment))
+
+all my parties 's topic
+(field (relation topic) (event party))
+
+the start time of that event
+(field (relation start) (event reference))
+
+the organizers field of that event
+(field (relation organizer) (event reference))
+
+set the start time field of my dentist appointments as dentist appointments instances
+(set (field (relation start) (event dentist appointment)) (event dentist appointment))
+
+topic of my receptions instances
+(field (relation topic) (event reception))
+
+all my lectures 's attendants
+(field (relation attendant) (event lecture))
+

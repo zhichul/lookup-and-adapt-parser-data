@@ -1,0 +1,2187 @@
+set bikes 's operators field as all trains instances
+(set (field (relation operator) (vehicle bike)) (vehicle train))
+
+trains 's passengers field
+(field (relation passenger) (vehicle train))
+
+set all ships instances 's source field as cars instances
+(set (field (relation source) (vehicle ship)) (vehicle car))
+
+set all ships instances 's passengers field with all bikes
+(set (field (relation passenger) (vehicle ship)) (vehicle bike))
+
+the operators of buses
+(field (relation operator) (vehicle bus))
+
+all subways instances 's destination field
+(field (relation destination) (vehicle subway))
+
+set the speed field of all subways as subways
+(set (field (relation speed) (vehicle subway)) (vehicle subway))
+
+set the speed field of buses to all subways
+(set (field (relation speed) (vehicle bus)) (vehicle subway))
+
+set operators of all subways as buses instances
+(set (field (relation operator) (vehicle subway)) (vehicle bus))
+
+set all bikes 's passengers field as subways
+(set (field (relation passenger) (vehicle bike)) (vehicle subway))
+
+set bikes 's source with speed of all bikes
+(set (field (relation source) (vehicle bike)) (field (relation speed) (vehicle bike)))
+
+set the source of cars instances with speed of buses instances
+(set (field (relation source) (vehicle car)) (field (relation speed) (vehicle bus)))
+
+bikes 's destination field
+(field (relation destination) (vehicle bike))
+
+set all trains instances 's source as all trucks 's operators field
+(set (field (relation source) (vehicle train)) (field (relation operator) (vehicle truck)))
+
+speed field of bikes
+(field (relation speed) (vehicle bike))
+
+set all trains 's passengers field to operators field of all subways instances
+(set (field (relation passenger) (vehicle train)) (field (relation operator) (vehicle subway)))
+
+set all bikes instances 's source with buses
+(set (field (relation source) (vehicle bike)) (vehicle bus))
+
+all bikes 's speed field
+(field (relation speed) (vehicle bike))
+
+set ships 's operators with trucks
+(set (field (relation operator) (vehicle ship)) (vehicle truck))
+
+set all trucks 's passengers field as all trains instances
+(set (field (relation passenger) (vehicle truck)) (vehicle train))
+
+subways instances 's source
+(field (relation source) (vehicle subway))
+
+speed of subways
+(field (relation speed) (vehicle subway))
+
+all bikes 's operators field
+(field (relation operator) (vehicle bike))
+
+passengers of all subways instances
+(field (relation passenger) (vehicle subway))
+
+set source field of all trains to operators field of ships instances
+(set (field (relation source) (vehicle train)) (field (relation operator) (vehicle ship)))
+
+set speed field of trains as trains
+(set (field (relation speed) (vehicle train)) (vehicle train))
+
+set the operators field of all ships instances to all subways instances
+(set (field (relation operator) (vehicle ship)) (vehicle subway))
+
+operators of buses
+(field (relation operator) (vehicle bus))
+
+destination of all buses
+(field (relation destination) (vehicle bus))
+
+set passengers field of all bikes with all buses
+(set (field (relation passenger) (vehicle bike)) (vehicle bus))
+
+set ships 's operators as the destination field of cars instances
+(set (field (relation operator) (vehicle ship)) (field (relation destination) (vehicle car)))
+
+trains instances 's operators
+(field (relation operator) (vehicle train))
+
+set all trucks instances 's passengers field with all buses 's destination field
+(set (field (relation passenger) (vehicle truck)) (field (relation destination) (vehicle bus)))
+
+destination of buses
+(field (relation destination) (vehicle bus))
+
+set the source of all trucks instances to cars
+(set (field (relation source) (vehicle truck)) (vehicle car))
+
+set the source field of all subways instances to subways
+(set (field (relation source) (vehicle subway)) (vehicle subway))
+
+the source field of all buses
+(field (relation source) (vehicle bus))
+
+speed of all trucks instances
+(field (relation speed) (vehicle truck))
+
+set the destination of ships instances with all ships
+(set (field (relation destination) (vehicle ship)) (vehicle ship))
+
+set all trucks 's speed as all cars instances
+(set (field (relation speed) (vehicle truck)) (vehicle car))
+
+cars 's operators
+(field (relation operator) (vehicle car))
+
+set all ships instances 's operators to all trucks 's operators
+(set (field (relation operator) (vehicle ship)) (field (relation operator) (vehicle truck)))
+
+set trucks 's operators with all ships instances
+(set (field (relation operator) (vehicle truck)) (vehicle ship))
+
+set all ships instances 's source field to subways
+(set (field (relation source) (vehicle ship)) (vehicle subway))
+
+trucks 's speed
+(field (relation speed) (vehicle truck))
+
+set cars instances 's source to cars
+(set (field (relation source) (vehicle car)) (vehicle car))
+
+set passengers of subways instances as buses
+(set (field (relation passenger) (vehicle subway)) (vehicle bus))
+
+set all bikes 's speed as the speed field of all subways instances
+(set (field (relation speed) (vehicle bike)) (field (relation speed) (vehicle subway)))
+
+set the speed of all cars with all ships
+(set (field (relation speed) (vehicle car)) (vehicle ship))
+
+set all cars 's operators field as trains
+(set (field (relation operator) (vehicle car)) (vehicle train))
+
+set trains 's operators field with subways
+(set (field (relation operator) (vehicle train)) (vehicle subway))
+
+set the operators field of buses instances to all ships
+(set (field (relation operator) (vehicle bus)) (vehicle ship))
+
+buses instances 's destination field
+(field (relation destination) (vehicle bus))
+
+set ships 's passengers with cars instances 's speed field
+(set (field (relation passenger) (vehicle ship)) (field (relation speed) (vehicle car)))
+
+set operators of bikes with trains
+(set (field (relation operator) (vehicle bike)) (vehicle train))
+
+set operators field of bikes instances as buses
+(set (field (relation operator) (vehicle bike)) (vehicle bus))
+
+set ships 's speed with trains
+(set (field (relation speed) (vehicle ship)) (vehicle train))
+
+the operators of all bikes instances
+(field (relation operator) (vehicle bike))
+
+set trains instances 's passengers field as ships instances
+(set (field (relation passenger) (vehicle train)) (vehicle ship))
+
+set the destination field of cars instances to operators of subways
+(set (field (relation destination) (vehicle car)) (field (relation operator) (vehicle subway)))
+
+the operators field of trucks
+(field (relation operator) (vehicle truck))
+
+all cars 's operators field
+(field (relation operator) (vehicle car))
+
+all ships 's source field
+(field (relation source) (vehicle ship))
+
+cars 's speed field
+(field (relation speed) (vehicle car))
+
+set the speed field of buses instances to all subways instances 's source
+(set (field (relation speed) (vehicle bus)) (field (relation source) (vehicle subway)))
+
+set the passengers field of trucks instances as operators of buses instances
+(set (field (relation passenger) (vehicle truck)) (field (relation operator) (vehicle bus)))
+
+set operators field of all subways instances with all bikes
+(set (field (relation operator) (vehicle subway)) (vehicle bike))
+
+set destination field of buses instances as trains
+(set (field (relation destination) (vehicle bus)) (vehicle train))
+
+set all trucks instances 's destination with bikes
+(set (field (relation destination) (vehicle truck)) (vehicle bike))
+
+set all trucks 's speed field as cars instances
+(set (field (relation speed) (vehicle truck)) (vehicle car))
+
+set trucks 's operators field as buses
+(set (field (relation operator) (vehicle truck)) (vehicle bus))
+
+set trucks instances 's speed field as passengers of ships instances
+(set (field (relation speed) (vehicle truck)) (field (relation passenger) (vehicle ship)))
+
+all ships 's operators
+(field (relation operator) (vehicle ship))
+
+set trucks 's speed field with cars
+(set (field (relation speed) (vehicle truck)) (vehicle car))
+
+set passengers field of trucks instances as buses
+(set (field (relation passenger) (vehicle truck)) (vehicle bus))
+
+set all trains instances 's passengers field as all trains
+(set (field (relation passenger) (vehicle train)) (vehicle train))
+
+set trains instances 's destination field with all ships instances
+(set (field (relation destination) (vehicle train)) (vehicle ship))
+
+set speed field of all trucks with trains
+(set (field (relation speed) (vehicle truck)) (vehicle train))
+
+set cars instances 's source to buses
+(set (field (relation source) (vehicle car)) (vehicle bus))
+
+operators of all trucks
+(field (relation operator) (vehicle truck))
+
+set the source field of all ships as all cars
+(set (field (relation source) (vehicle ship)) (vehicle car))
+
+set speed of trucks instances as ships instances 's destination field
+(set (field (relation speed) (vehicle truck)) (field (relation destination) (vehicle ship)))
+
+set speed field of subways to all cars instances 's passengers
+(set (field (relation speed) (vehicle subway)) (field (relation passenger) (vehicle car)))
+
+set all trains 's destination as all cars
+(set (field (relation destination) (vehicle train)) (vehicle car))
+
+all bikes instances 's speed
+(field (relation speed) (vehicle bike))
+
+set trucks 's source field with bikes
+(set (field (relation source) (vehicle truck)) (vehicle bike))
+
+all buses 's speed
+(field (relation speed) (vehicle bus))
+
+set source of buses as cars
+(set (field (relation source) (vehicle bus)) (vehicle car))
+
+set all buses 's operators to trains instances
+(set (field (relation operator) (vehicle bus)) (vehicle train))
+
+all bikes instances 's destination field
+(field (relation destination) (vehicle bike))
+
+set the operators field of bikes with destination field of all ships instances
+(set (field (relation operator) (vehicle bike)) (field (relation destination) (vehicle ship)))
+
+set the source field of bikes to cars
+(set (field (relation source) (vehicle bike)) (vehicle car))
+
+set source field of all subways instances with the passengers of all buses instances
+(set (field (relation source) (vehicle subway)) (field (relation passenger) (vehicle bus)))
+
+trains instances 's speed field
+(field (relation speed) (vehicle train))
+
+set the passengers field of all trains as operators of bikes
+(set (field (relation passenger) (vehicle train)) (field (relation operator) (vehicle bike)))
+
+trucks 's passengers field
+(field (relation passenger) (vehicle truck))
+
+all ships 's speed field
+(field (relation speed) (vehicle ship))
+
+cars 's source field
+(field (relation source) (vehicle car))
+
+set all trucks instances 's speed with all bikes instances 's speed
+(set (field (relation speed) (vehicle truck)) (field (relation speed) (vehicle bike)))
+
+set passengers of ships with buses
+(set (field (relation passenger) (vehicle ship)) (vehicle bus))
+
+set destination field of trains with ships instances 's destination field
+(set (field (relation destination) (vehicle train)) (field (relation destination) (vehicle ship)))
+
+the destination field of bikes
+(field (relation destination) (vehicle bike))
+
+set the speed field of all cars to all bikes
+(set (field (relation speed) (vehicle car)) (vehicle bike))
+
+set all trains 's speed to all trains
+(set (field (relation speed) (vehicle train)) (vehicle train))
+
+set bikes instances 's speed field as trains
+(set (field (relation speed) (vehicle bike)) (vehicle train))
+
+set operators of ships with subways
+(set (field (relation operator) (vehicle ship)) (vehicle subway))
+
+set all subways instances 's operators field as ships
+(set (field (relation operator) (vehicle subway)) (vehicle ship))
+
+set all trains instances 's operators to all buses instances 's speed
+(set (field (relation operator) (vehicle train)) (field (relation speed) (vehicle bus)))
+
+destination field of all ships instances
+(field (relation destination) (vehicle ship))
+
+the operators of all cars
+(field (relation operator) (vehicle car))
+
+set the passengers of trains instances with trucks
+(set (field (relation passenger) (vehicle train)) (vehicle truck))
+
+set the destination of all trucks to trucks
+(set (field (relation destination) (vehicle truck)) (vehicle truck))
+
+set trucks instances 's source with bikes
+(set (field (relation source) (vehicle truck)) (vehicle bike))
+
+destination field of buses
+(field (relation destination) (vehicle bus))
+
+set subways instances 's operators as buses
+(set (field (relation operator) (vehicle subway)) (vehicle bus))
+
+set bikes 's passengers to speed field of all bikes instances
+(set (field (relation passenger) (vehicle bike)) (field (relation speed) (vehicle bike)))
+
+set destination field of all subways to operators of all bikes
+(set (field (relation destination) (vehicle subway)) (field (relation operator) (vehicle bike)))
+
+ships 's operators field
+(field (relation operator) (vehicle ship))
+
+the speed of bikes instances
+(field (relation speed) (vehicle bike))
+
+set destination of all buses as bikes
+(set (field (relation destination) (vehicle bus)) (vehicle bike))
+
+set passengers of all ships instances as ships 's operators field
+(set (field (relation passenger) (vehicle ship)) (field (relation operator) (vehicle ship)))
+
+trucks instances 's speed field
+(field (relation speed) (vehicle truck))
+
+all buses 's passengers
+(field (relation passenger) (vehicle bus))
+
+set source of all subways instances to all cars instances
+(set (field (relation source) (vehicle subway)) (vehicle car))
+
+set all trucks instances 's speed field as cars
+(set (field (relation speed) (vehicle truck)) (vehicle car))
+
+set all buses instances 's operators field with the passengers of all trains
+(set (field (relation operator) (vehicle bus)) (field (relation passenger) (vehicle train)))
+
+set destination field of cars instances to all buses
+(set (field (relation destination) (vehicle car)) (vehicle bus))
+
+set all buses instances 's operators field as all subways instances
+(set (field (relation operator) (vehicle bus)) (vehicle subway))
+
+set cars 's destination to source field of all subways
+(set (field (relation destination) (vehicle car)) (field (relation source) (vehicle subway)))
+
+all trucks 's passengers
+(field (relation passenger) (vehicle truck))
+
+set the speed field of all buses instances with buses
+(set (field (relation speed) (vehicle bus)) (vehicle bus))
+
+passengers of buses instances
+(field (relation passenger) (vehicle bus))
+
+the operators of cars
+(field (relation operator) (vehicle car))
+
+set the passengers field of all trains with buses
+(set (field (relation passenger) (vehicle train)) (vehicle bus))
+
+the passengers of trucks instances
+(field (relation passenger) (vehicle truck))
+
+set source of subways instances with cars 's speed field
+(set (field (relation source) (vehicle subway)) (field (relation speed) (vehicle car)))
+
+set source of all trucks with trains instances
+(set (field (relation source) (vehicle truck)) (vehicle train))
+
+set the source of ships to subways
+(set (field (relation source) (vehicle ship)) (vehicle subway))
+
+the operators of all bikes
+(field (relation operator) (vehicle bike))
+
+set trains instances 's speed field with all bikes instances
+(set (field (relation speed) (vehicle train)) (vehicle bike))
+
+set the operators of all bikes with trucks
+(set (field (relation operator) (vehicle bike)) (vehicle truck))
+
+all trains 's operators field
+(field (relation operator) (vehicle train))
+
+set the speed field of buses as the source of all subways instances
+(set (field (relation speed) (vehicle bus)) (field (relation source) (vehicle subway)))
+
+set the speed of all bikes instances as subways
+(set (field (relation speed) (vehicle bike)) (vehicle subway))
+
+set operators field of all buses as source field of trains
+(set (field (relation operator) (vehicle bus)) (field (relation source) (vehicle train)))
+
+speed of ships
+(field (relation speed) (vehicle ship))
+
+set trains instances 's destination field with buses
+(set (field (relation destination) (vehicle train)) (vehicle bus))
+
+set the operators field of all buses to buses
+(set (field (relation operator) (vehicle bus)) (vehicle bus))
+
+set all trucks instances 's speed field with subways
+(set (field (relation speed) (vehicle truck)) (vehicle subway))
+
+the operators field of ships
+(field (relation operator) (vehicle ship))
+
+subways instances 's operators field
+(field (relation operator) (vehicle subway))
+
+all trucks 's source field
+(field (relation source) (vehicle truck))
+
+set the operators field of trains to cars
+(set (field (relation operator) (vehicle train)) (vehicle car))
+
+set destination of subways as ships
+(set (field (relation destination) (vehicle subway)) (vehicle ship))
+
+set the speed field of cars as trucks
+(set (field (relation speed) (vehicle car)) (vehicle truck))
+
+all bikes 's source field
+(field (relation source) (vehicle bike))
+
+set the source field of all trains instances to cars
+(set (field (relation source) (vehicle train)) (vehicle car))
+
+set all subways instances 's speed field with subways
+(set (field (relation speed) (vehicle subway)) (vehicle subway))
+
+set cars 's destination with cars
+(set (field (relation destination) (vehicle car)) (vehicle car))
+
+trains instances 's passengers field
+(field (relation passenger) (vehicle train))
+
+set all subways instances 's passengers to buses
+(set (field (relation passenger) (vehicle subway)) (vehicle bus))
+
+set passengers field of buses as all trucks instances 's source
+(set (field (relation passenger) (vehicle bus)) (field (relation source) (vehicle truck)))
+
+set source of ships to all cars instances
+(set (field (relation source) (vehicle ship)) (vehicle car))
+
+the operators of subways instances
+(field (relation operator) (vehicle subway))
+
+trains instances 's destination field
+(field (relation destination) (vehicle train))
+
+set all cars instances 's destination field to ships
+(set (field (relation destination) (vehicle car)) (vehicle ship))
+
+set the operators field of all buses with trucks
+(set (field (relation operator) (vehicle bus)) (vehicle truck))
+
+set the destination of all bikes with ships
+(set (field (relation destination) (vehicle bike)) (vehicle ship))
+
+buses 's speed field
+(field (relation speed) (vehicle bus))
+
+set all trains 's passengers field with destination of ships
+(set (field (relation passenger) (vehicle train)) (field (relation destination) (vehicle ship)))
+
+set all trains 's speed field with trains
+(set (field (relation speed) (vehicle train)) (vehicle train))
+
+all ships 's passengers
+(field (relation passenger) (vehicle ship))
+
+set the speed of subways instances with bikes
+(set (field (relation speed) (vehicle subway)) (vehicle bike))
+
+set trucks instances 's passengers as subways
+(set (field (relation passenger) (vehicle truck)) (vehicle subway))
+
+set operators field of ships with destination field of all trucks
+(set (field (relation operator) (vehicle ship)) (field (relation destination) (vehicle truck)))
+
+set bikes 's passengers as trains instances 's passengers field
+(set (field (relation passenger) (vehicle bike)) (field (relation passenger) (vehicle train)))
+
+set buses 's speed with the source of all subways
+(set (field (relation speed) (vehicle bus)) (field (relation source) (vehicle subway)))
+
+all cars instances 's operators
+(field (relation operator) (vehicle car))
+
+set ships instances 's destination field to all cars 's source field
+(set (field (relation destination) (vehicle ship)) (field (relation source) (vehicle car)))
+
+set bikes 's source as the speed field of trucks instances
+(set (field (relation source) (vehicle bike)) (field (relation speed) (vehicle truck)))
+
+set all buses 's passengers field as all buses instances
+(set (field (relation passenger) (vehicle bus)) (vehicle bus))
+
+set all subways instances 's passengers field with all trains instances
+(set (field (relation passenger) (vehicle subway)) (vehicle train))
+
+set destination field of cars instances with trucks instances
+(set (field (relation destination) (vehicle car)) (vehicle truck))
+
+set the speed of trucks as buses
+(set (field (relation speed) (vehicle truck)) (vehicle bus))
+
+bikes 's speed field
+(field (relation speed) (vehicle bike))
+
+set all bikes instances 's destination field as operators of trucks
+(set (field (relation destination) (vehicle bike)) (field (relation operator) (vehicle truck)))
+
+the operators field of all subways instances
+(field (relation operator) (vehicle subway))
+
+set the operators field of all subways as cars
+(set (field (relation operator) (vehicle subway)) (vehicle car))
+
+set bikes instances 's speed field to cars
+(set (field (relation speed) (vehicle bike)) (vehicle car))
+
+the destination field of cars instances
+(field (relation destination) (vehicle car))
+
+set all ships instances 's destination as all trains instances
+(set (field (relation destination) (vehicle ship)) (vehicle train))
+
+set speed of trains to cars
+(set (field (relation speed) (vehicle train)) (vehicle car))
+
+set destination field of all trucks instances to all trains 's destination
+(set (field (relation destination) (vehicle truck)) (field (relation destination) (vehicle train)))
+
+set the speed of cars instances with source of subways instances
+(set (field (relation speed) (vehicle car)) (field (relation source) (vehicle subway)))
+
+set all cars instances 's speed field with all ships
+(set (field (relation speed) (vehicle car)) (vehicle ship))
+
+set the source of trains with cars
+(set (field (relation source) (vehicle train)) (vehicle car))
+
+set trains 's source field with cars instances 's source
+(set (field (relation source) (vehicle train)) (field (relation source) (vehicle car)))
+
+set all bikes 's source field with cars 's source
+(set (field (relation source) (vehicle bike)) (field (relation source) (vehicle car)))
+
+all trains 's destination field
+(field (relation destination) (vehicle train))
+
+source of all ships instances
+(field (relation source) (vehicle ship))
+
+source of trucks
+(field (relation source) (vehicle truck))
+
+set the passengers field of all trains to subways
+(set (field (relation passenger) (vehicle train)) (vehicle subway))
+
+set bikes 's destination to ships
+(set (field (relation destination) (vehicle bike)) (vehicle ship))
+
+set trains instances 's source with trucks instances 's speed
+(set (field (relation source) (vehicle train)) (field (relation speed) (vehicle truck)))
+
+passengers of all buses instances
+(field (relation passenger) (vehicle bus))
+
+set bikes 's passengers field with trains
+(set (field (relation passenger) (vehicle bike)) (vehicle train))
+
+all cars 's passengers field
+(field (relation passenger) (vehicle car))
+
+the source of bikes
+(field (relation source) (vehicle bike))
+
+set all subways 's speed with source field of subways
+(set (field (relation speed) (vehicle subway)) (field (relation source) (vehicle subway)))
+
+set all trains 's passengers field with all subways
+(set (field (relation passenger) (vehicle train)) (vehicle subway))
+
+set operators of subways as speed field of all trains
+(set (field (relation operator) (vehicle subway)) (field (relation speed) (vehicle train)))
+
+set the source of buses with ships
+(set (field (relation source) (vehicle bus)) (vehicle ship))
+
+the source of trains
+(field (relation source) (vehicle train))
+
+all cars 's source field
+(field (relation source) (vehicle car))
+
+the source field of bikes instances
+(field (relation source) (vehicle bike))
+
+set all subways instances 's speed field as trucks 's speed
+(set (field (relation speed) (vehicle subway)) (field (relation speed) (vehicle truck)))
+
+set the source field of cars instances as ships
+(set (field (relation source) (vehicle car)) (vehicle ship))
+
+set the operators field of subways with operators of all buses instances
+(set (field (relation operator) (vehicle subway)) (field (relation operator) (vehicle bus)))
+
+destination of cars
+(field (relation destination) (vehicle car))
+
+set the speed field of all ships with all bikes instances
+(set (field (relation speed) (vehicle ship)) (vehicle bike))
+
+set the operators field of all buses instances to subways
+(set (field (relation operator) (vehicle bus)) (vehicle subway))
+
+set the source field of all buses instances as trucks
+(set (field (relation source) (vehicle bus)) (vehicle truck))
+
+set operators of all trucks instances as subways
+(set (field (relation operator) (vehicle truck)) (vehicle subway))
+
+set all ships 's passengers to all bikes
+(set (field (relation passenger) (vehicle ship)) (vehicle bike))
+
+set the speed of cars as cars
+(set (field (relation speed) (vehicle car)) (vehicle car))
+
+passengers field of all trucks instances
+(field (relation passenger) (vehicle truck))
+
+set all trucks 's source field with trucks
+(set (field (relation source) (vehicle truck)) (vehicle truck))
+
+set the operators field of all trucks as all ships
+(set (field (relation operator) (vehicle truck)) (vehicle ship))
+
+set the destination field of trucks instances to trucks
+(set (field (relation destination) (vehicle truck)) (vehicle truck))
+
+set passengers field of all cars to trucks
+(set (field (relation passenger) (vehicle car)) (vehicle truck))
+
+set speed field of all buses instances with all trains instances
+(set (field (relation speed) (vehicle bus)) (vehicle train))
+
+set all buses instances 's destination field with subways
+(set (field (relation destination) (vehicle bus)) (vehicle subway))
+
+set speed field of buses as all subways
+(set (field (relation speed) (vehicle bus)) (vehicle subway))
+
+set destination of all bikes instances to trucks instances
+(set (field (relation destination) (vehicle bike)) (vehicle truck))
+
+set the speed field of ships instances to trains 's source
+(set (field (relation speed) (vehicle ship)) (field (relation source) (vehicle train)))
+
+set bikes instances 's destination as cars
+(set (field (relation destination) (vehicle bike)) (vehicle car))
+
+the speed of trucks instances
+(field (relation speed) (vehicle truck))
+
+set the source of all buses instances to trucks
+(set (field (relation source) (vehicle bus)) (vehicle truck))
+
+set passengers field of trucks instances to cars
+(set (field (relation passenger) (vehicle truck)) (vehicle car))
+
+set all trucks 's passengers field as ships 's source
+(set (field (relation passenger) (vehicle truck)) (field (relation source) (vehicle ship)))
+
+destination of all subways
+(field (relation destination) (vehicle subway))
+
+set all trains 's operators as all trucks 's passengers field
+(set (field (relation operator) (vehicle train)) (field (relation passenger) (vehicle truck)))
+
+set trains instances 's operators to source of trucks instances
+(set (field (relation operator) (vehicle train)) (field (relation source) (vehicle truck)))
+
+set the source of trucks instances to the speed field of all subways
+(set (field (relation source) (vehicle truck)) (field (relation speed) (vehicle subway)))
+
+set subways instances 's destination field as trucks
+(set (field (relation destination) (vehicle subway)) (vehicle truck))
+
+destination field of all bikes instances
+(field (relation destination) (vehicle bike))
+
+ships 's passengers field
+(field (relation passenger) (vehicle ship))
+
+set all trucks instances 's speed as trucks
+(set (field (relation speed) (vehicle truck)) (vehicle truck))
+
+the passengers field of all subways
+(field (relation passenger) (vehicle subway))
+
+operators field of ships instances
+(field (relation operator) (vehicle ship))
+
+set the operators of trains instances as trucks instances
+(set (field (relation operator) (vehicle train)) (vehicle truck))
+
+all trains 's destination
+(field (relation destination) (vehicle train))
+
+bikes instances 's operators
+(field (relation operator) (vehicle bike))
+
+trucks 's passengers
+(field (relation passenger) (vehicle truck))
+
+all bikes instances 's passengers field
+(field (relation passenger) (vehicle bike))
+
+set bikes 's operators field to all buses
+(set (field (relation operator) (vehicle bike)) (vehicle bus))
+
+set the passengers field of trains instances with all buses instances
+(set (field (relation passenger) (vehicle train)) (vehicle bus))
+
+set the source of all cars instances to cars instances
+(set (field (relation source) (vehicle car)) (vehicle car))
+
+source of all ships
+(field (relation source) (vehicle ship))
+
+set buses instances 's source field to bikes instances
+(set (field (relation source) (vehicle bus)) (vehicle bike))
+
+set the operators of all bikes to the destination field of all subways instances
+(set (field (relation operator) (vehicle bike)) (field (relation destination) (vehicle subway)))
+
+speed of buses
+(field (relation speed) (vehicle bus))
+
+set the destination field of all ships instances to operators of subways instances
+(set (field (relation destination) (vehicle ship)) (field (relation operator) (vehicle subway)))
+
+set the destination field of all trucks with buses instances
+(set (field (relation destination) (vehicle truck)) (vehicle bus))
+
+speed of cars instances
+(field (relation speed) (vehicle car))
+
+set buses 's passengers field to trains instances
+(set (field (relation passenger) (vehicle bus)) (vehicle train))
+
+destination field of all trucks instances
+(field (relation destination) (vehicle truck))
+
+set all ships instances 's passengers as the destination of trucks
+(set (field (relation passenger) (vehicle ship)) (field (relation destination) (vehicle truck)))
+
+set destination of all subways as all trucks
+(set (field (relation destination) (vehicle subway)) (vehicle truck))
+
+the speed of ships instances
+(field (relation speed) (vehicle ship))
+
+the speed field of all bikes instances
+(field (relation speed) (vehicle bike))
+
+buses instances 's passengers field
+(field (relation passenger) (vehicle bus))
+
+set all subways 's speed with all buses
+(set (field (relation speed) (vehicle subway)) (vehicle bus))
+
+set the source field of all cars instances to trucks
+(set (field (relation source) (vehicle car)) (vehicle truck))
+
+set the source field of all cars instances to ships instances
+(set (field (relation source) (vehicle car)) (vehicle ship))
+
+set the destination field of bikes instances with trains
+(set (field (relation destination) (vehicle bike)) (vehicle train))
+
+set cars instances 's speed field with cars
+(set (field (relation speed) (vehicle car)) (vehicle car))
+
+all subways 's operators
+(field (relation operator) (vehicle subway))
+
+set the operators of all trains instances to trains instances
+(set (field (relation operator) (vehicle train)) (vehicle train))
+
+operators of trucks
+(field (relation operator) (vehicle truck))
+
+set buses 's source as ships instances
+(set (field (relation source) (vehicle bus)) (vehicle ship))
+
+all cars 's passengers
+(field (relation passenger) (vehicle car))
+
+set all trucks 's destination to subways
+(set (field (relation destination) (vehicle truck)) (vehicle subway))
+
+the passengers of all trains instances
+(field (relation passenger) (vehicle train))
+
+the operators of all subways instances
+(field (relation operator) (vehicle subway))
+
+the destination of ships instances
+(field (relation destination) (vehicle ship))
+
+set all buses 's speed field as all buses instances 's destination
+(set (field (relation speed) (vehicle bus)) (field (relation destination) (vehicle bus)))
+
+set the operators field of bikes as trains instances
+(set (field (relation operator) (vehicle bike)) (vehicle train))
+
+set speed of all subways instances as buses
+(set (field (relation speed) (vehicle subway)) (vehicle bus))
+
+subways 's passengers
+(field (relation passenger) (vehicle subway))
+
+source of all trains instances
+(field (relation source) (vehicle train))
+
+the speed field of bikes instances
+(field (relation speed) (vehicle bike))
+
+the speed of all cars instances
+(field (relation speed) (vehicle car))
+
+set all ships instances 's source as trucks instances
+(set (field (relation source) (vehicle ship)) (vehicle truck))
+
+set trucks instances 's destination field to all ships instances 's operators field
+(set (field (relation destination) (vehicle truck)) (field (relation operator) (vehicle ship)))
+
+set operators field of trucks as subways
+(set (field (relation operator) (vehicle truck)) (vehicle subway))
+
+set all trains instances 's speed field as the speed of all buses
+(set (field (relation speed) (vehicle train)) (field (relation speed) (vehicle bus)))
+
+set bikes 's destination field with buses instances
+(set (field (relation destination) (vehicle bike)) (vehicle bus))
+
+set all buses 's speed to ships
+(set (field (relation speed) (vehicle bus)) (vehicle ship))
+
+all trucks 's speed
+(field (relation speed) (vehicle truck))
+
+set subways 's operators as ships
+(set (field (relation operator) (vehicle subway)) (vehicle ship))
+
+all buses instances 's operators field
+(field (relation operator) (vehicle bus))
+
+set all cars 's passengers field with subways
+(set (field (relation passenger) (vehicle car)) (vehicle subway))
+
+all trains instances 's destination field
+(field (relation destination) (vehicle train))
+
+set subways 's operators field to all trucks instances 's source field
+(set (field (relation operator) (vehicle subway)) (field (relation source) (vehicle truck)))
+
+set destination field of all ships to ships
+(set (field (relation destination) (vehicle ship)) (vehicle ship))
+
+set the passengers of ships instances to destination field of all subways instances
+(set (field (relation passenger) (vehicle ship)) (field (relation destination) (vehicle subway)))
+
+set speed of all buses as trains
+(set (field (relation speed) (vehicle bus)) (vehicle train))
+
+set trucks 's source field with all cars
+(set (field (relation source) (vehicle truck)) (vehicle car))
+
+all ships instances 's speed field
+(field (relation speed) (vehicle ship))
+
+set speed of all buses with trucks instances 's speed
+(set (field (relation speed) (vehicle bus)) (field (relation speed) (vehicle truck)))
+
+speed field of trucks
+(field (relation speed) (vehicle truck))
+
+the source of all ships
+(field (relation source) (vehicle ship))
+
+set source field of all buses instances with the speed field of trains instances
+(set (field (relation source) (vehicle bus)) (field (relation speed) (vehicle train)))
+
+set operators of subways instances as subways
+(set (field (relation operator) (vehicle subway)) (vehicle subway))
+
+operators of trains
+(field (relation operator) (vehicle train))
+
+speed field of ships
+(field (relation speed) (vehicle ship))
+
+set source field of subways instances as trains
+(set (field (relation source) (vehicle subway)) (vehicle train))
+
+set all cars 's operators field as bikes
+(set (field (relation operator) (vehicle car)) (vehicle bike))
+
+set speed field of all bikes as subways 's source
+(set (field (relation speed) (vehicle bike)) (field (relation source) (vehicle subway)))
+
+set the destination of trucks as ships
+(set (field (relation destination) (vehicle truck)) (vehicle ship))
+
+trains 's operators field
+(field (relation operator) (vehicle train))
+
+set subways instances 's destination field as all bikes 's source
+(set (field (relation destination) (vehicle subway)) (field (relation source) (vehicle bike)))
+
+set all subways 's destination to subways
+(set (field (relation destination) (vehicle subway)) (vehicle subway))
+
+set all ships 's operators field with buses
+(set (field (relation operator) (vehicle ship)) (vehicle bus))
+
+set ships instances 's source as buses instances 's speed field
+(set (field (relation source) (vehicle ship)) (field (relation speed) (vehicle bus)))
+
+set all bikes instances 's speed field with all buses instances
+(set (field (relation speed) (vehicle bike)) (vehicle bus))
+
+set speed field of all subways as buses
+(set (field (relation speed) (vehicle subway)) (vehicle bus))
+
+all trucks instances 's passengers
+(field (relation passenger) (vehicle truck))
+
+set destination of all trains to all bikes
+(set (field (relation destination) (vehicle train)) (vehicle bike))
+
+all trains 's speed
+(field (relation speed) (vehicle train))
+
+set the source of ships as trucks instances
+(set (field (relation source) (vehicle ship)) (vehicle truck))
+
+set all bikes 's operators with buses instances
+(set (field (relation operator) (vehicle bike)) (vehicle bus))
+
+set the passengers field of trucks instances to trains
+(set (field (relation passenger) (vehicle truck)) (vehicle train))
+
+buses 's operators
+(field (relation operator) (vehicle bus))
+
+set all ships 's speed as subways
+(set (field (relation speed) (vehicle ship)) (vehicle subway))
+
+set cars 's destination field to cars 's speed
+(set (field (relation destination) (vehicle car)) (field (relation speed) (vehicle car)))
+
+operators of cars instances
+(field (relation operator) (vehicle car))
+
+set the source field of all cars instances to subways
+(set (field (relation source) (vehicle car)) (vehicle subway))
+
+set all ships 's source as all trains instances
+(set (field (relation source) (vehicle ship)) (vehicle train))
+
+set source field of all cars with ships instances
+(set (field (relation source) (vehicle car)) (vehicle ship))
+
+set passengers of trucks to cars
+(set (field (relation passenger) (vehicle truck)) (vehicle car))
+
+set buses 's destination field with ships
+(set (field (relation destination) (vehicle bus)) (vehicle ship))
+
+destination of ships instances
+(field (relation destination) (vehicle ship))
+
+set all trucks 's speed field to ships
+(set (field (relation speed) (vehicle truck)) (vehicle ship))
+
+set buses instances 's speed with trains
+(set (field (relation speed) (vehicle bus)) (vehicle train))
+
+the speed field of all ships instances
+(field (relation speed) (vehicle ship))
+
+set passengers of trains instances as all subways
+(set (field (relation passenger) (vehicle train)) (vehicle subway))
+
+set operators field of all buses to trains
+(set (field (relation operator) (vehicle bus)) (vehicle train))
+
+set the speed field of trucks instances as cars
+(set (field (relation speed) (vehicle truck)) (vehicle car))
+
+set trucks instances 's operators field with all bikes
+(set (field (relation operator) (vehicle truck)) (vehicle bike))
+
+set all cars instances 's operators field with cars instances
+(set (field (relation operator) (vehicle car)) (vehicle car))
+
+set the source field of all trains instances to ships
+(set (field (relation source) (vehicle train)) (vehicle ship))
+
+set trains instances 's passengers field with ships
+(set (field (relation passenger) (vehicle train)) (vehicle ship))
+
+set passengers field of all bikes instances to trucks 's speed
+(set (field (relation passenger) (vehicle bike)) (field (relation speed) (vehicle truck)))
+
+set destination field of all subways instances to the passengers field of all bikes
+(set (field (relation destination) (vehicle subway)) (field (relation passenger) (vehicle bike)))
+
+set all trucks 's source with the source field of all ships instances
+(set (field (relation source) (vehicle truck)) (field (relation source) (vehicle ship)))
+
+the passengers field of all ships
+(field (relation passenger) (vehicle ship))
+
+set all subways instances 's speed field to trains
+(set (field (relation speed) (vehicle subway)) (vehicle train))
+
+set all buses 's passengers field to operators field of trucks
+(set (field (relation passenger) (vehicle bus)) (field (relation operator) (vehicle truck)))
+
+set the destination field of all bikes instances with all ships
+(set (field (relation destination) (vehicle bike)) (vehicle ship))
+
+set the speed of subways instances with trucks instances
+(set (field (relation speed) (vehicle subway)) (vehicle truck))
+
+set all trains instances 's passengers field with trains
+(set (field (relation passenger) (vehicle train)) (vehicle train))
+
+set all trains 's passengers field as buses
+(set (field (relation passenger) (vehicle train)) (vehicle bus))
+
+set all bikes 's source field with the destination field of all bikes
+(set (field (relation source) (vehicle bike)) (field (relation destination) (vehicle bike)))
+
+set destination of all cars instances with buses
+(set (field (relation destination) (vehicle car)) (vehicle bus))
+
+set destination of all subways instances to cars
+(set (field (relation destination) (vehicle subway)) (vehicle car))
+
+set trains 's operators with subways
+(set (field (relation operator) (vehicle train)) (vehicle subway))
+
+set the speed field of all cars instances to all buses instances 's operators field
+(set (field (relation speed) (vehicle car)) (field (relation operator) (vehicle bus)))
+
+set operators of bikes instances to bikes
+(set (field (relation operator) (vehicle bike)) (vehicle bike))
+
+set all cars 's passengers field with ships
+(set (field (relation passenger) (vehicle car)) (vehicle ship))
+
+set cars 's source to all ships
+(set (field (relation source) (vehicle car)) (vehicle ship))
+
+set cars instances 's operators field with trucks
+(set (field (relation operator) (vehicle car)) (vehicle truck))
+
+set passengers of all trucks to all trains instances 's passengers
+(set (field (relation passenger) (vehicle truck)) (field (relation passenger) (vehicle train)))
+
+set the speed of all trains to subways
+(set (field (relation speed) (vehicle train)) (vehicle subway))
+
+set speed of trains with all bikes 's operators field
+(set (field (relation speed) (vehicle train)) (field (relation operator) (vehicle bike)))
+
+set the operators of all cars instances with all cars 's destination
+(set (field (relation operator) (vehicle car)) (field (relation destination) (vehicle car)))
+
+set the source field of all trucks instances as cars instances
+(set (field (relation source) (vehicle truck)) (vehicle car))
+
+set the operators of all buses as all cars instances
+(set (field (relation operator) (vehicle bus)) (vehicle car))
+
+the destination field of subways
+(field (relation destination) (vehicle subway))
+
+trucks 's destination
+(field (relation destination) (vehicle truck))
+
+all trucks instances 's destination field
+(field (relation destination) (vehicle truck))
+
+set all trucks 's source field as ships instances 's passengers
+(set (field (relation source) (vehicle truck)) (field (relation passenger) (vehicle ship)))
+
+the speed of all ships instances
+(field (relation speed) (vehicle ship))
+
+set source of bikes instances as all cars instances
+(set (field (relation source) (vehicle bike)) (vehicle car))
+
+cars instances 's destination field
+(field (relation destination) (vehicle car))
+
+ships 's source field
+(field (relation source) (vehicle ship))
+
+set all ships 's destination field as trucks
+(set (field (relation destination) (vehicle ship)) (vehicle truck))
+
+all buses instances 's source
+(field (relation source) (vehicle bus))
+
+set subways 's operators with all subways
+(set (field (relation operator) (vehicle subway)) (vehicle subway))
+
+set trucks 's passengers field to trucks
+(set (field (relation passenger) (vehicle truck)) (vehicle truck))
+
+set the destination field of all trains to buses
+(set (field (relation destination) (vehicle train)) (vehicle bus))
+
+set the operators of cars as buses 's source field
+(set (field (relation operator) (vehicle car)) (field (relation source) (vehicle bus)))
+
+set trucks instances 's operators to all ships instances 's speed
+(set (field (relation operator) (vehicle truck)) (field (relation speed) (vehicle ship)))
+
+set destination field of bikes as cars
+(set (field (relation destination) (vehicle bike)) (vehicle car))
+
+set the source of all cars instances to trucks
+(set (field (relation source) (vehicle car)) (vehicle truck))
+
+set all cars 's source field as buses instances
+(set (field (relation source) (vehicle car)) (vehicle bus))
+
+set the passengers of buses instances with trucks
+(set (field (relation passenger) (vehicle bus)) (vehicle truck))
+
+set all ships 's operators as bikes
+(set (field (relation operator) (vehicle ship)) (vehicle bike))
+
+set cars instances 's passengers as all buses
+(set (field (relation passenger) (vehicle car)) (vehicle bus))
+
+set all trains 's speed field to all bikes instances
+(set (field (relation speed) (vehicle train)) (vehicle bike))
+
+set all bikes instances 's source to all trains
+(set (field (relation source) (vehicle bike)) (vehicle train))
+
+set speed of trains instances to all trains
+(set (field (relation speed) (vehicle train)) (vehicle train))
+
+set source of subways instances with all trains instances
+(set (field (relation source) (vehicle subway)) (vehicle train))
+
+set cars instances 's destination to all trains
+(set (field (relation destination) (vehicle car)) (vehicle train))
+
+set subways instances 's destination to trucks
+(set (field (relation destination) (vehicle subway)) (vehicle truck))
+
+set all buses instances 's source field to all trucks instances 's source field
+(set (field (relation source) (vehicle bus)) (field (relation source) (vehicle truck)))
+
+set speed of all cars instances as all cars
+(set (field (relation speed) (vehicle car)) (vehicle car))
+
+the operators of bikes
+(field (relation operator) (vehicle bike))
+
+set cars 's destination field to trucks instances
+(set (field (relation destination) (vehicle car)) (vehicle truck))
+
+set the speed field of cars instances to passengers field of all subways
+(set (field (relation speed) (vehicle car)) (field (relation passenger) (vehicle subway)))
+
+set all subways 's passengers field as all subways
+(set (field (relation passenger) (vehicle subway)) (vehicle subway))
+
+set passengers field of trucks instances with cars
+(set (field (relation passenger) (vehicle truck)) (vehicle car))
+
+destination of all subways instances
+(field (relation destination) (vehicle subway))
+
+set the destination of all cars as ships
+(set (field (relation destination) (vehicle car)) (vehicle ship))
+
+set bikes 's operators to all trains 's passengers
+(set (field (relation operator) (vehicle bike)) (field (relation passenger) (vehicle train)))
+
+the speed of all trains
+(field (relation speed) (vehicle train))
+
+set all bikes instances 's operators with trains
+(set (field (relation operator) (vehicle bike)) (vehicle train))
+
+set passengers field of all buses with operators of bikes instances
+(set (field (relation passenger) (vehicle bus)) (field (relation operator) (vehicle bike)))
+
+set passengers of trains instances to ships
+(set (field (relation passenger) (vehicle train)) (vehicle ship))
+
+set the source of all bikes with trains
+(set (field (relation source) (vehicle bike)) (vehicle train))
+
+set ships instances 's operators field to all subways 's destination
+(set (field (relation operator) (vehicle ship)) (field (relation destination) (vehicle subway)))
+
+set bikes 's operators as passengers of cars
+(set (field (relation operator) (vehicle bike)) (field (relation passenger) (vehicle car)))
+
+passengers of bikes instances
+(field (relation passenger) (vehicle bike))
+
+set the destination of all buses instances to trucks
+(set (field (relation destination) (vehicle bus)) (vehicle truck))
+
+set subways 's source field as trains
+(set (field (relation source) (vehicle subway)) (vehicle train))
+
+set speed field of all buses to buses
+(set (field (relation speed) (vehicle bus)) (vehicle bus))
+
+set the speed of trains to trains
+(set (field (relation speed) (vehicle train)) (vehicle train))
+
+set the operators field of trains instances to buses instances 's source field
+(set (field (relation operator) (vehicle train)) (field (relation source) (vehicle bus)))
+
+set bikes instances 's speed to ships
+(set (field (relation speed) (vehicle bike)) (vehicle ship))
+
+set buses instances 's operators as buses
+(set (field (relation operator) (vehicle bus)) (vehicle bus))
+
+set all cars 's speed field to trucks
+(set (field (relation speed) (vehicle car)) (vehicle truck))
+
+set destination field of all trains instances to all ships instances
+(set (field (relation destination) (vehicle train)) (vehicle ship))
+
+set all subways instances 's destination field with all trucks instances
+(set (field (relation destination) (vehicle subway)) (vehicle truck))
+
+destination of trucks instances
+(field (relation destination) (vehicle truck))
+
+set subways instances 's speed to passengers field of bikes instances
+(set (field (relation speed) (vehicle subway)) (field (relation passenger) (vehicle bike)))
+
+set the speed of buses instances with ships 's passengers
+(set (field (relation speed) (vehicle bus)) (field (relation passenger) (vehicle ship)))
+
+set all buses instances 's destination to passengers field of all buses instances
+(set (field (relation destination) (vehicle bus)) (field (relation passenger) (vehicle bus)))
+
+trucks instances 's passengers field
+(field (relation passenger) (vehicle truck))
+
+set subways 's destination with all trains
+(set (field (relation destination) (vehicle subway)) (vehicle train))
+
+set bikes instances 's operators field to all trains instances
+(set (field (relation operator) (vehicle bike)) (vehicle train))
+
+buses 's operators field
+(field (relation operator) (vehicle bus))
+
+set the speed of all trains with all bikes 's operators field
+(set (field (relation speed) (vehicle train)) (field (relation operator) (vehicle bike)))
+
+set ships instances 's destination with all cars
+(set (field (relation destination) (vehicle ship)) (vehicle car))
+
+the passengers of all trains
+(field (relation passenger) (vehicle train))
+
+set the destination field of bikes to the operators of all trains
+(set (field (relation destination) (vehicle bike)) (field (relation operator) (vehicle train)))
+
+set buses 's destination with speed of trucks instances
+(set (field (relation destination) (vehicle bus)) (field (relation speed) (vehicle truck)))
+
+set the operators of cars to subways
+(set (field (relation operator) (vehicle car)) (vehicle subway))
+
+set all trains instances 's operators field with trucks
+(set (field (relation operator) (vehicle train)) (vehicle truck))
+
+set the speed field of all subways with cars
+(set (field (relation speed) (vehicle subway)) (vehicle car))
+
+the destination field of trains
+(field (relation destination) (vehicle train))
+
+all cars instances 's operators field
+(field (relation operator) (vehicle car))
+
+the destination of all trucks instances
+(field (relation destination) (vehicle truck))
+
+all trains instances 's operators
+(field (relation operator) (vehicle train))
+
+the passengers field of all buses
+(field (relation passenger) (vehicle bus))
+
+the passengers of cars instances
+(field (relation passenger) (vehicle car))
+
+all bikes 's destination
+(field (relation destination) (vehicle bike))
+
+destination field of all ships
+(field (relation destination) (vehicle ship))
+
+the source field of all trains
+(field (relation source) (vehicle train))
+
+the passengers field of all trains instances
+(field (relation passenger) (vehicle train))
+
+the source of all subways
+(field (relation source) (vehicle subway))
+
+all subways instances 's source field
+(field (relation source) (vehicle subway))
+
+the speed of buses instances
+(field (relation speed) (vehicle bus))
+
+all cars 's speed field
+(field (relation speed) (vehicle car))
+
+subways 's destination
+(field (relation destination) (vehicle subway))
+
+passengers field of ships instances
+(field (relation passenger) (vehicle ship))
+
+speed of all ships
+(field (relation speed) (vehicle ship))
+
+passengers field of all bikes
+(field (relation passenger) (vehicle bike))
+
+destination field of trains
+(field (relation destination) (vehicle train))
+
+the speed field of all cars
+(field (relation speed) (vehicle car))
+
+the destination field of bikes instances
+(field (relation destination) (vehicle bike))
+
+ships instances 's source
+(field (relation source) (vehicle ship))
+
+trains 's speed
+(field (relation speed) (vehicle train))
+
+buses instances 's destination
+(field (relation destination) (vehicle bus))
+
+operators field of all ships
+(field (relation operator) (vehicle ship))
+
+all subways instances 's source
+(field (relation source) (vehicle subway))
+
+passengers of all trains instances
+(field (relation passenger) (vehicle train))
+
+the source of all trucks
+(field (relation source) (vehicle truck))
+
+passengers field of subways
+(field (relation passenger) (vehicle subway))
+
+the passengers field of all cars
+(field (relation passenger) (vehicle car))
+
+operators field of all trains instances
+(field (relation operator) (vehicle train))
+
+all buses instances 's speed field
+(field (relation speed) (vehicle bus))
+
+buses instances 's speed field
+(field (relation speed) (vehicle bus))
+
+cars 's destination
+(field (relation destination) (vehicle car))
+
+bikes 's operators
+(field (relation operator) (vehicle bike))
+
+all bikes instances 's operators
+(field (relation operator) (vehicle bike))
+
+the speed field of subways instances
+(field (relation speed) (vehicle subway))
+
+ships 's source
+(field (relation source) (vehicle ship))
+
+subways 's speed
+(field (relation speed) (vehicle subway))
+
+subways 's speed field
+(field (relation speed) (vehicle subway))
+
+all cars instances 's destination field
+(field (relation destination) (vehicle car))
+
+operators field of all subways
+(field (relation operator) (vehicle subway))
+
+all ships 's destination
+(field (relation destination) (vehicle ship))
+
+all bikes 's destination field
+(field (relation destination) (vehicle bike))
+
+trucks 's source field
+(field (relation source) (vehicle truck))
+
+the passengers field of all bikes
+(field (relation passenger) (vehicle bike))
+
+the speed of subways instances
+(field (relation speed) (vehicle subway))
+
+the destination field of subways instances
+(field (relation destination) (vehicle subway))
+
+bikes 's destination
+(field (relation destination) (vehicle bike))
+
+speed of all trucks
+(field (relation speed) (vehicle truck))
+
+trains 's destination
+(field (relation destination) (vehicle train))
+
+all buses instances 's destination
+(field (relation destination) (vehicle bus))
+
+source of buses instances
+(field (relation source) (vehicle bus))
+
+the operators field of all trucks instances
+(field (relation operator) (vehicle truck))
+
+passengers of all ships
+(field (relation passenger) (vehicle ship))
+
+all cars instances 's passengers
+(field (relation passenger) (vehicle car))
+
+source of ships
+(field (relation source) (vehicle ship))
+
+all trains instances 's source field
+(field (relation source) (vehicle train))
+
+bikes 's passengers field
+(field (relation passenger) (vehicle bike))
+
+speed field of ships instances
+(field (relation speed) (vehicle ship))
+
+subways 's source field
+(field (relation source) (vehicle subway))
+
+the destination of all bikes
+(field (relation destination) (vehicle bike))
+
+trucks instances 's destination field
+(field (relation destination) (vehicle truck))
+
+operators of buses instances
+(field (relation operator) (vehicle bus))
+
+the passengers of all bikes instances
+(field (relation passenger) (vehicle bike))
+
+destination of all bikes instances
+(field (relation destination) (vehicle bike))
+
+operators field of all buses
+(field (relation operator) (vehicle bus))
+
+all ships instances 's source field
+(field (relation source) (vehicle ship))
+
+the destination of all bikes instances
+(field (relation destination) (vehicle bike))
+
+passengers of trains
+(field (relation passenger) (vehicle train))
+
+all bikes instances 's operators field
+(field (relation operator) (vehicle bike))
+
+passengers field of trains
+(field (relation passenger) (vehicle train))
+
+the speed field of all bikes
+(field (relation speed) (vehicle bike))
+
+subways instances 's destination
+(field (relation destination) (vehicle subway))
+
+operators field of all ships instances
+(field (relation operator) (vehicle ship))
+
+destination field of ships
+(field (relation destination) (vehicle ship))
+
+ships instances 's destination
+(field (relation destination) (vehicle ship))
+
+buses instances 's source
+(field (relation source) (vehicle bus))
+
+the destination of all trucks
+(field (relation destination) (vehicle truck))
+
+the speed of all buses instances
+(field (relation speed) (vehicle bus))
+
+trucks 's speed field
+(field (relation speed) (vehicle truck))
+
+operators of all bikes
+(field (relation operator) (vehicle bike))
+
+operators field of all bikes
+(field (relation operator) (vehicle bike))
+
+all cars instances 's source
+(field (relation source) (vehicle car))
+
+cars 's passengers
+(field (relation passenger) (vehicle car))
+
+the source of ships instances
+(field (relation source) (vehicle ship))
+
+all ships 's passengers field
+(field (relation passenger) (vehicle ship))
+
+speed of all subways
+(field (relation speed) (vehicle subway))
+
+all bikes 's speed
+(field (relation speed) (vehicle bike))
+
+operators of all trains
+(field (relation operator) (vehicle train))
+
+source field of all cars instances
+(field (relation source) (vehicle car))
+
+destination field of all trains
+(field (relation destination) (vehicle train))
+
+subways instances 's speed
+(field (relation speed) (vehicle subway))
+
+buses 's passengers
+(field (relation passenger) (vehicle bus))
+
+source field of all ships instances
+(field (relation source) (vehicle ship))
+
+the destination of trucks
+(field (relation destination) (vehicle truck))
+
+the destination of trains
+(field (relation destination) (vehicle train))
+
+all subways instances 's destination
+(field (relation destination) (vehicle subway))
+
+all trucks 's passengers field
+(field (relation passenger) (vehicle truck))
+
+the source field of all bikes instances
+(field (relation source) (vehicle bike))
+
+all bikes 's passengers field
+(field (relation passenger) (vehicle bike))
+
+the operators of buses instances
+(field (relation operator) (vehicle bus))
+
+source of all subways instances
+(field (relation source) (vehicle subway))
+
+source of ships instances
+(field (relation source) (vehicle ship))
+
+ships instances 's operators field
+(field (relation operator) (vehicle ship))
+
+the operators field of cars instances
+(field (relation operator) (vehicle car))
+
+destination field of trucks
+(field (relation destination) (vehicle truck))
+
+operators field of all bikes instances
+(field (relation operator) (vehicle bike))
+
+the source field of subways
+(field (relation source) (vehicle subway))
+
+subways instances 's operators
+(field (relation operator) (vehicle subway))
+
+the operators of ships instances
+(field (relation operator) (vehicle ship))
+
+the speed field of all subways instances
+(field (relation speed) (vehicle subway))
+
+subways 's passengers field
+(field (relation passenger) (vehicle subway))
+
+the passengers field of buses
+(field (relation passenger) (vehicle bus))
+
+all buses 's speed field
+(field (relation speed) (vehicle bus))
+
+ships 's passengers
+(field (relation passenger) (vehicle ship))
+
+the source of buses instances
+(field (relation source) (vehicle bus))
+
+destination of all bikes
+(field (relation destination) (vehicle bike))
+
+the passengers field of buses instances
+(field (relation passenger) (vehicle bus))
+
+source of all cars instances
+(field (relation source) (vehicle car))
+
+the destination field of trucks
+(field (relation destination) (vehicle truck))
+
+destination of all trains
+(field (relation destination) (vehicle train))
+
+buses 's destination field
+(field (relation destination) (vehicle bus))
+
+the destination of trucks instances
+(field (relation destination) (vehicle truck))
+
+the destination field of all trains instances
+(field (relation destination) (vehicle train))
+
+all trucks instances 's speed
+(field (relation speed) (vehicle truck))
+
+passengers of trucks
+(field (relation passenger) (vehicle truck))
+
+speed field of cars
+(field (relation speed) (vehicle car))
+
+passengers field of buses instances
+(field (relation passenger) (vehicle bus))
+
+passengers field of trucks instances
+(field (relation passenger) (vehicle truck))
+
+operators of all trains instances
+(field (relation operator) (vehicle train))
+
+passengers field of all ships instances
+(field (relation passenger) (vehicle ship))
+
+the operators field of all subways
+(field (relation operator) (vehicle subway))
+
+the destination of ships
+(field (relation destination) (vehicle ship))
+
+the speed field of bikes
+(field (relation speed) (vehicle bike))
+
+subways instances 's passengers field
+(field (relation passenger) (vehicle subway))
+
+source field of all trucks instances
+(field (relation source) (vehicle truck))
+
+operators field of cars instances
+(field (relation operator) (vehicle car))
+
+the speed field of buses instances
+(field (relation speed) (vehicle bus))
+
+operators field of all cars instances
+(field (relation operator) (vehicle car))
+
+the passengers field of cars
+(field (relation passenger) (vehicle car))
+
+speed field of cars instances
+(field (relation speed) (vehicle car))
+
+passengers of trucks instances
+(field (relation passenger) (vehicle truck))
+
+the passengers of subways
+(field (relation passenger) (vehicle subway))
+
+the speed of all trains instances
+(field (relation speed) (vehicle train))
+
+the source field of trains instances
+(field (relation source) (vehicle train))
+
+all buses 's source field
+(field (relation source) (vehicle bus))
+
+source of all bikes
+(field (relation source) (vehicle bike))
+
+operators of ships instances
+(field (relation operator) (vehicle ship))
+
+the source field of all trains instances
+(field (relation source) (vehicle train))
+
+the destination of bikes instances
+(field (relation destination) (vehicle bike))
+
+destination of all trains instances
+(field (relation destination) (vehicle train))
+
+the speed of all bikes instances
+(field (relation speed) (vehicle bike))
+
+the passengers of cars
+(field (relation passenger) (vehicle car))
+
+source field of subways instances
+(field (relation source) (vehicle subway))
+
+operators of subways instances
+(field (relation operator) (vehicle subway))
+
+all bikes instances 's source
+(field (relation source) (vehicle bike))
+
+trucks instances 's source
+(field (relation source) (vehicle truck))
+
+source field of all ships
+(field (relation source) (vehicle ship))
+
+passengers field of all cars instances
+(field (relation passenger) (vehicle car))
+
+the destination of buses
+(field (relation destination) (vehicle bus))
+
+destination of trucks
+(field (relation destination) (vehicle truck))
+
+ships 's operators
+(field (relation operator) (vehicle ship))
+
+all cars instances 's speed
+(field (relation speed) (vehicle car))
+
+the source field of subways instances
+(field (relation source) (vehicle subway))
+
+operators field of cars
+(field (relation operator) (vehicle car))
+
+the speed field of cars
+(field (relation speed) (vehicle car))
+
+source field of all cars
+(field (relation source) (vehicle car))
+
+the source of all ships instances
+(field (relation source) (vehicle ship))
+
+the destination field of all bikes
+(field (relation destination) (vehicle bike))
+
+the speed field of all cars instances
+(field (relation speed) (vehicle car))
+
+destination of all trucks instances
+(field (relation destination) (vehicle truck))
+
+bikes instances 's passengers
+(field (relation passenger) (vehicle bike))
+
+operators of all ships
+(field (relation operator) (vehicle ship))
+
+all subways 's passengers field
+(field (relation passenger) (vehicle subway))
+
+destination field of ships instances
+(field (relation destination) (vehicle ship))
+
+bikes instances 's source field
+(field (relation source) (vehicle bike))
+
+destination field of all subways
+(field (relation destination) (vehicle subway))
+
+speed field of all trucks
+(field (relation speed) (vehicle truck))
+
+all ships instances 's source
+(field (relation source) (vehicle ship))
+
+all trains 's operators
+(field (relation operator) (vehicle train))
+
+trains 's destination field
+(field (relation destination) (vehicle train))
+
+destination field of all cars instances
+(field (relation destination) (vehicle car))
+
+operators field of all cars
+(field (relation operator) (vehicle car))
+
+passengers field of cars
+(field (relation passenger) (vehicle car))
+
+all ships instances 's destination
+(field (relation destination) (vehicle ship))
+
+trains 's operators
+(field (relation operator) (vehicle train))
+
+the destination of subways instances
+(field (relation destination) (vehicle subway))
+
+passengers field of bikes instances
+(field (relation passenger) (vehicle bike))
+
+all trains instances 's operators field
+(field (relation operator) (vehicle train))
+
+all trucks 's operators field
+(field (relation operator) (vehicle truck))
+
+the source field of all cars instances
+(field (relation source) (vehicle car))
+
+all bikes instances 's passengers
+(field (relation passenger) (vehicle bike))
+
+passengers field of trains instances
+(field (relation passenger) (vehicle train))
+
+speed of bikes
+(field (relation speed) (vehicle bike))
+
+all bikes 's passengers
+(field (relation passenger) (vehicle bike))
+
+the speed of all subways instances
+(field (relation speed) (vehicle subway))
+
+operators of ships
+(field (relation operator) (vehicle ship))
+
+the source of bikes instances
+(field (relation source) (vehicle bike))
+
+all subways instances 's operators field
+(field (relation operator) (vehicle subway))
+
+the speed of all trucks instances
+(field (relation speed) (vehicle truck))
+
+all trains 's passengers field
+(field (relation passenger) (vehicle train))
+
+all trucks instances 's source
+(field (relation source) (vehicle truck))
+
+speed field of all cars instances
+(field (relation speed) (vehicle car))
+
+the source of all bikes instances
+(field (relation source) (vehicle bike))
+
+the source field of buses
+(field (relation source) (vehicle bus))
+
+source field of cars instances
+(field (relation source) (vehicle car))
+
+the source field of all cars
+(field (relation source) (vehicle car))
+
+the speed field of all subways
+(field (relation speed) (vehicle subway))
+
+ships instances 's speed
+(field (relation speed) (vehicle ship))
+
+operators field of trucks instances
+(field (relation operator) (vehicle truck))
+
+buses 's passengers field
+(field (relation passenger) (vehicle bus))
+
+the speed field of trains
+(field (relation speed) (vehicle train))
+
+buses instances 's operators field
+(field (relation operator) (vehicle bus))
+
+the destination field of all bikes instances
+(field (relation destination) (vehicle bike))
+
+subways instances 's destination field
+(field (relation destination) (vehicle subway))
+
+source field of ships instances
+(field (relation source) (vehicle ship))
+
+the passengers of bikes instances
+(field (relation passenger) (vehicle bike))
+
+passengers of all buses
+(field (relation passenger) (vehicle bus))
+
+trucks instances 's passengers
+(field (relation passenger) (vehicle truck))
+
+cars instances 's destination
+(field (relation destination) (vehicle car))
+
+operators field of trucks
+(field (relation operator) (vehicle truck))
+
+destination of buses instances
+(field (relation destination) (vehicle bus))
+
+passengers field of all bikes instances
+(field (relation passenger) (vehicle bike))
+
+the operators of all trucks instances
+(field (relation operator) (vehicle truck))
+
+the operators of trucks
+(field (relation operator) (vehicle truck))
+
+speed of all trains
+(field (relation speed) (vehicle train))
+
+the passengers of subways instances
+(field (relation passenger) (vehicle subway))
+
+source field of all buses instances
+(field (relation source) (vehicle bus))
+
+the passengers field of cars instances
+(field (relation passenger) (vehicle car))
+
+the source of all bikes
+(field (relation source) (vehicle bike))
+
+operators of trains instances
+(field (relation operator) (vehicle train))
+
+the source of subways
+(field (relation source) (vehicle subway))
+
+the passengers of all buses
+(field (relation passenger) (vehicle bus))
+
+the speed of all ships
+(field (relation speed) (vehicle ship))
+
+the passengers field of trains instances
+(field (relation passenger) (vehicle train))
+
+speed field of all ships instances
+(field (relation speed) (vehicle ship))
+
+the speed field of all trucks instances
+(field (relation speed) (vehicle truck))
+
+destination of subways
+(field (relation destination) (vehicle subway))
+
+all buses 's destination
+(field (relation destination) (vehicle bus))
+
+operators of bikes instances
+(field (relation operator) (vehicle bike))
+
+destination of cars instances
+(field (relation destination) (vehicle car))
+
+passengers of all ships instances
+(field (relation passenger) (vehicle ship))
+
+the operators field of all buses instances
+(field (relation operator) (vehicle bus))
+
+the speed field of all trains instances
+(field (relation speed) (vehicle train))
+
+passengers field of all trucks
+(field (relation passenger) (vehicle truck))
+
+the source field of buses instances
+(field (relation source) (vehicle bus))
+
+the destination field of all ships instances
+(field (relation destination) (vehicle ship))
+
+speed field of all bikes instances
+(field (relation speed) (vehicle bike))
+
+the operators of cars instances
+(field (relation operator) (vehicle car))
+
+source of all buses instances
+(field (relation source) (vehicle bus))
+
+operators of trucks instances
+(field (relation operator) (vehicle truck))
+
+operators of all cars instances
+(field (relation operator) (vehicle car))
+
+operators field of all subways instances
+(field (relation operator) (vehicle subway))
+
+destination of all buses instances
+(field (relation destination) (vehicle bus))
+
+the passengers of trucks
+(field (relation passenger) (vehicle truck))
+
+source of trucks instances
+(field (relation source) (vehicle truck))
+
+the source field of ships
+(field (relation source) (vehicle ship))
+
+the destination of all buses
+(field (relation destination) (vehicle bus))
+
+the source of cars
+(field (relation source) (vehicle car))
+
+source of all cars
+(field (relation source) (vehicle car))
+
+passengers of all cars
+(field (relation passenger) (vehicle car))
+
+the passengers field of all bikes instances
+(field (relation passenger) (vehicle bike))
+
+the source field of all buses instances
+(field (relation source) (vehicle bus))
+
+the speed field of all trains
+(field (relation speed) (vehicle train))
+
+operators of all trucks instances
+(field (relation operator) (vehicle truck))
+
+the speed field of trains instances
+(field (relation speed) (vehicle train))
+
+speed field of bikes instances
+(field (relation speed) (vehicle bike))
+
+passengers of cars
+(field (relation passenger) (vehicle car))
+
+the operators field of buses instances
+(field (relation operator) (vehicle bus))
+
+speed of all bikes instances
+(field (relation speed) (vehicle bike))
+
+the speed field of all buses instances
+(field (relation speed) (vehicle bus))
+
+source of trains
+(field (relation source) (vehicle train))
+
+source of bikes instances
+(field (relation source) (vehicle bike))
+
+speed of trucks instances
+(field (relation speed) (vehicle truck))
+
+source of all trucks instances
+(field (relation source) (vehicle truck))
+
+the source field of all ships instances
+(field (relation source) (vehicle ship))
+
+source field of bikes
+(field (relation source) (vehicle bike))
+
+the source of trucks instances
+(field (relation source) (vehicle truck))
+

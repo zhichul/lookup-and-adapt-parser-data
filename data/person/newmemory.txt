@@ -1,0 +1,81 @@
+all colleagues instances 's parents field
+(field (relation parent) (person colleague))
+
+the parents of my colleagues instances
+(field (relation parent) (person colleague))
+
+he
+(person reference)
+
+him
+(person reference)
+
+she
+(person reference)
+
+her
+(person reference)
+
+it
+(person reference)
+
+they
+(person reference)
+
+them
+(person reference)
+
+jim
+(person jim)
+
+john
+(person john)
+
+mary
+(person mary)
+
+sophia
+(person sophia)
+
+colleagues
+(person colleague)
+
+classmates
+(person classmate)
+
+professors
+(person professor)
+
+parents
+(relation parent)
+
+children
+(relation child)
+
+siblings
+(relation sibling)
+
+hometown
+(relation hometown)
+
+salary
+(relation salary)
+
+birthday
+(relation birthday)
+
+alumni
+(person alumni)
+
+drivers
+(person driver)
+
+friends
+(relation friend)
+
+enemies
+(relation enemy)
+
+set colleagues instances 's parents field as colleagues
+(set (field (relation parent) (person colleague)) (person colleague))
+

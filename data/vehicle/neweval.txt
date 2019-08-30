@@ -1,0 +1,576 @@
+set all planes instances 's source field with all cars
+(set (field (relation source) (vehicle plane)) (vehicle car))
+
+set fuel of cars to all trains instances 's source
+(set (field (relation fuel) (vehicle car)) (field (relation source) (vehicle train)))
+
+set planes 's speed field with ships
+(set (field (relation speed) (vehicle plane)) (vehicle ship))
+
+the capacity of all trucks instances
+(field (relation capacity) (vehicle truck))
+
+bikes 's capacity
+(field (relation capacity) (vehicle bike))
+
+all buses instances 's fuel
+(field (relation fuel) (vehicle bus))
+
+set all buses instances 's fuel with source of all subways instances
+(set (field (relation fuel) (vehicle bus)) (field (relation source) (vehicle subway)))
+
+subways 's fuel field
+(field (relation fuel) (vehicle subway))
+
+capacity of all buses instances
+(field (relation capacity) (vehicle bus))
+
+set subways 's fuel field as the operators of all buses instances
+(set (field (relation fuel) (vehicle subway)) (field (relation operator) (vehicle bus)))
+
+all motorcycles 's speed field
+(field (relation speed) (vehicle motorcycle))
+
+set passengers field of all motorcycles instances as subways 's source
+(set (field (relation passenger) (vehicle motorcycle)) (field (relation source) (vehicle subway)))
+
+all motorcycles 's source
+(field (relation source) (vehicle motorcycle))
+
+set operators field of all bikes instances with planes
+(set (field (relation operator) (vehicle bike)) (vehicle plane))
+
+fuel field of all buses instances
+(field (relation fuel) (vehicle bus))
+
+the source field of motorcycles instances
+(field (relation source) (vehicle motorcycle))
+
+set planes 's speed to all subways 's destination
+(set (field (relation speed) (vehicle plane)) (field (relation destination) (vehicle subway)))
+
+all motorcycles instances 's passengers
+(field (relation passenger) (vehicle motorcycle))
+
+speed field of all motorcycles
+(field (relation speed) (vehicle motorcycle))
+
+all planes 's operators
+(field (relation operator) (vehicle plane))
+
+subways 's capacity field
+(field (relation capacity) (vehicle subway))
+
+subways 's fuel
+(field (relation fuel) (vehicle subway))
+
+set all subways instances 's speed to trains instances 's fuel
+(set (field (relation speed) (vehicle subway)) (field (relation fuel) (vehicle train)))
+
+the speed of motorcycles instances
+(field (relation speed) (vehicle motorcycle))
+
+set all trucks 's speed with all motorcycles
+(set (field (relation speed) (vehicle truck)) (vehicle motorcycle))
+
+the capacity of all ships instances
+(field (relation capacity) (vehicle ship))
+
+fuel of all subways
+(field (relation fuel) (vehicle subway))
+
+the passengers field of planes instances
+(field (relation passenger) (vehicle plane))
+
+set all planes instances 's source with the passengers field of all buses
+(set (field (relation source) (vehicle plane)) (field (relation passenger) (vehicle bus)))
+
+the fuel field of bikes instances
+(field (relation fuel) (vehicle bike))
+
+set trains 's passengers field to all bikes 's fuel
+(set (field (relation passenger) (vehicle train)) (field (relation fuel) (vehicle bike)))
+
+capacity field of all cars instances
+(field (relation capacity) (vehicle car))
+
+set all buses 's capacity field to ships 's source
+(set (field (relation capacity) (vehicle bus)) (field (relation source) (vehicle ship)))
+
+all motorcycles instances 's operators field
+(field (relation operator) (vehicle motorcycle))
+
+set planes instances 's speed field to buses
+(set (field (relation speed) (vehicle plane)) (vehicle bus))
+
+set capacity of all bikes with cars instances
+(set (field (relation capacity) (vehicle bike)) (vehicle car))
+
+all motorcycles 's operators field
+(field (relation operator) (vehicle motorcycle))
+
+set all ships instances 's capacity to all buses instances
+(set (field (relation capacity) (vehicle ship)) (vehicle bus))
+
+all buses instances 's capacity
+(field (relation capacity) (vehicle bus))
+
+fuel of cars
+(field (relation fuel) (vehicle car))
+
+all cars 's fuel field
+(field (relation fuel) (vehicle car))
+
+all trains instances 's capacity field
+(field (relation capacity) (vehicle train))
+
+set capacity field of buses as ships instances
+(set (field (relation capacity) (vehicle bus)) (vehicle ship))
+
+passengers of planes instances
+(field (relation passenger) (vehicle plane))
+
+capacity of buses
+(field (relation capacity) (vehicle bus))
+
+all subways 's capacity
+(field (relation capacity) (vehicle subway))
+
+capacity of ships
+(field (relation capacity) (vehicle ship))
+
+set capacity field of all buses instances to all cars
+(set (field (relation capacity) (vehicle bus)) (vehicle car))
+
+set trucks 's fuel field to trucks
+(set (field (relation fuel) (vehicle truck)) (vehicle truck))
+
+source field of planes
+(field (relation source) (vehicle plane))
+
+set motorcycles instances 's destination field as buses
+(set (field (relation destination) (vehicle motorcycle)) (vehicle bus))
+
+capacity of trains instances
+(field (relation capacity) (vehicle train))
+
+fuel of cars instances
+(field (relation fuel) (vehicle car))
+
+set the source field of all planes instances as ships instances
+(set (field (relation source) (vehicle plane)) (vehicle ship))
+
+buses instances 's fuel
+(field (relation fuel) (vehicle bus))
+
+ships instances 's capacity field
+(field (relation capacity) (vehicle ship))
+
+all buses instances 's fuel field
+(field (relation fuel) (vehicle bus))
+
+the fuel of all trucks instances
+(field (relation fuel) (vehicle truck))
+
+all buses 's fuel
+(field (relation fuel) (vehicle bus))
+
+capacity of all buses
+(field (relation capacity) (vehicle bus))
+
+set trucks 's speed field as motorcycles
+(set (field (relation speed) (vehicle truck)) (vehicle motorcycle))
+
+set fuel of all trains instances to all bikes
+(set (field (relation fuel) (vehicle train)) (vehicle bike))
+
+the fuel of all buses instances
+(field (relation fuel) (vehicle bus))
+
+capacity field of cars
+(field (relation capacity) (vehicle car))
+
+motorcycles instances 's source field
+(field (relation source) (vehicle motorcycle))
+
+planes instances 's destination
+(field (relation destination) (vehicle plane))
+
+set buses instances 's passengers field as all motorcycles
+(set (field (relation passenger) (vehicle bus)) (vehicle motorcycle))
+
+passengers of all planes
+(field (relation passenger) (vehicle plane))
+
+capacity of cars
+(field (relation capacity) (vehicle car))
+
+set all trucks instances 's fuel field as trucks
+(set (field (relation fuel) (vehicle truck)) (vehicle truck))
+
+set capacity of all cars to the source field of trucks instances
+(set (field (relation capacity) (vehicle car)) (field (relation source) (vehicle truck)))
+
+destination field of all motorcycles
+(field (relation destination) (vehicle motorcycle))
+
+all subways 's fuel
+(field (relation fuel) (vehicle subway))
+
+the source of all motorcycles instances
+(field (relation source) (vehicle motorcycle))
+
+fuel of all buses
+(field (relation fuel) (vehicle bus))
+
+all motorcycles 's passengers
+(field (relation passenger) (vehicle motorcycle))
+
+set trucks instances 's passengers as motorcycles
+(set (field (relation passenger) (vehicle truck)) (vehicle motorcycle))
+
+set all planes instances 's speed field with all trains instances 's speed
+(set (field (relation speed) (vehicle plane)) (field (relation speed) (vehicle train)))
+
+all motorcycles instances 's speed field
+(field (relation speed) (vehicle motorcycle))
+
+ships instances 's fuel
+(field (relation fuel) (vehicle ship))
+
+cars instances 's fuel field
+(field (relation fuel) (vehicle car))
+
+motorcycles instances 's source
+(field (relation source) (vehicle motorcycle))
+
+passengers of motorcycles
+(field (relation passenger) (vehicle motorcycle))
+
+buses instances 's capacity field
+(field (relation capacity) (vehicle bus))
+
+set the destination field of all planes instances to trucks
+(set (field (relation destination) (vehicle plane)) (vehicle truck))
+
+capacity field of trucks instances
+(field (relation capacity) (vehicle truck))
+
+all subways instances 's fuel field
+(field (relation fuel) (vehicle subway))
+
+all trains instances 's capacity
+(field (relation capacity) (vehicle train))
+
+fuel of all buses instances
+(field (relation fuel) (vehicle bus))
+
+passengers field of all planes instances
+(field (relation passenger) (vehicle plane))
+
+planes 's passengers
+(field (relation passenger) (vehicle plane))
+
+cars instances 's fuel
+(field (relation fuel) (vehicle car))
+
+the fuel field of all trucks instances
+(field (relation fuel) (vehicle truck))
+
+destination of planes
+(field (relation destination) (vehicle plane))
+
+trucks 's capacity
+(field (relation capacity) (vehicle truck))
+
+set operators of planes as the destination field of subways instances
+(set (field (relation operator) (vehicle plane)) (field (relation destination) (vehicle subway)))
+
+the capacity field of subways
+(field (relation capacity) (vehicle subway))
+
+operators field of motorcycles instances
+(field (relation operator) (vehicle motorcycle))
+
+set all planes instances 's destination field to bikes
+(set (field (relation destination) (vehicle plane)) (vehicle bike))
+
+all planes instances 's speed field
+(field (relation speed) (vehicle plane))
+
+subways instances 's capacity
+(field (relation capacity) (vehicle subway))
+
+buses instances 's capacity
+(field (relation capacity) (vehicle bus))
+
+set the fuel of all trains as buses 's passengers
+(set (field (relation fuel) (vehicle train)) (field (relation passenger) (vehicle bus)))
+
+all trains instances 's fuel field
+(field (relation fuel) (vehicle train))
+
+set motorcycles instances 's source with the operators of buses
+(set (field (relation source) (vehicle motorcycle)) (field (relation operator) (vehicle bus)))
+
+the operators of all planes
+(field (relation operator) (vehicle plane))
+
+the fuel field of ships
+(field (relation fuel) (vehicle ship))
+
+capacity field of all cars
+(field (relation capacity) (vehicle car))
+
+all planes instances 's passengers field
+(field (relation passenger) (vehicle plane))
+
+capacity field of bikes
+(field (relation capacity) (vehicle bike))
+
+the destination field of all planes instances
+(field (relation destination) (vehicle plane))
+
+set the passengers of planes with trucks
+(set (field (relation passenger) (vehicle plane)) (vehicle truck))
+
+set fuel field of all trains instances as subways
+(set (field (relation fuel) (vehicle train)) (vehicle subway))
+
+the capacity field of buses instances
+(field (relation capacity) (vehicle bus))
+
+set all motorcycles instances 's passengers to trucks instances
+(set (field (relation passenger) (vehicle motorcycle)) (vehicle truck))
+
+set passengers of motorcycles instances with subways instances
+(set (field (relation passenger) (vehicle motorcycle)) (vehicle subway))
+
+speed field of planes
+(field (relation speed) (vehicle plane))
+
+the fuel field of all cars instances
+(field (relation fuel) (vehicle car))
+
+set planes instances 's source field with subways
+(set (field (relation source) (vehicle plane)) (vehicle subway))
+
+set passengers field of all trains instances with all bikes 's fuel field
+(set (field (relation passenger) (vehicle train)) (field (relation fuel) (vehicle bike)))
+
+capacity field of all subways instances
+(field (relation capacity) (vehicle subway))
+
+operators of all motorcycles instances
+(field (relation operator) (vehicle motorcycle))
+
+the passengers of all motorcycles instances
+(field (relation passenger) (vehicle motorcycle))
+
+set all bikes 's capacity with all cars instances
+(set (field (relation capacity) (vehicle bike)) (vehicle car))
+
+set all ships 's capacity to all trains instances 's passengers
+(set (field (relation capacity) (vehicle ship)) (field (relation passenger) (vehicle train)))
+
+planes 's destination
+(field (relation destination) (vehicle plane))
+
+fuel of all trains instances
+(field (relation fuel) (vehicle train))
+
+set trucks instances 's fuel field to buses
+(set (field (relation fuel) (vehicle truck)) (vehicle bus))
+
+fuel of ships
+(field (relation fuel) (vehicle ship))
+
+all bikes 's capacity field
+(field (relation capacity) (vehicle bike))
+
+motorcycles instances 's destination
+(field (relation destination) (vehicle motorcycle))
+
+the source of all planes instances
+(field (relation source) (vehicle plane))
+
+fuel field of all buses
+(field (relation fuel) (vehicle bus))
+
+the speed of all planes instances
+(field (relation speed) (vehicle plane))
+
+set all trains instances 's destination field to the capacity field of trains instances
+(set (field (relation destination) (vehicle train)) (field (relation capacity) (vehicle train)))
+
+all planes 's source field
+(field (relation source) (vehicle plane))
+
+set fuel field of cars instances to subways
+(set (field (relation fuel) (vehicle car)) (vehicle subway))
+
+the destination field of motorcycles
+(field (relation destination) (vehicle motorcycle))
+
+set all motorcycles 's operators to buses
+(set (field (relation operator) (vehicle motorcycle)) (vehicle bus))
+
+planes 's operators field
+(field (relation operator) (vehicle plane))
+
+fuel field of all ships
+(field (relation fuel) (vehicle ship))
+
+trains 's fuel field
+(field (relation fuel) (vehicle train))
+
+planes instances 's destination field
+(field (relation destination) (vehicle plane))
+
+all motorcycles instances 's destination field
+(field (relation destination) (vehicle motorcycle))
+
+the destination field of all motorcycles instances
+(field (relation destination) (vehicle motorcycle))
+
+set trucks instances 's passengers to planes
+(set (field (relation passenger) (vehicle truck)) (vehicle plane))
+
+all bikes instances 's capacity field
+(field (relation capacity) (vehicle bike))
+
+speed field of all motorcycles instances
+(field (relation speed) (vehicle motorcycle))
+
+trains 's capacity
+(field (relation capacity) (vehicle train))
+
+planes 's source field
+(field (relation source) (vehicle plane))
+
+set ships 's capacity field with operators of all bikes instances
+(set (field (relation capacity) (vehicle ship)) (field (relation operator) (vehicle bike)))
+
+planes instances 's speed
+(field (relation speed) (vehicle plane))
+
+set trains 's fuel with trains
+(set (field (relation fuel) (vehicle train)) (vehicle train))
+
+set all trains 's operators field to the operators field of all motorcycles instances
+(set (field (relation operator) (vehicle train)) (field (relation operator) (vehicle motorcycle)))
+
+motorcycles 's passengers
+(field (relation passenger) (vehicle motorcycle))
+
+set all planes instances 's passengers field with the speed of trucks instances
+(set (field (relation passenger) (vehicle plane)) (field (relation speed) (vehicle truck)))
+
+the destination field of all planes
+(field (relation destination) (vehicle plane))
+
+set planes instances 's operators field with buses
+(set (field (relation operator) (vehicle plane)) (vehicle bus))
+
+all planes instances 's source field
+(field (relation source) (vehicle plane))
+
+set ships instances 's fuel field to subways
+(set (field (relation fuel) (vehicle ship)) (vehicle subway))
+
+set source of bikes instances to planes
+(set (field (relation source) (vehicle bike)) (vehicle plane))
+
+the source field of planes
+(field (relation source) (vehicle plane))
+
+set passengers of planes to all bikes
+(set (field (relation passenger) (vehicle plane)) (vehicle bike))
+
+destination of all motorcycles instances
+(field (relation destination) (vehicle motorcycle))
+
+fuel of all ships instances
+(field (relation fuel) (vehicle ship))
+
+all cars 's capacity field
+(field (relation capacity) (vehicle car))
+
+set all motorcycles instances 's source with trains instances 's operators field
+(set (field (relation source) (vehicle motorcycle)) (field (relation operator) (vehicle train)))
+
+set all bikes 's fuel field with all buses instances
+(set (field (relation fuel) (vehicle bike)) (vehicle bus))
+
+set all motorcycles instances 's speed field to cars instances
+(set (field (relation speed) (vehicle motorcycle)) (vehicle car))
+
+the passengers field of motorcycles
+(field (relation passenger) (vehicle motorcycle))
+
+ships instances 's fuel field
+(field (relation fuel) (vehicle ship))
+
+set fuel field of all subways as cars instances
+(set (field (relation fuel) (vehicle subway)) (vehicle car))
+
+motorcycles instances 's speed field
+(field (relation speed) (vehicle motorcycle))
+
+the fuel of subways
+(field (relation fuel) (vehicle subway))
+
+set all ships 's capacity to trucks
+(set (field (relation capacity) (vehicle ship)) (vehicle truck))
+
+set all trucks 's speed field as fuel field of cars
+(set (field (relation speed) (vehicle truck)) (field (relation fuel) (vehicle car)))
+
+motorcycles instances 's destination field
+(field (relation destination) (vehicle motorcycle))
+
+set passengers field of all planes with trucks
+(set (field (relation passenger) (vehicle plane)) (vehicle truck))
+
+cars 's fuel
+(field (relation fuel) (vehicle car))
+
+capacity field of ships instances
+(field (relation capacity) (vehicle ship))
+
+set the capacity field of all cars instances as all cars instances
+(set (field (relation capacity) (vehicle car)) (vehicle car))
+
+all planes 's destination
+(field (relation destination) (vehicle plane))
+
+all ships instances 's fuel
+(field (relation fuel) (vehicle ship))
+
+ships 's capacity field
+(field (relation capacity) (vehicle ship))
+
+set the speed field of motorcycles to passengers of trains
+(set (field (relation speed) (vehicle motorcycle)) (field (relation passenger) (vehicle train)))
+
+the capacity field of all ships instances
+(field (relation capacity) (vehicle ship))
+
+motorcycles instances 's operators field
+(field (relation operator) (vehicle motorcycle))
+
+the fuel field of all subways
+(field (relation fuel) (vehicle subway))
+
+motorcycles 's speed
+(field (relation speed) (vehicle motorcycle))
+
+set all cars instances 's fuel to cars instances
+(set (field (relation fuel) (vehicle car)) (vehicle car))
+
+planes 's speed field
+(field (relation speed) (vehicle plane))
+
+all planes 's operators field
+(field (relation operator) (vehicle plane))
+

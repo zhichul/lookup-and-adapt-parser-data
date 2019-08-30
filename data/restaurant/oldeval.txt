@@ -1,0 +1,576 @@
+all chinese restaurant 's waiters
+(field (relation waiter) (restaurant chinese))
+
+all indian restaurant 's dishes field
+(field (relation dish) (restaurant indian))
+
+all japanese restaurant 's price
+(field (relation price) (restaurant japanese))
+
+the reviews of all french restaurant
+(field (relation review) (restaurant french))
+
+the price field of american restaurant
+(field (relation price) (restaurant american))
+
+japanese restaurant 's price field
+(field (relation price) (restaurant japanese))
+
+address field of french restaurant instances
+(field (relation address) (restaurant french))
+
+japanese restaurant instances 's price field
+(field (relation price) (restaurant japanese))
+
+chinese restaurant 's address
+(field (relation address) (restaurant chinese))
+
+set waiters of italian restaurant as irish restaurant
+(set (field (relation waiter) (restaurant italian)) (restaurant irish))
+
+set the address field of japanese restaurant instances to all indian restaurant 's dishes
+(set (field (relation address) (restaurant japanese)) (field (relation dish) (restaurant indian)))
+
+address of french restaurant instances
+(field (relation address) (restaurant french))
+
+dishes of all italian restaurant instances
+(field (relation dish) (restaurant italian))
+
+indian restaurant 's dishes
+(field (relation dish) (restaurant indian))
+
+set all irish restaurant 's waiters field as indian restaurant
+(set (field (relation waiter) (restaurant irish)) (restaurant indian))
+
+japanese restaurant 's waiters field
+(field (relation waiter) (restaurant japanese))
+
+set japanese restaurant 's dishes field with american restaurant
+(set (field (relation dish) (restaurant japanese)) (restaurant american))
+
+price field of indian restaurant instances
+(field (relation price) (restaurant indian))
+
+dishes field of all american restaurant instances
+(field (relation dish) (restaurant american))
+
+american restaurant instances 's price
+(field (relation price) (restaurant american))
+
+indian restaurant instances 's price
+(field (relation price) (restaurant indian))
+
+dishes field of indian restaurant instances
+(field (relation dish) (restaurant indian))
+
+irish restaurant instances 's address
+(field (relation address) (restaurant irish))
+
+set the dishes of irish restaurant as the reviews of irish restaurant instances
+(set (field (relation dish) (restaurant irish)) (field (relation review) (restaurant irish)))
+
+set all japanese restaurant 's address as french restaurant instances 's address field
+(set (field (relation address) (restaurant japanese)) (field (relation address) (restaurant french)))
+
+irish restaurant instances 's dishes field
+(field (relation dish) (restaurant irish))
+
+set waiters field of all italian restaurant instances to japanese restaurant
+(set (field (relation waiter) (restaurant italian)) (restaurant japanese))
+
+set all chinese restaurant instances 's reviews field to all american restaurant 's address
+(set (field (relation review) (restaurant chinese)) (field (relation address) (restaurant american)))
+
+the waiters of japanese restaurant
+(field (relation waiter) (restaurant japanese))
+
+waiters field of all indian restaurant instances
+(field (relation waiter) (restaurant indian))
+
+german restaurant instances 's price
+(field (relation price) (restaurant german))
+
+set waiters of chinese restaurant instances with japanese restaurant
+(set (field (relation waiter) (restaurant chinese)) (restaurant japanese))
+
+all indian restaurant instances 's price
+(field (relation price) (restaurant indian))
+
+all german restaurant 's reviews
+(field (relation review) (restaurant german))
+
+address field of all german restaurant
+(field (relation address) (restaurant german))
+
+japanese restaurant instances 's waiters field
+(field (relation waiter) (restaurant japanese))
+
+set the address field of american restaurant with german restaurant
+(set (field (relation address) (restaurant american)) (restaurant german))
+
+set all american restaurant 's address field with all chinese restaurant instances
+(set (field (relation address) (restaurant american)) (restaurant chinese))
+
+set the price of italian restaurant instances with french restaurant
+(set (field (relation price) (restaurant italian)) (restaurant french))
+
+set french restaurant instances 's price field to the waiters of japanese restaurant instances
+(set (field (relation price) (restaurant french)) (field (relation waiter) (restaurant japanese)))
+
+the reviews of all japanese restaurant
+(field (relation review) (restaurant japanese))
+
+set the waiters field of japanese restaurant instances to german restaurant
+(set (field (relation waiter) (restaurant japanese)) (restaurant german))
+
+american restaurant 's price field
+(field (relation price) (restaurant american))
+
+set dishes field of all french restaurant to chinese restaurant
+(set (field (relation dish) (restaurant french)) (restaurant chinese))
+
+the waiters field of all french restaurant
+(field (relation waiter) (restaurant french))
+
+reviews of indian restaurant
+(field (relation review) (restaurant indian))
+
+all american restaurant 's waiters field
+(field (relation waiter) (restaurant american))
+
+all american restaurant instances 's price field
+(field (relation price) (restaurant american))
+
+set address of french restaurant instances with all japanese restaurant instances 's waiters field
+(set (field (relation address) (restaurant french)) (field (relation waiter) (restaurant japanese)))
+
+address of irish restaurant
+(field (relation address) (restaurant irish))
+
+italian restaurant 's reviews
+(field (relation review) (restaurant italian))
+
+set dishes of irish restaurant as all indian restaurant
+(set (field (relation dish) (restaurant irish)) (restaurant indian))
+
+all chinese restaurant instances 's reviews field
+(field (relation review) (restaurant chinese))
+
+all french restaurant instances 's reviews field
+(field (relation review) (restaurant french))
+
+set waiters of all irish restaurant instances to indian restaurant
+(set (field (relation waiter) (restaurant irish)) (restaurant indian))
+
+address field of all french restaurant instances
+(field (relation address) (restaurant french))
+
+all indian restaurant 's address field
+(field (relation address) (restaurant indian))
+
+dishes field of all chinese restaurant
+(field (relation dish) (restaurant chinese))
+
+set address of all indian restaurant instances as irish restaurant
+(set (field (relation address) (restaurant indian)) (restaurant irish))
+
+the reviews field of german restaurant instances
+(field (relation review) (restaurant german))
+
+set chinese restaurant instances 's reviews as dishes field of all irish restaurant instances
+(set (field (relation review) (restaurant chinese)) (field (relation dish) (restaurant irish)))
+
+price field of japanese restaurant instances
+(field (relation price) (restaurant japanese))
+
+the price of indian restaurant
+(field (relation price) (restaurant indian))
+
+the address field of all american restaurant
+(field (relation address) (restaurant american))
+
+waiters field of all japanese restaurant
+(field (relation waiter) (restaurant japanese))
+
+waiters of all german restaurant instances
+(field (relation waiter) (restaurant german))
+
+price field of all german restaurant instances
+(field (relation price) (restaurant german))
+
+indian restaurant instances 's dishes
+(field (relation dish) (restaurant indian))
+
+japanese restaurant 's price
+(field (relation price) (restaurant japanese))
+
+the waiters field of chinese restaurant instances
+(field (relation waiter) (restaurant chinese))
+
+the waiters of irish restaurant
+(field (relation waiter) (restaurant irish))
+
+set waiters of french restaurant instances to all chinese restaurant instances
+(set (field (relation waiter) (restaurant french)) (restaurant chinese))
+
+all irish restaurant 's waiters
+(field (relation waiter) (restaurant irish))
+
+set all italian restaurant 's waiters field with indian restaurant
+(set (field (relation waiter) (restaurant italian)) (restaurant indian))
+
+japanese restaurant instances 's waiters
+(field (relation waiter) (restaurant japanese))
+
+waiters of all japanese restaurant instances
+(field (relation waiter) (restaurant japanese))
+
+dishes of all irish restaurant instances
+(field (relation dish) (restaurant irish))
+
+set address field of german restaurant instances with french restaurant 's reviews
+(set (field (relation address) (restaurant german)) (field (relation review) (restaurant french)))
+
+price field of all italian restaurant instances
+(field (relation price) (restaurant italian))
+
+reviews of all japanese restaurant instances
+(field (relation review) (restaurant japanese))
+
+reviews of american restaurant
+(field (relation review) (restaurant american))
+
+set the waiters of indian restaurant instances as all french restaurant instances
+(set (field (relation waiter) (restaurant indian)) (restaurant french))
+
+set irish restaurant 's price with all french restaurant instances 's address field
+(set (field (relation price) (restaurant irish)) (field (relation address) (restaurant french)))
+
+the address field of all indian restaurant instances
+(field (relation address) (restaurant indian))
+
+set the waiters field of all chinese restaurant with irish restaurant
+(set (field (relation waiter) (restaurant chinese)) (restaurant irish))
+
+address field of chinese restaurant
+(field (relation address) (restaurant chinese))
+
+dishes field of japanese restaurant
+(field (relation dish) (restaurant japanese))
+
+italian restaurant 's price field
+(field (relation price) (restaurant italian))
+
+all chinese restaurant 's dishes field
+(field (relation dish) (restaurant chinese))
+
+french restaurant instances 's address field
+(field (relation address) (restaurant french))
+
+the address of indian restaurant instances
+(field (relation address) (restaurant indian))
+
+set american restaurant instances 's dishes with all german restaurant instances
+(set (field (relation dish) (restaurant american)) (restaurant german))
+
+reviews of indian restaurant instances
+(field (relation review) (restaurant indian))
+
+set all american restaurant 's price with indian restaurant
+(set (field (relation price) (restaurant american)) (restaurant indian))
+
+the waiters field of irish restaurant
+(field (relation waiter) (restaurant irish))
+
+chinese restaurant instances 's reviews
+(field (relation review) (restaurant chinese))
+
+all american restaurant 's price field
+(field (relation price) (restaurant american))
+
+reviews of all japanese restaurant
+(field (relation review) (restaurant japanese))
+
+the waiters of all japanese restaurant
+(field (relation waiter) (restaurant japanese))
+
+price field of all indian restaurant
+(field (relation price) (restaurant indian))
+
+all american restaurant instances 's dishes field
+(field (relation dish) (restaurant american))
+
+italian restaurant 's address field
+(field (relation address) (restaurant italian))
+
+all indian restaurant instances 's waiters field
+(field (relation waiter) (restaurant indian))
+
+japanese restaurant instances 's address
+(field (relation address) (restaurant japanese))
+
+set the address field of french restaurant as the price field of italian restaurant
+(set (field (relation address) (restaurant french)) (field (relation price) (restaurant italian)))
+
+set the price field of italian restaurant instances with all chinese restaurant instances
+(set (field (relation price) (restaurant italian)) (restaurant chinese))
+
+set the price of all italian restaurant instances to indian restaurant instances
+(set (field (relation price) (restaurant italian)) (restaurant indian))
+
+set price of irish restaurant instances with french restaurant 's address
+(set (field (relation price) (restaurant irish)) (field (relation address) (restaurant french)))
+
+set all irish restaurant 's address field with american restaurant instances 's price field
+(set (field (relation address) (restaurant irish)) (field (relation price) (restaurant american)))
+
+all italian restaurant 's waiters field
+(field (relation waiter) (restaurant italian))
+
+set italian restaurant instances 's price as irish restaurant
+(set (field (relation price) (restaurant italian)) (restaurant irish))
+
+address of all american restaurant
+(field (relation address) (restaurant american))
+
+set german restaurant instances 's price field to all indian restaurant
+(set (field (relation price) (restaurant german)) (restaurant indian))
+
+the dishes field of german restaurant
+(field (relation dish) (restaurant german))
+
+the reviews field of all chinese restaurant
+(field (relation review) (restaurant chinese))
+
+all italian restaurant instances 's waiters field
+(field (relation waiter) (restaurant italian))
+
+all indian restaurant 's reviews
+(field (relation review) (restaurant indian))
+
+set all japanese restaurant 's reviews field with japanese restaurant instances
+(set (field (relation review) (restaurant japanese)) (restaurant japanese))
+
+set all italian restaurant 's address as price of all irish restaurant instances
+(set (field (relation address) (restaurant italian)) (field (relation price) (restaurant irish)))
+
+set all italian restaurant 's reviews to indian restaurant
+(set (field (relation review) (restaurant italian)) (restaurant indian))
+
+indian restaurant 's reviews field
+(field (relation review) (restaurant indian))
+
+all german restaurant instances 's reviews field
+(field (relation review) (restaurant german))
+
+all french restaurant instances 's waiters field
+(field (relation waiter) (restaurant french))
+
+reviews field of japanese restaurant
+(field (relation review) (restaurant japanese))
+
+set price field of italian restaurant as the dishes of all french restaurant instances
+(set (field (relation price) (restaurant italian)) (field (relation dish) (restaurant french)))
+
+set all italian restaurant 's reviews as the dishes field of japanese restaurant instances
+(set (field (relation review) (restaurant italian)) (field (relation dish) (restaurant japanese)))
+
+german restaurant instances 's price field
+(field (relation price) (restaurant german))
+
+waiters of german restaurant
+(field (relation waiter) (restaurant german))
+
+address of all irish restaurant instances
+(field (relation address) (restaurant irish))
+
+waiters field of all chinese restaurant
+(field (relation waiter) (restaurant chinese))
+
+all american restaurant instances 's reviews field
+(field (relation review) (restaurant american))
+
+the price field of all french restaurant
+(field (relation price) (restaurant french))
+
+french restaurant instances 's address
+(field (relation address) (restaurant french))
+
+price field of american restaurant instances
+(field (relation price) (restaurant american))
+
+the address of all chinese restaurant
+(field (relation address) (restaurant chinese))
+
+set all irish restaurant instances 's price field to french restaurant
+(set (field (relation price) (restaurant irish)) (restaurant french))
+
+set reviews field of all german restaurant instances to irish restaurant
+(set (field (relation review) (restaurant german)) (restaurant irish))
+
+set all japanese restaurant 's reviews field with french restaurant
+(set (field (relation review) (restaurant japanese)) (restaurant french))
+
+all italian restaurant instances 's reviews field
+(field (relation review) (restaurant italian))
+
+irish restaurant instances 's address field
+(field (relation address) (restaurant irish))
+
+all irish restaurant instances 's address
+(field (relation address) (restaurant irish))
+
+set all italian restaurant 's reviews field with all indian restaurant 's waiters field
+(set (field (relation review) (restaurant italian)) (field (relation waiter) (restaurant indian)))
+
+the address field of all indian restaurant
+(field (relation address) (restaurant indian))
+
+all italian restaurant instances 's waiters
+(field (relation waiter) (restaurant italian))
+
+set all american restaurant 's price as irish restaurant
+(set (field (relation price) (restaurant american)) (restaurant irish))
+
+all japanese restaurant 's price field
+(field (relation price) (restaurant japanese))
+
+set dishes field of all irish restaurant instances to all american restaurant instances
+(set (field (relation dish) (restaurant irish)) (restaurant american))
+
+set address of french restaurant instances as japanese restaurant
+(set (field (relation address) (restaurant french)) (restaurant japanese))
+
+french restaurant 's address field
+(field (relation address) (restaurant french))
+
+set waiters field of all chinese restaurant with indian restaurant
+(set (field (relation waiter) (restaurant chinese)) (restaurant indian))
+
+set chinese restaurant instances 's waiters field with indian restaurant
+(set (field (relation waiter) (restaurant chinese)) (restaurant indian))
+
+set dishes of italian restaurant with chinese restaurant
+(set (field (relation dish) (restaurant italian)) (restaurant chinese))
+
+set dishes field of all chinese restaurant instances as irish restaurant
+(set (field (relation dish) (restaurant chinese)) (restaurant irish))
+
+set japanese restaurant 's reviews field to american restaurant
+(set (field (relation review) (restaurant japanese)) (restaurant american))
+
+german restaurant instances 's reviews
+(field (relation review) (restaurant german))
+
+all irish restaurant 's waiters field
+(field (relation waiter) (restaurant irish))
+
+dishes of all german restaurant instances
+(field (relation dish) (restaurant german))
+
+dishes field of all chinese restaurant instances
+(field (relation dish) (restaurant chinese))
+
+the dishes of german restaurant instances
+(field (relation dish) (restaurant german))
+
+dishes of all indian restaurant
+(field (relation dish) (restaurant indian))
+
+set all chinese restaurant instances 's dishes field as german restaurant
+(set (field (relation dish) (restaurant chinese)) (restaurant german))
+
+set all chinese restaurant 's waiters as chinese restaurant
+(set (field (relation waiter) (restaurant chinese)) (restaurant chinese))
+
+chinese restaurant instances 's dishes
+(field (relation dish) (restaurant chinese))
+
+all chinese restaurant instances 's price
+(field (relation price) (restaurant chinese))
+
+the address of japanese restaurant
+(field (relation address) (restaurant japanese))
+
+all irish restaurant instances 's price
+(field (relation price) (restaurant irish))
+
+set all chinese restaurant 's reviews as chinese restaurant
+(set (field (relation review) (restaurant chinese)) (restaurant chinese))
+
+set chinese restaurant instances 's dishes to all japanese restaurant
+(set (field (relation dish) (restaurant chinese)) (restaurant japanese))
+
+address of all french restaurant instances
+(field (relation address) (restaurant french))
+
+the dishes of japanese restaurant
+(field (relation dish) (restaurant japanese))
+
+set reviews of chinese restaurant to chinese restaurant instances 's dishes field
+(set (field (relation review) (restaurant chinese)) (field (relation dish) (restaurant chinese)))
+
+set all chinese restaurant instances 's dishes with all german restaurant instances
+(set (field (relation dish) (restaurant chinese)) (restaurant german))
+
+the address field of all chinese restaurant instances
+(field (relation address) (restaurant chinese))
+
+indian restaurant 's address field
+(field (relation address) (restaurant indian))
+
+the dishes of french restaurant
+(field (relation dish) (restaurant french))
+
+price of indian restaurant
+(field (relation price) (restaurant indian))
+
+american restaurant 's waiters field
+(field (relation waiter) (restaurant american))
+
+all chinese restaurant 's address field
+(field (relation address) (restaurant chinese))
+
+set all japanese restaurant instances 's waiters field to irish restaurant 's dishes field
+(set (field (relation waiter) (restaurant japanese)) (field (relation dish) (restaurant irish)))
+
+price field of all italian restaurant
+(field (relation price) (restaurant italian))
+
+all french restaurant 's price field
+(field (relation price) (restaurant french))
+
+italian restaurant instances 's address field
+(field (relation address) (restaurant italian))
+
+the address of all japanese restaurant
+(field (relation address) (restaurant japanese))
+
+german restaurant instances 's address field
+(field (relation address) (restaurant german))
+
+set japanese restaurant 's waiters to all american restaurant
+(set (field (relation waiter) (restaurant japanese)) (restaurant american))
+
+french restaurant 's waiters
+(field (relation waiter) (restaurant french))
+
+set the price field of american restaurant as indian restaurant 's reviews
+(set (field (relation price) (restaurant american)) (field (relation review) (restaurant indian)))
+
+all irish restaurant instances 's waiters
+(field (relation waiter) (restaurant irish))
+
+set waiters field of all indian restaurant instances with irish restaurant
+(set (field (relation waiter) (restaurant indian)) (restaurant irish))
+
+the reviews field of italian restaurant instances
+(field (relation review) (restaurant italian))
+
+set waiters field of all german restaurant with japanese restaurant
+(set (field (relation waiter) (restaurant german)) (restaurant japanese))
+
+set the dishes of all chinese restaurant as german restaurant
+(set (field (relation dish) (restaurant chinese)) (restaurant german))
+

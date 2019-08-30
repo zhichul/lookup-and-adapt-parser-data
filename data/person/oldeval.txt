@@ -1,0 +1,576 @@
+it 's parents field
+(field (relation parent) (person reference))
+
+john 's salary field
+(field (relation salary) (person john))
+
+set the parents of they as colleagues
+(set (field (relation parent) (person reference)) (person colleague))
+
+her 's salary field
+(field (relation salary) (person reference))
+
+the siblings of mary
+(field (relation sibling) (person mary))
+
+he 's hometown field
+(field (relation hometown) (person reference))
+
+set him 's birthday field as sophia
+(set (field (relation birthday) (person reference)) (person sophia))
+
+they 's birthday field
+(field (relation birthday) (person reference))
+
+parents field of her
+(field (relation parent) (person reference))
+
+jim 's children
+(field (relation child) (person jim))
+
+it 's birthday
+(field (relation birthday) (person reference))
+
+sophia 's hometown
+(field (relation hometown) (person sophia))
+
+set all professors instances 's birthday to her
+(set (field (relation birthday) (person professor)) (person reference))
+
+the children field of mary
+(field (relation child) (person mary))
+
+set salary of sophia to mary 's parents
+(set (field (relation salary) (person sophia)) (field (relation parent) (person mary)))
+
+set salary field of sophia as john 's parents
+(set (field (relation salary) (person sophia)) (field (relation parent) (person john)))
+
+hometown field of they
+(field (relation hometown) (person reference))
+
+all colleagues 's birthday
+(field (relation birthday) (person colleague))
+
+the salary of she
+(field (relation salary) (person reference))
+
+set he 's salary field as my classmates instances 's salary field
+(set (field (relation salary) (person reference)) (field (relation salary) (person classmate)))
+
+jim 's salary
+(field (relation salary) (person jim))
+
+siblings of john
+(field (relation sibling) (person john))
+
+set jim 's children to it
+(set (field (relation child) (person jim)) (person reference))
+
+jim 's siblings field
+(field (relation sibling) (person jim))
+
+it 's birthday field
+(field (relation birthday) (person reference))
+
+they 's salary
+(field (relation salary) (person reference))
+
+the parents of john
+(field (relation parent) (person john))
+
+set parents field of john to him
+(set (field (relation parent) (person john)) (person reference))
+
+set hometown of he to jim
+(set (field (relation hometown) (person reference)) (person jim))
+
+birthday field of her
+(field (relation birthday) (person reference))
+
+jim 's siblings
+(field (relation sibling) (person jim))
+
+mary 's parents
+(field (relation parent) (person mary))
+
+siblings field of them
+(field (relation sibling) (person reference))
+
+she 's hometown field
+(field (relation hometown) (person reference))
+
+parents field of professors instances
+(field (relation parent) (person professor))
+
+the salary of her
+(field (relation salary) (person reference))
+
+set the salary field of him to him
+(set (field (relation salary) (person reference)) (person reference))
+
+salary of jim
+(field (relation salary) (person jim))
+
+they 's parents field
+(field (relation parent) (person reference))
+
+sophia 's hometown field
+(field (relation hometown) (person sophia))
+
+set them 's birthday field with him
+(set (field (relation birthday) (person reference)) (person reference))
+
+set the birthday of her with john 's siblings field
+(set (field (relation birthday) (person reference)) (field (relation sibling) (person john)))
+
+she 's siblings field
+(field (relation sibling) (person reference))
+
+set she 's hometown field as colleagues
+(set (field (relation hometown) (person reference)) (person colleague))
+
+them 's children
+(field (relation child) (person reference))
+
+salary of he
+(field (relation salary) (person reference))
+
+set she 's hometown field as professors
+(set (field (relation hometown) (person reference)) (person professor))
+
+set him 's salary with him
+(set (field (relation salary) (person reference)) (person reference))
+
+mary 's children field
+(field (relation child) (person mary))
+
+them 's salary
+(field (relation salary) (person reference))
+
+children of they
+(field (relation child) (person reference))
+
+john 's children
+(field (relation child) (person john))
+
+she 's birthday field
+(field (relation birthday) (person reference))
+
+set the hometown of my colleagues instances to birthday of sophia
+(set (field (relation hometown) (person colleague)) (field (relation birthday) (person sophia)))
+
+the siblings field of john
+(field (relation sibling) (person john))
+
+set mary 's children to him
+(set (field (relation child) (person mary)) (person reference))
+
+set siblings of them to classmates
+(set (field (relation sibling) (person reference)) (person classmate))
+
+set the siblings field of her as mary
+(set (field (relation sibling) (person reference)) (person mary))
+
+set salary field of sophia to colleagues
+(set (field (relation salary) (person sophia)) (person colleague))
+
+set the siblings field of she with professors
+(set (field (relation sibling) (person reference)) (person professor))
+
+she 's salary
+(field (relation salary) (person reference))
+
+her 's children field
+(field (relation child) (person reference))
+
+hometown field of sophia
+(field (relation hometown) (person sophia))
+
+the birthday of he
+(field (relation birthday) (person reference))
+
+set him 's parents to sophia
+(set (field (relation parent) (person reference)) (person sophia))
+
+salary field of her
+(field (relation salary) (person reference))
+
+parents field of jim
+(field (relation parent) (person jim))
+
+set salary field of him as colleagues
+(set (field (relation salary) (person reference)) (person colleague))
+
+the salary field of john
+(field (relation salary) (person john))
+
+mary 's birthday field
+(field (relation birthday) (person mary))
+
+salary field of john
+(field (relation salary) (person john))
+
+parents field of it
+(field (relation parent) (person reference))
+
+the children of her
+(field (relation child) (person reference))
+
+set the siblings of jim to the salary of her
+(set (field (relation sibling) (person jim)) (field (relation salary) (person reference)))
+
+salary field of him
+(field (relation salary) (person reference))
+
+set parents of classmates instances as her 's salary
+(set (field (relation parent) (person classmate)) (field (relation salary) (person reference)))
+
+the birthday of classmates instances
+(field (relation birthday) (person classmate))
+
+set the salary of it as colleagues
+(set (field (relation salary) (person reference)) (person colleague))
+
+set siblings of john with her 's hometown field
+(set (field (relation sibling) (person john)) (field (relation hometown) (person reference)))
+
+set mary 's parents to parents field of him
+(set (field (relation parent) (person mary)) (field (relation parent) (person reference)))
+
+siblings of she
+(field (relation sibling) (person reference))
+
+parents field of mary
+(field (relation parent) (person mary))
+
+him 's salary field
+(field (relation salary) (person reference))
+
+they 's siblings field
+(field (relation sibling) (person reference))
+
+children field of him
+(field (relation child) (person reference))
+
+children field of they
+(field (relation child) (person reference))
+
+set she 's siblings as professors
+(set (field (relation sibling) (person reference)) (person professor))
+
+jim 's children field
+(field (relation child) (person jim))
+
+the salary of classmates instances
+(field (relation salary) (person classmate))
+
+set them 's hometown field with jim
+(set (field (relation hometown) (person reference)) (person jim))
+
+set the children of him as she
+(set (field (relation child) (person reference)) (person reference))
+
+he 's hometown
+(field (relation hometown) (person reference))
+
+birthday field of them
+(field (relation birthday) (person reference))
+
+salary field of it
+(field (relation salary) (person reference))
+
+john 's hometown
+(field (relation hometown) (person john))
+
+birthday field of john
+(field (relation birthday) (person john))
+
+colleagues 's salary
+(field (relation salary) (person colleague))
+
+hometown of john
+(field (relation hometown) (person john))
+
+the birthday field of she
+(field (relation birthday) (person reference))
+
+children field of she
+(field (relation child) (person reference))
+
+set parents field of john with her
+(set (field (relation parent) (person john)) (person reference))
+
+set she 's children with professors 's children field
+(set (field (relation child) (person reference)) (field (relation child) (person professor)))
+
+they 's birthday
+(field (relation birthday) (person reference))
+
+the hometown of sophia
+(field (relation hometown) (person sophia))
+
+set her 's hometown field with it
+(set (field (relation hometown) (person reference)) (person reference))
+
+her 's birthday field
+(field (relation birthday) (person reference))
+
+parents field of my professors instances
+(field (relation parent) (person professor))
+
+set they 's siblings field to john
+(set (field (relation sibling) (person reference)) (person john))
+
+the children field of it
+(field (relation child) (person reference))
+
+the children of she
+(field (relation child) (person reference))
+
+the children field of they
+(field (relation child) (person reference))
+
+the parents of he
+(field (relation parent) (person reference))
+
+the children field of john
+(field (relation child) (person john))
+
+set the siblings field of she to classmates
+(set (field (relation sibling) (person reference)) (person classmate))
+
+set the parents of they with sophia
+(set (field (relation parent) (person reference)) (person sophia))
+
+sophia 's children field
+(field (relation child) (person sophia))
+
+set they 's children with she 's siblings field
+(set (field (relation child) (person reference)) (field (relation sibling) (person reference)))
+
+the siblings field of he
+(field (relation sibling) (person reference))
+
+set salary field of john to all my professors instances
+(set (field (relation salary) (person john)) (person professor))
+
+set sophia 's children as the siblings of sophia
+(set (field (relation child) (person sophia)) (field (relation sibling) (person sophia)))
+
+her 's parents field
+(field (relation parent) (person reference))
+
+hometown field of she
+(field (relation hometown) (person reference))
+
+the children of mary
+(field (relation child) (person mary))
+
+set jim 's hometown field with jim
+(set (field (relation hometown) (person jim)) (person jim))
+
+she 's siblings
+(field (relation sibling) (person reference))
+
+it 's children field
+(field (relation child) (person reference))
+
+john 's siblings
+(field (relation sibling) (person john))
+
+them 's hometown field
+(field (relation hometown) (person reference))
+
+her 's salary
+(field (relation salary) (person reference))
+
+the children field of jim
+(field (relation child) (person jim))
+
+set they 's hometown field to her
+(set (field (relation hometown) (person reference)) (person reference))
+
+jim 's salary field
+(field (relation salary) (person jim))
+
+the birthday field of sophia
+(field (relation birthday) (person sophia))
+
+set siblings of she with the parents field of they
+(set (field (relation sibling) (person reference)) (field (relation parent) (person reference)))
+
+parents of her
+(field (relation parent) (person reference))
+
+all professors instances 's siblings
+(field (relation sibling) (person professor))
+
+set the parents of jim to jim 's children
+(set (field (relation parent) (person jim)) (field (relation child) (person jim)))
+
+them 's siblings
+(field (relation sibling) (person reference))
+
+set them 's parents as mary
+(set (field (relation parent) (person reference)) (person mary))
+
+she 's children field
+(field (relation child) (person reference))
+
+the parents field of it
+(field (relation parent) (person reference))
+
+my colleagues instances 's children
+(field (relation child) (person colleague))
+
+children of jim
+(field (relation child) (person jim))
+
+she 's salary field
+(field (relation salary) (person reference))
+
+siblings field of john
+(field (relation sibling) (person john))
+
+mary 's hometown field
+(field (relation hometown) (person mary))
+
+the hometown field of mary
+(field (relation hometown) (person mary))
+
+set jim 's siblings field as he
+(set (field (relation sibling) (person jim)) (person reference))
+
+mary 's salary
+(field (relation salary) (person mary))
+
+they 's parents
+(field (relation parent) (person reference))
+
+salary of them
+(field (relation salary) (person reference))
+
+the children field of he
+(field (relation child) (person reference))
+
+him 's siblings
+(field (relation sibling) (person reference))
+
+set the parents of jim with colleagues
+(set (field (relation parent) (person jim)) (person colleague))
+
+it 's children
+(field (relation child) (person reference))
+
+the parents field of sophia
+(field (relation parent) (person sophia))
+
+the hometown field of my professors
+(field (relation hometown) (person professor))
+
+they 's children field
+(field (relation child) (person reference))
+
+set mary 's birthday as they
+(set (field (relation birthday) (person mary)) (person reference))
+
+the parents field of he
+(field (relation parent) (person reference))
+
+the birthday of they
+(field (relation birthday) (person reference))
+
+set colleagues instances 's parents field as colleagues
+(set (field (relation parent) (person colleague)) (person colleague))
+
+the parents field of her
+(field (relation parent) (person reference))
+
+her 's parents
+(field (relation parent) (person reference))
+
+all classmates instances 's birthday
+(field (relation birthday) (person classmate))
+
+sophia 's parents
+(field (relation parent) (person sophia))
+
+set it 's birthday field with classmates
+(set (field (relation birthday) (person reference)) (person classmate))
+
+it 's siblings field
+(field (relation sibling) (person reference))
+
+he 's salary field
+(field (relation salary) (person reference))
+
+sophia 's birthday field
+(field (relation birthday) (person sophia))
+
+set the parents of him with she
+(set (field (relation parent) (person reference)) (person reference))
+
+salary field of sophia
+(field (relation salary) (person sophia))
+
+the salary of jim
+(field (relation salary) (person jim))
+
+set birthday field of all professors instances as they
+(set (field (relation birthday) (person professor)) (person reference))
+
+him 's hometown field
+(field (relation hometown) (person reference))
+
+set hometown field of they with he
+(set (field (relation hometown) (person reference)) (person reference))
+
+set he 's children field as colleagues
+(set (field (relation child) (person reference)) (person colleague))
+
+set the salary of mary with colleagues
+(set (field (relation salary) (person mary)) (person colleague))
+
+the hometown of jim
+(field (relation hometown) (person jim))
+
+set them 's salary field with sophia 's birthday
+(set (field (relation salary) (person reference)) (field (relation birthday) (person sophia)))
+
+set her 's hometown field as her 's siblings
+(set (field (relation hometown) (person reference)) (field (relation sibling) (person reference)))
+
+them 's parents field
+(field (relation parent) (person reference))
+
+she 's hometown
+(field (relation hometown) (person reference))
+
+set it 's siblings field to they 's siblings
+(set (field (relation sibling) (person reference)) (field (relation sibling) (person reference)))
+
+set him 's salary to sophia 's siblings field
+(set (field (relation salary) (person reference)) (field (relation sibling) (person sophia)))
+
+my colleagues 's children
+(field (relation child) (person colleague))
+
+set salary field of it to professors
+(set (field (relation salary) (person reference)) (person professor))
+
+set jim 's children as they
+(set (field (relation child) (person jim)) (person reference))
+
+the parents field of she
+(field (relation parent) (person reference))
+
+set her 's hometown to the children of mary
+(set (field (relation hometown) (person reference)) (field (relation child) (person mary)))
+
+set parents field of he to the hometown field of he
+(set (field (relation parent) (person reference)) (field (relation hometown) (person reference)))
+
+set salary of jim as professors
+(set (field (relation salary) (person jim)) (person professor))
+

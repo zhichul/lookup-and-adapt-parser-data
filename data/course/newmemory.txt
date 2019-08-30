@@ -1,0 +1,60 @@
+all my math course 's instructor field
+(field (relation instructor) (course math))
+
+the instructor field of math course instances
+(field (relation instructor) (course math))
+
+math course
+(course math)
+
+statistics course
+(course statistics)
+
+physics course
+(course physics)
+
+chemistry course
+(course chemistry)
+
+biology course
+(course biology)
+
+writing course
+(course writing)
+
+history course
+(course history)
+
+instructor
+(relation instructor)
+
+homework
+(relation homework)
+
+size
+(relation size)
+
+prerequisite
+(relation prerequisite)
+
+unit
+(relation unit)
+
+level
+(relation level)
+
+science course
+(course science)
+
+literature course
+(course literature)
+
+classroom
+(relation classroom)
+
+students
+(relation student)
+
+set all math course instances 's instructor as math course
+(set (field (relation instructor) (course math)) (course math))
+

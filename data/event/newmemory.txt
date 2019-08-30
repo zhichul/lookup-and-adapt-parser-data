@@ -1,0 +1,60 @@
+dates
+(event date)
+
+dinners
+(event dinner)
+
+location
+(relation location)
+
+duration
+(relation duration)
+
+set my dentist appointments 's start time as dentist appointments
+(set (field (relation start) (event dentist appointment)) (event dentist appointment))
+
+all my dentist appointments 's start time
+(field (relation start) (event dentist appointment))
+
+start time field of dentist appointments instances
+(field (relation start) (event dentist appointment))
+
+that event
+(event reference)
+
+dentist appointments
+(event dentist appointment)
+
+talks
+(event talk)
+
+board meetings
+(event board meeting)
+
+receptions
+(event reception)
+
+lectures
+(event lecture)
+
+basketball games
+(event basketball game)
+
+parties
+(event party)
+
+start time
+(relation start)
+
+end time
+(relation end)
+
+attendants
+(relation attendant)
+
+organizers
+(relation organizer)
+
+topic
+(relation topic)
+

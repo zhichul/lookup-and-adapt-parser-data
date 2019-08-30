@@ -1,0 +1,576 @@
+diet field of all lion
+(field (relation diet) (animal lion))
+
+set the size field of all duck instances as lion
+(set (field (relation size) (animal duck)) (animal lion))
+
+the size field of all tiger instances
+(field (relation size) (animal tiger))
+
+cat 's diet
+(field (relation diet) (animal cat))
+
+set dog instances 's diet as all fish
+(set (field (relation diet) (animal dog)) (animal fish))
+
+set lion 's diet field as turtle
+(set (field (relation diet) (animal lion)) (animal turtle))
+
+set sheep instances 's specie to all cat instances
+(set (field (relation specie) (animal sheep)) (animal cat))
+
+set the size field of all lion instances as duck
+(set (field (relation size) (animal lion)) (animal duck))
+
+set the diet of dog to duck
+(set (field (relation diet) (animal dog)) (animal duck))
+
+size of fish instances
+(field (relation size) (animal fish))
+
+set the life span of all fish instances to the size of turtle instances
+(set (field (relation span) (animal fish)) (field (relation size) (animal turtle)))
+
+sheep 's life span field
+(field (relation span) (animal sheep))
+
+set dog instances 's temperature field to all sheep instances
+(set (field (relation temperature) (animal dog)) (animal sheep))
+
+set the diet of dog as lion
+(set (field (relation diet) (animal dog)) (animal lion))
+
+set cat 's diet as lion instances
+(set (field (relation diet) (animal cat)) (animal lion))
+
+all cow instances 's habitat field
+(field (relation habitat) (animal cow))
+
+set turtle instances 's size field with all tiger 's specie
+(set (field (relation size) (animal turtle)) (field (relation specie) (animal tiger)))
+
+all fish 's size
+(field (relation size) (animal fish))
+
+set the genus field of tiger to the life span field of cow instances
+(set (field (relation genus) (animal tiger)) (field (relation span) (animal cow)))
+
+dog instances 's size
+(field (relation size) (animal dog))
+
+turtle 's diet field
+(field (relation diet) (animal turtle))
+
+set the genus field of cat instances to all sheep instances
+(set (field (relation genus) (animal cat)) (animal sheep))
+
+set genus of duck as cow
+(set (field (relation genus) (animal duck)) (animal cow))
+
+set turtle instances 's size field with dog
+(set (field (relation size) (animal turtle)) (animal dog))
+
+dog 's diet field
+(field (relation diet) (animal dog))
+
+the diet of dog instances
+(field (relation diet) (animal dog))
+
+the diet of all turtle
+(field (relation diet) (animal turtle))
+
+set specie of fish instances with all cow
+(set (field (relation specie) (animal fish)) (animal cow))
+
+the size of all dog instances
+(field (relation size) (animal dog))
+
+sheep 's temperature field
+(field (relation temperature) (animal sheep))
+
+all dog instances 's diet
+(field (relation diet) (animal dog))
+
+size of duck instances
+(field (relation size) (animal duck))
+
+set lion 's specie field with genus field of all sheep
+(set (field (relation specie) (animal lion)) (field (relation genus) (animal sheep)))
+
+all cow instances 's life span
+(field (relation span) (animal cow))
+
+cow instances 's specie
+(field (relation specie) (animal cow))
+
+set sheep 's genus field as the specie field of dog
+(set (field (relation genus) (animal sheep)) (field (relation specie) (animal dog)))
+
+all cow instances 's life span field
+(field (relation span) (animal cow))
+
+set all fish instances 's family as sheep instances 's family field
+(set (field (relation family) (animal fish)) (field (relation family) (animal sheep)))
+
+set all cow 's family as dog instances 's life span
+(set (field (relation family) (animal cow)) (field (relation span) (animal dog)))
+
+cow instances 's life span
+(field (relation span) (animal cow))
+
+sheep 's temperature
+(field (relation temperature) (animal sheep))
+
+all turtle 's size field
+(field (relation size) (animal turtle))
+
+set fish instances 's diet with cat instances
+(set (field (relation diet) (animal fish)) (animal cat))
+
+tiger instances 's diet
+(field (relation diet) (animal tiger))
+
+set genus of cat instances as all sheep instances
+(set (field (relation genus) (animal cat)) (animal sheep))
+
+diet of all fish
+(field (relation diet) (animal fish))
+
+the diet field of turtle
+(field (relation diet) (animal turtle))
+
+habitat field of all cow
+(field (relation habitat) (animal cow))
+
+the genus of all cow instances
+(field (relation genus) (animal cow))
+
+the size of all turtle
+(field (relation size) (animal turtle))
+
+set all sheep 's genus to cat
+(set (field (relation genus) (animal sheep)) (animal cat))
+
+sheep 's specie
+(field (relation specie) (animal sheep))
+
+genus of sheep instances
+(field (relation genus) (animal sheep))
+
+set cow 's specie with lion
+(set (field (relation specie) (animal cow)) (animal lion))
+
+all sheep instances 's habitat field
+(field (relation habitat) (animal sheep))
+
+lion 's size field
+(field (relation size) (animal lion))
+
+size of fish
+(field (relation size) (animal fish))
+
+size of all lion instances
+(field (relation size) (animal lion))
+
+set the specie of duck instances as cow
+(set (field (relation specie) (animal duck)) (animal cow))
+
+all sheep 's habitat field
+(field (relation habitat) (animal sheep))
+
+the diet of all lion
+(field (relation diet) (animal lion))
+
+set all sheep instances 's specie field to duck instances
+(set (field (relation specie) (animal sheep)) (animal duck))
+
+all dog 's diet field
+(field (relation diet) (animal dog))
+
+set sheep 's habitat as genus field of all lion
+(set (field (relation habitat) (animal sheep)) (field (relation genus) (animal lion)))
+
+all dog 's diet
+(field (relation diet) (animal dog))
+
+set the specie of all cow instances to fish
+(set (field (relation specie) (animal cow)) (animal fish))
+
+set the diet field of duck to tiger
+(set (field (relation diet) (animal duck)) (animal tiger))
+
+set all tiger instances 's habitat to the specie of sheep instances
+(set (field (relation habitat) (animal tiger)) (field (relation specie) (animal sheep)))
+
+set all turtle 's diet field with all lion instances 's temperature field
+(set (field (relation diet) (animal turtle)) (field (relation temperature) (animal lion)))
+
+set size of all dog as dog
+(set (field (relation size) (animal dog)) (animal dog))
+
+all cow 's family
+(field (relation family) (animal cow))
+
+set habitat of tiger with sheep
+(set (field (relation habitat) (animal tiger)) (animal sheep))
+
+the diet of fish
+(field (relation diet) (animal fish))
+
+temperature field of all sheep instances
+(field (relation temperature) (animal sheep))
+
+the specie of sheep
+(field (relation specie) (animal sheep))
+
+the size of lion
+(field (relation size) (animal lion))
+
+all cow instances 's specie field
+(field (relation specie) (animal cow))
+
+tiger 's size
+(field (relation size) (animal tiger))
+
+set the specie of dog instances as family field of all cow
+(set (field (relation specie) (animal dog)) (field (relation family) (animal cow)))
+
+the temperature field of all sheep instances
+(field (relation temperature) (animal sheep))
+
+the diet of all turtle instances
+(field (relation diet) (animal turtle))
+
+size of dog
+(field (relation size) (animal dog))
+
+set all lion 's size as lion
+(set (field (relation size) (animal lion)) (animal lion))
+
+the size field of all duck
+(field (relation size) (animal duck))
+
+all dog instances 's size
+(field (relation size) (animal dog))
+
+life span of sheep
+(field (relation span) (animal sheep))
+
+set the life span of all cat with sheep instances
+(set (field (relation span) (animal cat)) (animal sheep))
+
+fish 's diet
+(field (relation diet) (animal fish))
+
+diet field of all tiger instances
+(field (relation diet) (animal tiger))
+
+duck 's diet field
+(field (relation diet) (animal duck))
+
+all tiger instances 's diet field
+(field (relation diet) (animal tiger))
+
+all cow 's specie
+(field (relation specie) (animal cow))
+
+all cow 's habitat field
+(field (relation habitat) (animal cow))
+
+the diet of lion instances
+(field (relation diet) (animal lion))
+
+the diet of turtle
+(field (relation diet) (animal turtle))
+
+all lion instances 's size
+(field (relation size) (animal lion))
+
+all sheep instances 's life span field
+(field (relation span) (animal sheep))
+
+cow instances 's life span field
+(field (relation span) (animal cow))
+
+set size field of all turtle instances as dog
+(set (field (relation size) (animal turtle)) (animal dog))
+
+set the family of all tiger instances as diet field of tiger
+(set (field (relation family) (animal tiger)) (field (relation diet) (animal tiger)))
+
+dog 's size field
+(field (relation size) (animal dog))
+
+cow 's temperature
+(field (relation temperature) (animal cow))
+
+the life span of sheep instances
+(field (relation span) (animal sheep))
+
+set all cat 's specie field with the diet field of duck instances
+(set (field (relation specie) (animal cat)) (field (relation diet) (animal duck)))
+
+size field of lion
+(field (relation size) (animal lion))
+
+set genus field of cat to cow
+(set (field (relation genus) (animal cat)) (animal cow))
+
+the size field of all duck instances
+(field (relation size) (animal duck))
+
+the genus of all cow
+(field (relation genus) (animal cow))
+
+set all cat 's life span as all sheep 's habitat
+(set (field (relation span) (animal cat)) (field (relation habitat) (animal sheep)))
+
+diet of all lion
+(field (relation diet) (animal lion))
+
+all sheep 's temperature
+(field (relation temperature) (animal sheep))
+
+the size of dog instances
+(field (relation size) (animal dog))
+
+all fish instances 's diet
+(field (relation diet) (animal fish))
+
+family of cow
+(field (relation family) (animal cow))
+
+sheep instances 's habitat
+(field (relation habitat) (animal sheep))
+
+diet of all turtle
+(field (relation diet) (animal turtle))
+
+set all duck 's diet field as the family of all turtle instances
+(set (field (relation diet) (animal duck)) (field (relation family) (animal turtle)))
+
+cow instances 's temperature field
+(field (relation temperature) (animal cow))
+
+set tiger instances 's size to lion
+(set (field (relation size) (animal tiger)) (animal lion))
+
+habitat of all cow
+(field (relation habitat) (animal cow))
+
+all sheep instances 's specie
+(field (relation specie) (animal sheep))
+
+set all lion 's habitat field as sheep
+(set (field (relation habitat) (animal lion)) (animal sheep))
+
+habitat of sheep instances
+(field (relation habitat) (animal sheep))
+
+set all cow 's habitat with turtle
+(set (field (relation habitat) (animal cow)) (animal turtle))
+
+all tiger 's diet
+(field (relation diet) (animal tiger))
+
+the temperature of cow
+(field (relation temperature) (animal cow))
+
+all cow 's genus
+(field (relation genus) (animal cow))
+
+tiger instances 's size field
+(field (relation size) (animal tiger))
+
+the genus field of all cow
+(field (relation genus) (animal cow))
+
+the size of all tiger
+(field (relation size) (animal tiger))
+
+the family of all sheep instances
+(field (relation family) (animal sheep))
+
+all cow instances 's family field
+(field (relation family) (animal cow))
+
+sheep instances 's specie
+(field (relation specie) (animal sheep))
+
+the diet of cat instances
+(field (relation diet) (animal cat))
+
+all lion 's size
+(field (relation size) (animal lion))
+
+sheep instances 's genus
+(field (relation genus) (animal sheep))
+
+life span field of cow
+(field (relation span) (animal cow))
+
+diet of lion
+(field (relation diet) (animal lion))
+
+sheep instances 's temperature field
+(field (relation temperature) (animal sheep))
+
+set the habitat field of sheep instances to fish instances 's specie
+(set (field (relation habitat) (animal sheep)) (field (relation specie) (animal fish)))
+
+life span of all sheep
+(field (relation span) (animal sheep))
+
+set turtle instances 's size field as turtle
+(set (field (relation size) (animal turtle)) (animal turtle))
+
+the size field of all fish
+(field (relation size) (animal fish))
+
+the size field of fish
+(field (relation size) (animal fish))
+
+set the diet field of duck instances to all lion
+(set (field (relation diet) (animal duck)) (animal lion))
+
+all duck instances 's size
+(field (relation size) (animal duck))
+
+specie field of all sheep
+(field (relation specie) (animal sheep))
+
+all duck instances 's diet
+(field (relation diet) (animal duck))
+
+habitat field of all sheep instances
+(field (relation habitat) (animal sheep))
+
+diet field of all dog
+(field (relation diet) (animal dog))
+
+life span of all cow
+(field (relation span) (animal cow))
+
+set cat instances 's specie field with cow
+(set (field (relation specie) (animal cat)) (animal cow))
+
+all fish 's diet field
+(field (relation diet) (animal fish))
+
+set all duck 's size to cat
+(set (field (relation size) (animal duck)) (animal cat))
+
+set lion instances 's diet to tiger instances 's specie
+(set (field (relation diet) (animal lion)) (field (relation specie) (animal tiger)))
+
+size field of fish
+(field (relation size) (animal fish))
+
+set specie field of cow to the habitat of lion instances
+(set (field (relation specie) (animal cow)) (field (relation habitat) (animal lion)))
+
+cow 's habitat
+(field (relation habitat) (animal cow))
+
+all lion instances 's diet field
+(field (relation diet) (animal lion))
+
+the size of all dog
+(field (relation size) (animal dog))
+
+sheep instances 's family
+(field (relation family) (animal sheep))
+
+set all duck instances 's habitat as duck instances 's size
+(set (field (relation habitat) (animal duck)) (field (relation size) (animal duck)))
+
+set size field of all dog to all dog instances
+(set (field (relation size) (animal dog)) (animal dog))
+
+size of all fish
+(field (relation size) (animal fish))
+
+dog instances 's diet
+(field (relation diet) (animal dog))
+
+sheep 's life span
+(field (relation span) (animal sheep))
+
+all fish instances 's size field
+(field (relation size) (animal fish))
+
+set all dog instances 's diet as all lion 's temperature field
+(set (field (relation diet) (animal dog)) (field (relation temperature) (animal lion)))
+
+the size of fish instances
+(field (relation size) (animal fish))
+
+temperature field of all cow instances
+(field (relation temperature) (animal cow))
+
+set the genus field of all dog instances with sheep 's specie
+(set (field (relation genus) (animal dog)) (field (relation specie) (animal sheep)))
+
+set all duck instances 's size with turtle
+(set (field (relation size) (animal duck)) (animal turtle))
+
+set the diet of lion as dog
+(set (field (relation diet) (animal lion)) (animal dog))
+
+set all duck instances 's genus as all cow instances
+(set (field (relation genus) (animal duck)) (animal cow))
+
+the diet field of all fish
+(field (relation diet) (animal fish))
+
+the life span field of cow
+(field (relation span) (animal cow))
+
+set all cat instances 's diet as the temperature of turtle instances
+(set (field (relation diet) (animal cat)) (field (relation temperature) (animal turtle)))
+
+the temperature field of cow
+(field (relation temperature) (animal cow))
+
+cow instances 's habitat
+(field (relation habitat) (animal cow))
+
+set sheep instances 's habitat field as all duck instances
+(set (field (relation habitat) (animal sheep)) (animal duck))
+
+size of turtle
+(field (relation size) (animal turtle))
+
+set all cow instances 's family field with all fish instances
+(set (field (relation family) (animal cow)) (animal fish))
+
+size field of dog instances
+(field (relation size) (animal dog))
+
+all sheep 's genus field
+(field (relation genus) (animal sheep))
+
+the size of all fish instances
+(field (relation size) (animal fish))
+
+all cat 's diet
+(field (relation diet) (animal cat))
+
+set the specie field of all sheep instances as the habitat of all fish
+(set (field (relation specie) (animal sheep)) (field (relation habitat) (animal fish)))
+
+sheep instances 's life span field
+(field (relation span) (animal sheep))
+
+lion instances 's diet field
+(field (relation diet) (animal lion))
+
+the life span field of sheep
+(field (relation span) (animal sheep))
+
+set the life span of sheep instances to fish
+(set (field (relation span) (animal sheep)) (animal fish))
+
+all turtle instances 's diet
+(field (relation diet) (animal turtle))
+
